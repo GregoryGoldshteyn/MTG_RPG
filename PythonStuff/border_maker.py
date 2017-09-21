@@ -91,4 +91,4 @@ def border_maker(image_name, card_color):
 			img[i][j] = COLOR_DICT[card_color]
 	cv2.imwrite(image_name, img)
 
-border_maker("DoomBladReference.bmp", "White")
+border_maker("DoomBladReference.bmp", "Black")

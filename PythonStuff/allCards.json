@@ -1,0 +1,3150 @@
+[
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Acidic Slime", 
+        "rules": [
+            "Deathtouch", 
+            "[REACTIVE] (THIS) @ETB@, =DESTROY= !TARGET! (ARTIFACT), (ENCHANTMENT), or (LAND)"
+        ], 
+        "IMG_ID": "207333", 
+        "manaCost": [
+            "3", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Ooze 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Act of Treason", 
+        "rules": [
+            "=GET_CONTROL= !TARGET! (CREATURE) $UNTIL$ @C_END@", 
+            " =UNTAP= that (CREATURE)", 
+            " !PRIOR_T! =GAINS= *HASTE* $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205072", 
+        "manaCost": [
+            "2", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Aether Adept", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, =RETURN= !TARGET! (CREATURE) to !PRIOR_T_O_H!"
+        ], 
+        "IMG_ID": "205020", 
+        "manaCost": [
+            "1", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Human Wizard 2 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Air Servant", 
+        "rules": [
+            "*FLYING*", 
+            "2$BLUE$: =TAP= !TARGET! (CREATURE) $WITH$ *FLYING*"
+        ], 
+        "IMG_ID": "205070", 
+        "manaCost": [
+            "4", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Elemental 4 3"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Ajani Goldmane", 
+        "rules": [
+            "+1: You gain 2 life", 
+            "\u22121: Put a +1/+1 counter on each creature you control", 
+            " Those creatures gain vigilance until end of turn", 
+            "\u22126: Create a white Avatar creature token", 
+            " It has \"This creature's power and toughness are each equal to your life total", 
+            "\""
+        ], 
+        "IMG_ID": "205957", 
+        "manaCost": [
+            "2", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Planeswalker Ajani 4"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Ajani's Mantra", 
+        "rules": [
+            "[TIME] @P_UPKEEP@, $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "204987", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Ajani's Pridemate", 
+        "rules": [
+            "[REACTIVE] @P_GETS_LIFE@, $P_OPTIONAL$ =ADD_+1_+1= (THIS)"
+        ], 
+        "IMG_ID": "205065", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Cat Soldier 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Alluring Siren", 
+        "rules": [
+            "=TAP=: !TARGET! (CREATURE) $OPP_CONTROLS$ =MUST_ATTACK="
+        ], 
+        "IMG_ID": "205073", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Siren 1 1"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Ancient Hellkite", 
+        "rules": [
+            "*FLYING*", 
+            "$RED$: (THIS) deals 1 damage to !TARGET! (CREATURE) defending player controls", 
+            " Activate this abil!PRIOR_T!y only if (THIS) is attacking"
+        ], 
+        "IMG_ID": "204980", 
+        "manaCost": [
+            "4", 
+            "Red", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Dragon 6 6"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Angelic Arbiter", 
+        "rules": [
+            "*FLYING*", 
+            "Each opponent who cast a (SPELL) this turn can't attack $WITH$ (CREATURES)", 
+            "Each opponent who attacked $WITH$ a (CREATURE) this turn can't cast (SPELLS)"
+        ], 
+        "IMG_ID": "204975", 
+        "manaCost": [
+            "5", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Angel 5 6"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Angel's Feather", 
+        "rules": [
+            "[REACTIVE] @ANYONE_CASTS@ $WHITE$ (SPELL), $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "206325", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Arc Runner", 
+        "rules": [
+            "*HASTE*", 
+            "[TIME] the end step, =SACRIFICE= (THIS)"
+        ], 
+        "IMG_ID": "204991", 
+        "manaCost": [
+            "2", 
+            "Red"
+        ], 
+        "typeLine": "Creature Elemental Ox 5 1"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Armored Ascension", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= +1/+1 for each Plains $YOU_CONTROL$ and has *FLYING*"
+        ], 
+        "IMG_ID": "204997", 
+        "manaCost": [
+            "3", 
+            "White"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Armored Cancrix", 
+        "rules": [], 
+        "IMG_ID": "205083", 
+        "manaCost": [
+            "4", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Crab 2 5"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Assassinate", 
+        "rules": [
+            "=DESTROY= !TARGET! $TAPPED$ (CREATURE)"
+        ], 
+        "IMG_ID": "205217", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Assault Griffin", 
+        "rules": [
+            "*FLYING*"
+        ], 
+        "IMG_ID": "208296", 
+        "manaCost": [
+            "3", 
+            "White"
+        ], 
+        "typeLine": "Creature Griffin 3 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Augury Owl", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) @ETB@, =SCRY_3="
+        ], 
+        "IMG_ID": "208225", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Bird 1 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Autumn's Veil", 
+        "rules": [
+            "Spells $YOU_CONTROL$ can't be =COUNTER=ed by $BLUE$ or $BLACK$ (SPELLS) this turn, and (CREATURES) $YOU_CONTROL$ can't be the tar=GETS= of $BLUE$ or $BLACK$ (SPELLS) this turn"
+        ], 
+        "IMG_ID": "205051", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Awakener Druid", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, !TARGET! Forest becomes a 4/5 $GREEN$ Treefolk (CREATURE) for as long as (THIS) remains on the battlefield", 
+            " !PRIOR_T!'s still a (LAND)"
+        ], 
+        "IMG_ID": "205076", 
+        "manaCost": [
+            "2", 
+            "Green"
+        ], 
+        "typeLine": "Creature Human Druid 1 1"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Azure Drake", 
+        "rules": [
+            "*FLYING*"
+        ], 
+        "IMG_ID": "204984", 
+        "manaCost": [
+            "3", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Drake 2 4"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Back to Nature", 
+        "rules": [
+            "=DESTROY= !ALL! (ENCHANTMENTS)"
+        ], 
+        "IMG_ID": "208284", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Baneslayer Angel", 
+        "rules": [
+            "*FLYING*, *FIRST_STRIKE*, *LIFELINK*, *PRO_DEMON_DRAGON*"
+        ], 
+        "IMG_ID": "205077", 
+        "manaCost": [
+            "3", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Angel 5 5"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Barony Vampire", 
+        "rules": [], 
+        "IMG_ID": "205001", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Creature Vampire 3 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Berserkers of Blood Ridge", 
+        "rules": [
+            "(THIS) *MUST_ATTACK*"
+        ], 
+        "IMG_ID": "205053", 
+        "manaCost": [
+            "4", 
+            "Red"
+        ], 
+        "typeLine": "Creature Human Berserker 4 4"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Birds of Paradise", 
+        "rules": [
+            "*FLYING*", 
+            "=TAP=: =ADD_ONE_ANY_COLOR="
+        ], 
+        "IMG_ID": "207334", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Creature Bird 0 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Black Knight", 
+        "rules": [
+            "*FIRST_STRIKE*", 
+            "*PRO* $WHITE$"
+        ], 
+        "IMG_ID": "205218", 
+        "manaCost": [
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Human Knight 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Blinding Mage", 
+        "rules": [
+            "$WHITE$, =TAP=: =TAP= !TARGET! (CREATURE)"
+        ], 
+        "IMG_ID": "205219", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Wizard 1 2"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Blood Tithe", 
+        "rules": [
+            "Each opponent loses 3 life", 
+            " You gain life equal to the life lost this way"
+        ], 
+        "IMG_ID": "205054", 
+        "manaCost": [
+            "3", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Bloodcrazed Goblin", 
+        "rules": [
+            "(THIS) can't attack unless an opponent has been dealt damage this turn"
+        ], 
+        "IMG_ID": "205007", 
+        "manaCost": [
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin Berserker 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Bloodthrone Vampire", 
+        "rules": [
+            "=SACRIFICE_ONE= (CREATURE): (THIS) =GETS= +2/+2 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205238", 
+        "manaCost": [
+            "1", 
+            "Black"
+        ], 
+        "typeLine": "Creature Vampire 1 1"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Bog Raiders", 
+        "rules": [
+            "Swampwalk"
+        ], 
+        "IMG_ID": "207105", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Creature Zombie 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Brindle Boar", 
+        "rules": [
+            "Sacrifice (THIS): You gain 4 life"
+        ], 
+        "IMG_ID": "205039", 
+        "manaCost": [
+            "2", 
+            "Green"
+        ], 
+        "typeLine": "Creature Boar 2 2"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Brittle Effigy", 
+        "rules": [
+            "4, =TAP=, =EXILE= (THIS): =EXILE= !TARGET! (CREATURE)"
+        ], 
+        "IMG_ID": "205002", 
+        "manaCost": [
+            "1"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Call to Mind", 
+        "rules": [
+            "=RETURN= !TARGET! (INSTANT) or (SORCERY) card $FROM_GRAVE_TO_HAND$"
+        ], 
+        "IMG_ID": "208218", 
+        "manaCost": [
+            "2", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Cancel", 
+        "rules": [
+            "=COUNTER= !TARGET! (SPELL)"
+        ], 
+        "IMG_ID": "208217", 
+        "manaCost": [
+            "1", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Canyon Minotaur", 
+        "rules": [], 
+        "IMG_ID": "208000", 
+        "manaCost": [
+            "3", 
+            "Red"
+        ], 
+        "typeLine": "Creature Minotaur Warrior 3 3"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Captivating Vampire", 
+        "rules": [
+            "Other Vampire (CREATURES) $YOU_CONTROL$ get +1/+1", 
+            "=TAP_FIVE_VAMPS=: =GET_CONTROL= !TARGET! (CREATURE)", 
+            " !PRIOR_T! becomes a Vampire in add!PRIOR_T!ion to !PRIOR_T!s other types"
+        ], 
+        "IMG_ID": "205041", 
+        "manaCost": [
+            "1", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Vampire 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Celestial Purge", 
+        "rules": [
+            "=EXILE= !TARGET! $BLACK$ or $RED$ $PERMANENT$"
+        ], 
+        "IMG_ID": "208290", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Chandra Nalaar", 
+        "rules": [
+            "+1: Chandra Nalaar deals 1 damage to target player", 
+            "\u2212X: Chandra Nalaar deals X damage to target creature", 
+            "\u22128: Chandra Nalaar deals 10 damage to target player and each creature he or she controls"
+        ], 
+        "IMG_ID": "205958", 
+        "manaCost": [
+            "3", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Planeswalker Chandra 6"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Chandra's Outrage", 
+        "rules": [
+            "(THIS) deals 4 damage to !TARGET! (CREATURE) and 2 damage to that (CREATURE)'s controller"
+        ], 
+        "IMG_ID": "205071", 
+        "manaCost": [
+            "2", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Chandra's Spitfire", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] an opponent is dealt noncombat damage, (THIS) =GETS= +3/+0 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205026", 
+        "manaCost": [
+            "2", 
+            "Red"
+        ], 
+        "typeLine": "Creature Elemental 1 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Child of Night", 
+        "rules": [
+            "Lifelink"
+        ], 
+        "IMG_ID": "205122", 
+        "manaCost": [
+            "1", 
+            "Black"
+        ], 
+        "typeLine": "Creature Vampire 2 1"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Clone", 
+        "rules": [
+            "You may have (THIS) enter the battlefield as a copy of any (CREATURE) on the battlefield"
+        ], 
+        "IMG_ID": "205220", 
+        "manaCost": [
+            "3", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Shapeshifter 0 0"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Cloud Crusader", 
+        "rules": [
+            "*FLYING*", 
+            "*FIRST_STRIKE*"
+        ], 
+        "IMG_ID": "208287", 
+        "manaCost": [
+            "2", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Knight 2 3"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Cloud Elemental", 
+        "rules": [
+            "*FLYING*", 
+            "(THIS) can block only (CREATURES) $WITH$ *FLYING*"
+        ], 
+        "IMG_ID": "208224", 
+        "manaCost": [
+            "2", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Elemental 2 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Combust", 
+        "rules": [
+            "(THIS) can't be =COUNTER=ed by (SPELLS) or abil!PRIOR_T!ies", 
+            "(THIS) deals 5 damage to !TARGET! $WHITE$ or $BLUE$ (CREATURE)", 
+            " The damage can't be prevented"
+        ], 
+        "IMG_ID": "205011", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Condemn", 
+        "rules": [
+            "Put !TARGET! attacking (CREATURE) on the bottom of !PRIOR_T!s owner's library", 
+            " !PRIOR_T!s controller =GAINS= life equal to !PRIOR_T!s toughness"
+        ], 
+        "IMG_ID": "205098", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Conundrum Sphinx", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) attacks, each player chooses a card name", 
+            " Then each player reveals the top card of his or her library", 
+            " If the card a player revealed has the name he or she chose, that player puts !PRIOR_T! into his or her hand", 
+            " If !PRIOR_T! doesn't, that player puts !PRIOR_T! on the bottom of his or her library"
+        ], 
+        "IMG_ID": "204982", 
+        "manaCost": [
+            "2", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Sphinx 4 4"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Corrupt", 
+        "rules": [
+            "(THIS) deals damage to !TARGET! (CREATURE) or player equal to the number of Swamps $YOU_CONTROL$", 
+            " You gain life equal to the damage dealt this way"
+        ], 
+        "IMG_ID": "207106", 
+        "manaCost": [
+            "5", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Crystal Ball", 
+        "rules": [
+            "1, =TAP=: Scry 2"
+        ], 
+        "IMG_ID": "205049", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Cudgel Troll", 
+        "rules": [
+            "$GREEN$: =REGENERATE= (THIS)"
+        ], 
+        "IMG_ID": "205084", 
+        "manaCost": [
+            "2", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Troll 4 3"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Cultivate", 
+        "rules": [
+            "Search your library for up to two (BASIC) cards, reveal those cards, and put one onto the battlefield $TAPPED$ and the other into your hand", 
+            " Then shuffle your library"
+        ], 
+        "IMG_ID": "204996", 
+        "manaCost": [
+            "2", 
+            "Green"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Cyclops Gladiator", 
+        "rules": [
+            "[REACTIVE] (THIS) attacks, $P_OPTIONAL$ have !PRIOR_T! deal damage equal to !PRIOR_T!s power to !TARGET! (CREATURE) defending player controls", 
+            " If you do, that (CREATURE) deals damage equal to !PRIOR_T!s power to (THIS)"
+        ], 
+        "IMG_ID": "205107", 
+        "manaCost": [
+            "1", 
+            "Red", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Cyclops Warrior 4 4"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Dark Tutelage", 
+        "rules": [
+            "[TIME] @P_UPKEEP@, reveal the top card of your library and put that card into your hand", 
+            " You lose life equal to !PRIOR_T!s converted mana cost"
+        ], 
+        "IMG_ID": "204979", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Day of Judgment", 
+        "rules": [
+            "=DESTROY= !ALL! (CREATURES)"
+        ], 
+        "IMG_ID": "208297", 
+        "manaCost": [
+            "2", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Deathmark", 
+        "rules": [
+            "=DESTROY= !TARGET! $GREEN$ or $WHITE$ (CREATURE)"
+        ], 
+        "IMG_ID": "207100", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Demolish", 
+        "rules": [
+            "=DESTROY= !TARGET! (ARTIFACT) or (LAND)"
+        ], 
+        "IMG_ID": "208005", 
+        "manaCost": [
+            "3", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "9", 
+        "cardTitle": "Demon of Death's Gate", 
+        "rules": [
+            "You may pay 6 life and =SACRIFICE= three $BLACK$ (CREATURES) rather than pay (THIS)'s mana cost", 
+            "*FLYING*, *TRAMPLE*"
+        ], 
+        "IMG_ID": "205131", 
+        "manaCost": [
+            "6", 
+            "Black", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Demon 9 9"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Demon's Horn", 
+        "rules": [
+            "[REACTIVE] @ANYONE_CASTS@ $BLACK$ (SPELL), $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "206326", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Destructive Force", 
+        "rules": [
+            "Each player =SACRIFICE=s five (LANDS)", 
+            " (THIS) deals 5 damage to each (CREATURE)"
+        ], 
+        "IMG_ID": "205046", 
+        "manaCost": [
+            "5", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Diabolic Tutor", 
+        "rules": [
+            "Search your library for a card and put that card into your hand", 
+            " Then shuffle your library"
+        ], 
+        "IMG_ID": "205222", 
+        "manaCost": [
+            "2", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Diminish", 
+        "rules": [
+            "!TARGET! (CREATURE) has base power and toughness 1/1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "208226", 
+        "manaCost": [
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Disentomb", 
+        "rules": [
+            "=RETURN= !TARGET! (CREATURE) card $FROM_GRAVE_TO_HAND$"
+        ], 
+        "IMG_ID": "207101", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Doom Blade", 
+        "rules": [
+            "=DESTROY= !TARGET! $NONBLACK$ (CREATURE)"
+        ], 
+        "IMG_ID": "205088", 
+        "manaCost": [
+            "1", 
+            "Black"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Dragon's Claw", 
+        "rules": [
+            "[REACTIVE] @ANYONE_CASTS@ $RED$ (SPELL), $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "206327", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Dragonskull Summit", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Swamp or a Mountain", 
+            "=TAP=: Add $BLACK$ or $RED$ to your mana pool"
+        ], 
+        "IMG_ID": "205089", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Drowned Catacomb", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ an Is(LAND) or a Swamp", 
+            "=TAP=: Add $BLUE$ or $BLACK$ to your mana pool"
+        ], 
+        "IMG_ID": "205090", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Dryad's Favor", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) has forestwalk"
+        ], 
+        "IMG_ID": "205109", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Duress", 
+        "rules": [
+            "!TARGET! opponent reveals his or her hand", 
+            " You choose a non(CREATURE), non(LAND) card from !PRIOR_T!", 
+            " That player discards that card"
+        ], 
+        "IMG_ID": "205024", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Duskdale Wurm", 
+        "rules": [
+            "*TRAMPLE*"
+        ], 
+        "IMG_ID": "207335", 
+        "manaCost": [
+            "5", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Wurm 7 7"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Earth Servant", 
+        "rules": [
+            "(THIS) =GETS= +0/+1 for each Mountain $YOU_CONTROL$"
+        ], 
+        "IMG_ID": "204986", 
+        "manaCost": [
+            "5", 
+            "Red"
+        ], 
+        "typeLine": "Creature Elemental 4 4"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Elite Vanguard", 
+        "rules": [], 
+        "IMG_ID": "208291", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Creature Human Soldier 2 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Elixir of Immortality", 
+        "rules": [
+            "2, =TAP=: You gain 5 life", 
+            " Shuffle (THIS) and your graveyard into their owner's library"
+        ], 
+        "IMG_ID": "205061", 
+        "manaCost": [
+            "1"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Elvish Archdruid", 
+        "rules": [
+            "Other Elf (CREATURES) $YOU_CONTROL$ get +1/+1", 
+            "=TAP=: Add $GREEN$ to your mana pool for each Elf $YOU_CONTROL$"
+        ], 
+        "IMG_ID": "205091", 
+        "manaCost": [
+            "1", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Elf Druid 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Ember Hauler", 
+        "rules": [
+            "1, Sacrifice (THIS): (THIS) deals 2 damage to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "208008", 
+        "manaCost": [
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Excommunicate", 
+        "rules": [
+            "Put !TARGET! (CREATURE) on top of !PRIOR_T!s owner's library"
+        ], 
+        "IMG_ID": "208273", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Fauna Shaman", 
+        "rules": [
+            "$GREEN$, =TAP=, Discard a (CREATURE) card: Search your library for a (CREATURE) card, reveal !PRIOR_T!, and put !PRIOR_T! into your hand", 
+            " Then shuffle your library"
+        ], 
+        "IMG_ID": "205059", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Creature Elf Shaman 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Fiery Hellhound", 
+        "rules": [
+            "$RED$: (THIS) =GETS= +1/+0 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205093", 
+        "manaCost": [
+            "1", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Elemental Hound 2 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Fire Servant", 
+        "rules": [
+            "If a $RED$ (INSTANT) or (SORCERY) (SPELL) $YOU_CONTROL$ would deal damage, !PRIOR_T! deals double that damage instead"
+        ], 
+        "IMG_ID": "204992", 
+        "manaCost": [
+            "3", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Elemental 4 3"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Fireball", 
+        "rules": [
+            "(THIS) deals X damage divided evenly, rounded down, among any number of !TARGET! (CREATURES) and/or players", 
+            "(THIS) costs 1 more to cast for each !TARGET! beyond the first"
+        ], 
+        "IMG_ID": "205223", 
+        "manaCost": [
+            "Variable Colorless", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Flashfreeze", 
+        "rules": [
+            "=COUNTER= !TARGET! $RED$ or $GREEN$ (SPELL)"
+        ], 
+        "IMG_ID": "208219", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Fling", 
+        "rules": [
+            "As an add!PRIOR_T!ional cost to cast (THIS), =SACRIFICE= a (CREATURE)", 
+            "(THIS) deals damage equal to the =SACRIFICE=d (CREATURE)'s power to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "208001", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Fog", 
+        "rules": [
+            "Prevent !ALL! combat damage that would be dealt this turn"
+        ], 
+        "IMG_ID": "205064", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Foresee", 
+        "rules": [
+            "Scry 4, then draw two cards"
+        ], 
+        "IMG_ID": "205068", 
+        "manaCost": [
+            "3", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Forest", 
+        "rules": [
+            "G"
+        ], 
+        "IMG_ID": "213629", 
+        "manaCost": [], 
+        "typeLine": "Basic Land Forest"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Frost Titan", 
+        "rules": [
+            "[REACTIVE] (THIS) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y $OPP_CONTROLS$, =COUNTER= that (SPELL) or abil!PRIOR_T!y unless !PRIOR_T_C! pays 2", 
+            "[REACTIVE] (THIS) @ETB@ or attacks, =TAP= !TARGET! $PERMANENT$", 
+            " !PRIOR_T! doesn't =UNTAP= during !PRIOR_T_C!'s next =UNTAP= step"
+        ], 
+        "IMG_ID": "204999", 
+        "manaCost": [
+            "4", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Giant 6 6"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Gaea's Revenge", 
+        "rules": [
+            "(THIS) can't be =COUNTER=ed", 
+            "*HASTE*", 
+            "(THIS) can't be the !TARGET! of $NONGREEN$ (SPELLS) or abil!PRIOR_T!ies from $NONGREEN$ sources"
+        ], 
+        "IMG_ID": "205033", 
+        "manaCost": [
+            "5", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Elemental 8 5"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Gargoyle Sentinel", 
+        "rules": [
+            "*DEFENDER*", 
+            "3: Until @C_END@, (THIS) loses *DEFENDER* and =GAINS= *FLYING*"
+        ], 
+        "IMG_ID": "204985", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact Creature Gargoyle 3 3"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Garruk Wildspeaker", 
+        "rules": [
+            "+1: Untap two target lands", 
+            "\u22121: Create a 3/3 green Beast creature token", 
+            "\u22124: Creatures you control get +3/+3 and gain trample until end of turn"
+        ], 
+        "IMG_ID": "205959", 
+        "manaCost": [
+            "2", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Planeswalker Garruk 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Garruk's Companion", 
+        "rules": [
+            "*TRAMPLE*"
+        ], 
+        "IMG_ID": "205025", 
+        "manaCost": [
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Beast 3 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Garruk's Packleader", 
+        "rules": [
+            "[REACTIVE] another (CREATURE) $WITH$ power 3 or greater @ETB@ under your control, $P_OPTIONAL$ =DRAW_1="
+        ], 
+        "IMG_ID": "205060", 
+        "manaCost": [
+            "4", 
+            "Green"
+        ], 
+        "typeLine": "Creature Beast 4 4"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Giant Growth", 
+        "rules": [
+            "!TARGET! (CREATURE) =GETS= +3/+3 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205224", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Giant Spider", 
+        "rules": [
+            "*REACH*"
+        ], 
+        "IMG_ID": "205225", 
+        "manaCost": [
+            "3", 
+            "Green"
+        ], 
+        "typeLine": "Creature Spider 2 4"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Glacial Fortress", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Plains or an Is(LAND)", 
+            "=TAP=: Add $WHITE$ or $BLUE$ to your mana pool"
+        ], 
+        "IMG_ID": "205094", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Goblin Balloon Brigade", 
+        "rules": [
+            "$RED$: (THIS) =GAINS= *FLYING* $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "208010", 
+        "manaCost": [
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin Warrior 1 1"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Goblin Chieftain", 
+        "rules": [
+            "*HASTE*", 
+            "Other Goblin (CREATURES) $YOU_CONTROL$ get +1/+1 and have *HASTE*"
+        ], 
+        "IMG_ID": "205096", 
+        "manaCost": [
+            "1", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Goblin Piker", 
+        "rules": [], 
+        "IMG_ID": "205052", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin Warrior 2 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Goblin Tunneler", 
+        "rules": [
+            "=TAP=: !TARGET! (CREATURE) $WITH$ power 2 or less can't be blocked this turn"
+        ], 
+        "IMG_ID": "207999", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Creature Goblin Rogue 1 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Goldenglow Moth", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) blocks, $P_OPTIONAL$ gain 4 life"
+        ], 
+        "IMG_ID": "208295", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Creature Insect 0 1"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Grave Titan", 
+        "rules": [
+            "Deathtouch", 
+            "[REACTIVE] (THIS) @ETB@ or attacks, create two 2/2 $BLACK$ Zombie (CREATURE) tokens"
+        ], 
+        "IMG_ID": "205012", 
+        "manaCost": [
+            "4", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Giant 6 6"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Gravedigger", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ =RETURN= !TARGET! (CREATURE) card $FROM_GRAVE_TO_HAND$"
+        ], 
+        "IMG_ID": "207102", 
+        "manaCost": [
+            "3", 
+            "Black"
+        ], 
+        "typeLine": "Creature Zombie 2 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Greater Basilisk", 
+        "rules": [
+            "Deathtouch"
+        ], 
+        "IMG_ID": "205016", 
+        "manaCost": [
+            "3", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Basilisk 3 5"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Harbor Serpent", 
+        "rules": [
+            "Is(LAND)walk", 
+            "(THIS) can't attack unless there are five or more Is(LANDS) on the battlefield"
+        ], 
+        "IMG_ID": "204974", 
+        "manaCost": [
+            "4", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Serpent 5 5"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Haunting Echoes", 
+        "rules": [
+            "=EXILE= !ALL! cards from !TARGET! player's graveyard other than (BASIC) cards", 
+            " For each card =EXILE=d this way, search that player's library for !ALL! cards $WITH$ the same name as that card and =EXILE= them", 
+            " Then that player shuffles his or her library"
+        ], 
+        "IMG_ID": "205005", 
+        "manaCost": [
+            "3", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Hoarding Dragon", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for an (ARTIFACT) card, =EXILE= !PRIOR_T!, then shuffle your library", 
+            "[REACTIVE] (THIS) dies, $P_OPTIONAL$ put the =EXILE=d card into !PRIOR_T_O_H!"
+        ], 
+        "IMG_ID": "205235", 
+        "manaCost": [
+            "3", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Dragon 4 4"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Holy Strength", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= +1/+2"
+        ], 
+        "IMG_ID": "205226", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Honor of the Pure", 
+        "rules": [
+            "$WHITE$ (CREATURES) $YOU_CONTROL$ get +1/+1"
+        ], 
+        "IMG_ID": "205099", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Hornet Sting", 
+        "rules": [
+            "(THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "205050", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Howling Banshee", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) @ETB@, each player loses 3 life"
+        ], 
+        "IMG_ID": "205100", 
+        "manaCost": [
+            "2", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Spirit 3 3"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Hunters' Feast", 
+        "rules": [
+            "Any number of !TARGET! players each gain 6 life"
+        ], 
+        "IMG_ID": "205037", 
+        "manaCost": [
+            "3", 
+            "Green"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Ice Cage", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) can't attack or block, and !PRIOR_T!s activated abil!PRIOR_T!ies can't be activated", 
+            "[REACTIVE] enchanted (CREATURE) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y, =DESTROY= (THIS)"
+        ], 
+        "IMG_ID": "205101", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Incite", 
+        "rules": [
+            "!TARGET! (CREATURE) becomes $RED$ $UNTIL$ @C_END@ and attacks this turn if able"
+        ], 
+        "IMG_ID": "205045", 
+        "manaCost": [
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Infantry Veteran", 
+        "rules": [
+            "=TAP=: !TARGET! attacking (CREATURE) =GETS= +1/+1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "208278", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Creature Human Soldier 1 1"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Inferno Titan", 
+        "rules": [
+            "$RED$: (THIS) =GETS= +1/+0 $UNTIL$ @C_END@", 
+            "[REACTIVE] (THIS) @ETB@ or attacks, !PRIOR_T! deals 3 damage divided as you choose among one, two, or three !TARGET! (CREATURES) and/or players"
+        ], 
+        "IMG_ID": "205042", 
+        "manaCost": [
+            "4", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Giant 6 6"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Inspired Charge", 
+        "rules": [
+            "Creatures $YOU_CONTROL$ get +2/+1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205074", 
+        "manaCost": [
+            "2", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Island", 
+        "rules": [
+            "U"
+        ], 
+        "IMG_ID": "213617", 
+        "manaCost": [], 
+        "typeLine": "Basic Land Island"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Jace Beleren", 
+        "rules": [
+            "+2: Each player draws a card", 
+            "\u22121: Target player draws a card", 
+            "\u221210: Target player puts the top twenty cards of his or her library into his or her graveyard"
+        ], 
+        "IMG_ID": "205960", 
+        "manaCost": [
+            "1", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Planeswalker Jace 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Jace's Erasure", 
+        "rules": [
+            "[REACTIVE] you =DRAW_1=, $P_OPTIONAL$ have !TARGET! player put the top card of his or her library into his or her graveyard"
+        ], 
+        "IMG_ID": "205043", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Jace's Ingenuity", 
+        "rules": [
+            "Draw three cards"
+        ], 
+        "IMG_ID": "205015", 
+        "manaCost": [
+            "3", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Jinxed Idol", 
+        "rules": [
+            "[TIME] @P_UPKEEP@, (THIS) deals 2 damage to you", 
+            "=SACRIFICE_ONE= (CREATURE): !TARGET! opponent =GAINS= control of (THIS)"
+        ], 
+        "IMG_ID": "208006", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Juggernaut", 
+        "rules": [
+            "(THIS) *MUST_ATTACK*", 
+            "(THIS) can't be blocked by W!ALL!s"
+        ], 
+        "IMG_ID": "205230", 
+        "manaCost": [
+            "4"
+        ], 
+        "typeLine": "Artifact Creature Juggernaut 5 3"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Knight Exemplar", 
+        "rules": [
+            "*FIRST_STRIKE*", 
+            "Other Knight (CREATURES) $YOU_CONTROL$ get +1/+1 and have indestructible"
+        ], 
+        "IMG_ID": "204988", 
+        "manaCost": [
+            "1", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Knight 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Kraken's Eye", 
+        "rules": [
+            "[REACTIVE] @ANYONE_CASTS@ $BLUE$ (SPELL), $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "206328", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Lava Axe", 
+        "rules": [
+            "(THIS) deals 5 damage to !TARGET! player"
+        ], 
+        "IMG_ID": "205117", 
+        "manaCost": [
+            "4", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Leyline of Anticipation", 
+        "rules": [
+            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "You may cast (SPELLS) as though they had flash"
+        ], 
+        "IMG_ID": "205008", 
+        "manaCost": [
+            "2", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Leyline of Punishment", 
+        "rules": [
+            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "Players can't gain life", 
+            "Damage can't be prevented"
+        ], 
+        "IMG_ID": "205018", 
+        "manaCost": [
+            "2", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Leyline of Sanctity", 
+        "rules": [
+            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "You have hexproof"
+        ], 
+        "IMG_ID": "204993", 
+        "manaCost": [
+            "2", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Leyline of the Void", 
+        "rules": [
+            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "If a card would be put into an opponent's graveyard from anywhere, =EXILE= !PRIOR_T! instead"
+        ], 
+        "IMG_ID": "205013", 
+        "manaCost": [
+            "2", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Leyline of Vitality", 
+        "rules": [
+            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "Creatures $YOU_CONTROL$ get +0/+1", 
+            "[REACTIVE] a (CREATURE) @ETB@ under your control, $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "205031", 
+        "manaCost": [
+            "2", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Lightning Bolt", 
+        "rules": [
+            "(THIS) deals 3 damage to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "205227", 
+        "manaCost": [
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Liliana Vess", 
+        "rules": [
+            "+1: Target player discards a card", 
+            "\u22122: Search your library for a card, then shuffle your library and put that card on top of it", 
+            "\u22128: Put all creature cards from all graveyards onto the battlefield under your control"
+        ], 
+        "IMG_ID": "205961", 
+        "manaCost": [
+            "3", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Planeswalker Liliana 5"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Liliana's Caress", 
+        "rules": [
+            "[REACTIVE] an opponent discards a card, that player loses 2 life"
+        ], 
+        "IMG_ID": "205035", 
+        "manaCost": [
+            "1", 
+            "Black"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Liliana's Specter", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) @ETB@, each opponent discards a card"
+        ], 
+        "IMG_ID": "204998", 
+        "manaCost": [
+            "1", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Specter 2 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Llanowar Elves", 
+        "rules": [
+            "=TAP=: Add $GREEN$ to your mana pool"
+        ], 
+        "IMG_ID": "205228", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Creature Elf Druid 1 1"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Magma Phoenix", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) dies, !PRIOR_T! deals 3 damage to each (CREATURE) and each player", 
+            "3$RED$", 
+            "$RED$: =RETURN= (THIS) $FROM_GRAVE_TO_HAND$"
+        ], 
+        "IMG_ID": "208003", 
+        "manaCost": [
+            "3", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Creature Phoenix 3 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Mana Leak", 
+        "rules": [
+            "=COUNTER= !TARGET! (SPELL) unless !PRIOR_T_C! pays 3"
+        ], 
+        "IMG_ID": "204981", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Manic Vandal", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, =DESTROY= !TARGET! (ARTIFACT)"
+        ], 
+        "IMG_ID": "208007", 
+        "manaCost": [
+            "2", 
+            "Red"
+        ], 
+        "typeLine": "Creature Human Warrior 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Maritime Guard", 
+        "rules": [], 
+        "IMG_ID": "205040", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Merfolk Soldier 1 3"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Mass Polymorph", 
+        "rules": [
+            "=EXILE= !ALL! (CREATURES) $YOU_CONTROL$, then reveal cards from the top of your library $UNTIL$ you reveal that many (CREATURE) cards", 
+            " Put !ALL! (CREATURE) cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library"
+        ], 
+        "IMG_ID": "204977", 
+        "manaCost": [
+            "5", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Merfolk Sovereign", 
+        "rules": [
+            "Other Merfolk (CREATURES) $YOU_CONTROL$ get +1/+1", 
+            "=TAP=: !TARGET! Merfolk (CREATURE) can't be blocked this turn"
+        ], 
+        "IMG_ID": "205108", 
+        "manaCost": [
+            "1", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Merfolk 2 2"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Merfolk Spy", 
+        "rules": [
+            "Is(LAND)walk", 
+            "[REACTIVE] (THIS) deals combat damage to a player, that player reveals a card at random from his or her hand"
+        ], 
+        "IMG_ID": "205009", 
+        "manaCost": [
+            "Blue"
+        ], 
+        "typeLine": "Creature Merfolk Rogue 1 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Mighty Leap", 
+        "rules": [
+            "!TARGET! (CREATURE) =GETS= +2/+2 and =GAINS= *FLYING* $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "208280", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Mind Control", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "You control enchanted (CREATURE)"
+        ], 
+        "IMG_ID": "208220", 
+        "manaCost": [
+            "3", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Mind Rot", 
+        "rules": [
+            "!TARGET! player discards two cards"
+        ], 
+        "IMG_ID": "205010", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Mitotic Slime", 
+        "rules": [
+            "[REACTIVE] (THIS) dies, create two 2/2 $GREEN$ Ooze (CREATURE) tokens", 
+            " They have \"[REACTIVE] this (CREATURE) dies, create two 1/1 $GREEN$ Ooze (CREATURE) tokens", 
+            "\""
+        ], 
+        "IMG_ID": "205032", 
+        "manaCost": [
+            "4", 
+            "Green"
+        ], 
+        "typeLine": "Creature Ooze 4 4"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Mountain", 
+        "rules": [
+            "R"
+        ], 
+        "IMG_ID": "213625", 
+        "manaCost": [], 
+        "typeLine": "Basic Land Mountain"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Mystifying Maze", 
+        "rules": [
+            "=TAP=: Add Colorless to your mana pool", 
+            "4, =TAP=: =EXILE= !TARGET! attacking (CREATURE) $OPP_CONTROLS$", 
+            " [TIME] the next end step, =RETURN= !PRIOR_T! to the battlefield $TAPPED$ under !PRIOR_T!s owner's control"
+        ], 
+        "IMG_ID": "204978", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Nantuko Shade", 
+        "rules": [
+            "$BLACK$: (THIS) =GETS= +1/+1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205229", 
+        "manaCost": [
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Insect Shade 2 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Naturalize", 
+        "rules": [
+            "=DESTROY= !TARGET! (ARTIFACT) or (ENCHANTMENT)"
+        ], 
+        "IMG_ID": "207336", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Nature's Spiral", 
+        "rules": [
+            "=RETURN= !TARGET! $PERMANENT$ card $FROM_GRAVE_TO_HAND$"
+        ], 
+        "IMG_ID": "207338", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Necrotic Plague", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) has \"[TIME] @P_UPKEEP@, =SACRIFICE= this (CREATURE)", 
+            "\"[REACTIVE] enchanted (CREATURE) dies, !PRIOR_T_C! chooses !TARGET! (CREATURE) one of his or her opponents controls", 
+            " =RETURN= (THIS) from !PRIOR_T!s owner's graveyard to the battlefield attached to that (CREATURE)"
+        ], 
+        "IMG_ID": "207104", 
+        "manaCost": [
+            "2", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Negate", 
+        "rules": [
+            "=COUNTER= !TARGET! non(CREATURE) (SPELL)"
+        ], 
+        "IMG_ID": "208222", 
+        "manaCost": [
+            "1", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Nether Horror", 
+        "rules": [], 
+        "IMG_ID": "204994", 
+        "manaCost": [
+            "3", 
+            "Black"
+        ], 
+        "typeLine": "Creature Horror 4 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Nightwing Shade", 
+        "rules": [
+            "*FLYING*", 
+            "1$BLACK$: (THIS) =GETS= +1/+1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "207103", 
+        "manaCost": [
+            "4", 
+            "Black"
+        ], 
+        "typeLine": "Creature Shade 2 2"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Obstinate Baloth", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, you gain 4 life", 
+            "If a (SPELL) or abil!PRIOR_T!y $OPP_CONTROLS$ causes you to discard (THIS), put !PRIOR_T! onto the battlefield instead of putting !PRIOR_T! into your graveyard"
+        ], 
+        "IMG_ID": "205075", 
+        "manaCost": [
+            "2", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Beast 4 4"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Ornithopter", 
+        "rules": [
+            "*FLYING*"
+        ], 
+        "IMG_ID": "206331", 
+        "manaCost": [
+            "0"
+        ], 
+        "typeLine": "Artifact Creature Thopter 0 2"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Overwhelming Stampede", 
+        "rules": [
+            "Until @C_END@, (CREATURES) $YOU_CONTROL$ gain *TRAMPLE* and get +X/+X, where X is the greatest power among (CREATURES) $YOU_CONTROL$"
+        ], 
+        "IMG_ID": "205003", 
+        "manaCost": [
+            "3", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Pacifism", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) can't attack or block"
+        ], 
+        "IMG_ID": "208292", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Palace Guard", 
+        "rules": [
+            "(THIS) can block any number of (CREATURES)"
+        ], 
+        "IMG_ID": "205110", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Soldier 1 4"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Phantom Beast", 
+        "rules": [
+            "[REACTIVE] (THIS) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y, =SACRIFICE= !PRIOR_T!"
+        ], 
+        "IMG_ID": "205017", 
+        "manaCost": [
+            "3", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Illusion Beast 4 5"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Phylactery Lich", 
+        "rules": [
+            "Indestructible", 
+            "As (THIS) @ETB@, put a phylactery =COUNTER= on an (ARTIFACT) $YOU_CONTROL$", 
+            "[REACTIVE] $YOU_CONTROL$ no $PERMANENT$s $WITH$ phylactery =COUNTER=s on them, =SACRIFICE= (THIS)"
+        ], 
+        "IMG_ID": "205034", 
+        "manaCost": [
+            "Black", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Zombie 5 5"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Plains", 
+        "rules": [
+            "W"
+        ], 
+        "IMG_ID": "213612", 
+        "manaCost": [], 
+        "typeLine": "Basic Land Plains"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Platinum Angel", 
+        "rules": [
+            "*FLYING*", 
+            "You can't lose the game and your opponents can't win the game"
+        ], 
+        "IMG_ID": "206329", 
+        "manaCost": [
+            "7"
+        ], 
+        "typeLine": "Artifact Creature Angel 4 4"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Plummet", 
+        "rules": [
+            "=DESTROY= !TARGET! (CREATURE) $WITH$ *FLYING*"
+        ], 
+        "IMG_ID": "205062", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Preordain", 
+        "rules": [
+            "Scry 2, then =DRAW_1="
+        ], 
+        "IMG_ID": "205019", 
+        "manaCost": [
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Primal Cocoon", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "[TIME] @P_UPKEEP@, =ADD_+1_+1= on enchanted (CREATURE)", 
+            "[REACTIVE] enchanted (CREATURE) attacks or blocks, =SACRIFICE= (THIS)"
+        ], 
+        "IMG_ID": "204995", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Primeval Titan", 
+        "rules": [
+            "*TRAMPLE*", 
+            "[REACTIVE] (THIS) @ETB@ or attacks, $P_OPTIONAL$ search your library for up to two (LAND) cards, put them onto the battlefield $TAPPED$, then shuffle your library"
+        ], 
+        "IMG_ID": "205027", 
+        "manaCost": [
+            "4", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Giant 6 6"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Prized Unicorn", 
+        "rules": [
+            "!ALL! (CREATURES) able to block (THIS) do so"
+        ], 
+        "IMG_ID": "205111", 
+        "manaCost": [
+            "3", 
+            "Green"
+        ], 
+        "typeLine": "Creature Unicorn 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Prodigal Pyromancer", 
+        "rules": [
+            "=TAP=: (THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "205231", 
+        "manaCost": [
+            "2", 
+            "Red"
+        ], 
+        "typeLine": "Creature Human Wizard 1 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Protean Hydra", 
+        "rules": [
+            "(THIS) [ETBW] X +1/+1 =COUNTER=s on !PRIOR_T!", 
+            "If damage would be dealt to (THIS), prevent that damage and remove that many +1/+1 =COUNTER=s from !PRIOR_T!", 
+            "[REACTIVE] a +1/+1 =COUNTER= is removed from (THIS), put two +1/+1 =COUNTER=s on !PRIOR_T! [TIME] the next end step"
+        ], 
+        "IMG_ID": "205112", 
+        "manaCost": [
+            "Variable Colorless", 
+            "Green"
+        ], 
+        "typeLine": "Creature Hydra 0 0"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Pyretic Ritual", 
+        "rules": [
+            "Add $RED$", 
+            "$RED$", 
+            "$RED$ to your mana pool"
+        ], 
+        "IMG_ID": "205067", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Pyroclasm", 
+        "rules": [
+            "(THIS) deals 2 damage to each (CREATURE)"
+        ], 
+        "IMG_ID": "208009", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Quag Sickness", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= -1/-1 for each Swamp $YOU_CONTROL$"
+        ], 
+        "IMG_ID": "205028", 
+        "manaCost": [
+            "2", 
+            "Black"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Reassembling Skeleton", 
+        "rules": [
+            "1$BLACK$: =RETURN= (THIS) from your graveyard to the battlefield $TAPPED$"
+        ], 
+        "IMG_ID": "205066", 
+        "manaCost": [
+            "1", 
+            "Black"
+        ], 
+        "typeLine": "Creature Skeleton Warrior 1 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Redirect", 
+        "rules": [
+            "You may choose new tar=GETS= for !TARGET! (SPELL)"
+        ], 
+        "IMG_ID": "208227", 
+        "manaCost": [
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Relentless Rats", 
+        "rules": [
+            "(THIS) =GETS= +1/+1 for each other (CREATURE) on the battlefield named (THIS)", 
+            "A deck can have any number of cards named (THIS)"
+        ], 
+        "IMG_ID": "205082", 
+        "manaCost": [
+            "1", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Rat 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Reverberate", 
+        "rules": [
+            "Copy !TARGET! (INSTANT) or (SORCERY) (SPELL)", 
+            " You may choose new tar=GETS= for the copy"
+        ], 
+        "IMG_ID": "205038", 
+        "manaCost": [
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Rise from the Grave", 
+        "rules": [
+            "Put !TARGET! (CREATURE) card from a graveyard onto the battlefield under your control", 
+            " That (CREATURE) is a $BLACK$ Zombie in add!PRIOR_T!ion to !PRIOR_T!s other colors and types"
+        ], 
+        "IMG_ID": "205113", 
+        "manaCost": [
+            "4", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Roc Egg", 
+        "rules": [
+            "*DEFENDER*", 
+            "[REACTIVE] (THIS) dies, create a 3/3 $WHITE$ Bird (CREATURE) token $WITH$ *FLYING*"
+        ], 
+        "IMG_ID": "205055", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Creature Bird 0 3"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Rootbound Crag", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Mountain or a Forest", 
+            "=TAP=: Add $RED$ or $GREEN$ to your mana pool"
+        ], 
+        "IMG_ID": "205114", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Rotting Legion", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$"
+        ], 
+        "IMG_ID": "205047", 
+        "manaCost": [
+            "4", 
+            "Black"
+        ], 
+        "typeLine": "Creature Zombie 4 5"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Royal Assassin", 
+        "rules": [
+            "=TAP=: =DESTROY= !TARGET! $TAPPED$ (CREATURE)"
+        ], 
+        "IMG_ID": "205233", 
+        "manaCost": [
+            "1", 
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Creature Human Assassin 1 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Runeclaw Bear", 
+        "rules": [], 
+        "IMG_ID": "207337", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Creature Bear 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Sacred Wolf", 
+        "rules": [
+            "Hexproof"
+        ], 
+        "IMG_ID": "205023", 
+        "manaCost": [
+            "2", 
+            "Green"
+        ], 
+        "typeLine": "Creature Wolf 3 1"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Safe Passage", 
+        "rules": [
+            "Prevent !ALL! damage that would be dealt to you and (CREATURES) $YOU_CONTROL$ this turn"
+        ], 
+        "IMG_ID": "205115", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Scroll Thief", 
+        "rules": [
+            "[REACTIVE] (THIS) deals combat damage to a player, =DRAW_1="
+        ], 
+        "IMG_ID": "205004", 
+        "manaCost": [
+            "2", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Merfolk Rogue 1 3"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Serra Angel", 
+        "rules": [
+            "*FLYING*", 
+            "*VIGILANCE*"
+        ], 
+        "IMG_ID": "205234", 
+        "manaCost": [
+            "3", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Angel 4 4"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Serra Ascendant", 
+        "rules": [
+            "Lifelink", 
+            "As long as you have 30 or more life, (THIS) =GETS= +5/+5 and has *FLYING*"
+        ], 
+        "IMG_ID": "204989", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Creature Human Monk 1 1"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Shiv's Embrace", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= +2/+2 and has *FLYING*", 
+            "$RED$: Enchanted (CREATURE) =GETS= +1/+0 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "208002", 
+        "manaCost": [
+            "2", 
+            "Red", 
+            "Red"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Siege Mastodon", 
+        "rules": [], 
+        "IMG_ID": "208293", 
+        "manaCost": [
+            "4", 
+            "White"
+        ], 
+        "typeLine": "Creature Elephant 3 5"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Sign in Blood", 
+        "rules": [
+            "!TARGET! player draws two cards and loses 2 life"
+        ], 
+        "IMG_ID": "205118", 
+        "manaCost": [
+            "Black", 
+            "Black"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Silence", 
+        "rules": [
+            "Your opponents can't cast (SPELLS) this turn"
+        ], 
+        "IMG_ID": "205119", 
+        "manaCost": [
+            "White"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Silvercoat Lion", 
+        "rules": [], 
+        "IMG_ID": "208283", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Cat 2 2"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Sleep", 
+        "rules": [
+            "=TAP= !ALL! (CREATURES) !TARGET! player controls", 
+            " Those (CREATURES) don't =UNTAP= during that player's next =UNTAP= step"
+        ], 
+        "IMG_ID": "205120", 
+        "manaCost": [
+            "2", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Solemn Offering", 
+        "rules": [
+            "=DESTROY= !TARGET! (ARTIFACT) or (ENCHANTMENT)", 
+            " You gain 4 life"
+        ], 
+        "IMG_ID": "205095", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Sorcerer's Strongbox", 
+        "rules": [
+            "2, =TAP=: Flip a coin", 
+            " If you win the flip, =SACRIFICE= (THIS) and draw three cards"
+        ], 
+        "IMG_ID": "205069", 
+        "manaCost": [
+            "4"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Spined Wurm", 
+        "rules": [], 
+        "IMG_ID": "205123", 
+        "manaCost": [
+            "4", 
+            "Green"
+        ], 
+        "typeLine": "Creature Wurm 5 4"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Squadron Hawk", 
+        "rules": [
+            "*FLYING*", 
+            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for up to three cards named (THIS), reveal them, put them into your hand, then shuffle your library"
+        ], 
+        "IMG_ID": "208279", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Bird 1 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Stabbing Pain", 
+        "rules": [
+            "!TARGET! (CREATURE) =GETS= -1/-1 $UNTIL$ @C_END@", 
+            " =TAP= that (CREATURE)"
+        ], 
+        "IMG_ID": "205048", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Steel Overseer", 
+        "rules": [
+            "=TAP=: =ADD_+1_+1= on each (ARTIFACT) (CREATURE) $YOU_CONTROL$"
+        ], 
+        "IMG_ID": "205036", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact Creature Construct 1 1"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Stone Golem", 
+        "rules": [], 
+        "IMG_ID": "205056", 
+        "manaCost": [
+            "5"
+        ], 
+        "typeLine": "Artifact Creature Golem 4 4"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Stormfront Pegasus", 
+        "rules": [
+            "*FLYING*"
+        ], 
+        "IMG_ID": "208294", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Pegasus 2 1"
+    }, 
+    {
+        "convertedManaCost": "8", 
+        "cardTitle": "Stormtide Leviathan", 
+        "rules": [
+            "Is(LAND)walk", 
+            "!ALL! (LANDS) are Is(LANDS) in add!PRIOR_T!ion to their other types", 
+            "Creatures $WITH$out *FLYING* or is(LAND)walk can't attack"
+        ], 
+        "IMG_ID": "205029", 
+        "manaCost": [
+            "5", 
+            "Blue", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Leviathan 8 8"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Sun Titan", 
+        "rules": [
+            "*VIGILANCE*", 
+            "[REACTIVE] (THIS) @ETB@ or attacks, $P_OPTIONAL$ =RETURN= !TARGET! $PERMANENT$ card $WITH$ converted mana cost 3 or less from your graveyard to the battlefield"
+        ], 
+        "IMG_ID": "205030", 
+        "manaCost": [
+            "4", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Giant 6 6"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Sunpetal Grove", 
+        "rules": [
+            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Forest or a Plains", 
+            "=TAP=: Add $GREEN$ or $WHITE$ to your mana pool"
+        ], 
+        "IMG_ID": "205124", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Swamp", 
+        "rules": [
+            "B"
+        ], 
+        "IMG_ID": "213620", 
+        "manaCost": [], 
+        "typeLine": "Basic Land Swamp"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Sword of Vengeance", 
+        "rules": [
+            "Equipped (CREATURE) =GETS= +2/+0 and has *FIRST_STRIKE*, *VIGILANCE*, *TRAMPLE*, and *HASTE*", 
+            "Equip 3"
+        ], 
+        "IMG_ID": "205044", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact Equipment"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Sylvan Ranger", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for a (BASIC) card, reveal !PRIOR_T!, put !PRIOR_T! into your hand, then shuffle your library"
+        ], 
+        "IMG_ID": "204976", 
+        "manaCost": [
+            "1", 
+            "Green"
+        ], 
+        "typeLine": "Creature Elf Scout 1 1"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Temple Bell", 
+        "rules": [
+            "=TAP=: Each player draws a card"
+        ], 
+        "IMG_ID": "205058", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "0", 
+        "cardTitle": "Terramorphic Expanse", 
+        "rules": [
+            "=TAP=, Sacrifice (THIS): Search your library for a (BASIC) card and put !PRIOR_T! onto the battlefield $TAPPED$", 
+            " Then shuffle your library"
+        ], 
+        "IMG_ID": "205236", 
+        "manaCost": [], 
+        "typeLine": "Land"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Thunder Strike", 
+        "rules": [
+            "!TARGET! (CREATURE) =GETS= +2/+0 and =GAINS= *FIRST_STRIKE* $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "204973", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Time Reversal", 
+        "rules": [
+            "Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards", 
+            " =EXILE= (THIS)"
+        ], 
+        "IMG_ID": "205022", 
+        "manaCost": [
+            "3", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Tireless Missionaries", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, you gain 3 life"
+        ], 
+        "IMG_ID": "205014", 
+        "manaCost": [
+            "4", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Cleric 2 3"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Tome Scour", 
+        "rules": [
+            "!TARGET! player puts the top five cards of his or her library into his or her graveyard"
+        ], 
+        "IMG_ID": "205000", 
+        "manaCost": [
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "5", 
+        "cardTitle": "Traumatize", 
+        "rules": [
+            "!TARGET! player puts the top half of his or her library, rounded down, into his or her graveyard"
+        ], 
+        "IMG_ID": "208221", 
+        "manaCost": [
+            "3", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Sorcery"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Triskelion", 
+        "rules": [
+            "(THIS) [ETBW] three +1/+1 =COUNTER=s on !PRIOR_T!", 
+            "Remove a +1/+1 =COUNTER= from (THIS): (THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+        ], 
+        "IMG_ID": "206719", 
+        "manaCost": [
+            "6"
+        ], 
+        "typeLine": "Artifact Creature Construct 1 1"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Unholy Strength", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= +2/+1"
+        ], 
+        "IMG_ID": "205237", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Unsummon", 
+        "rules": [
+            "=RETURN= !TARGET! (CREATURE) to !PRIOR_T_O_H!"
+        ], 
+        "IMG_ID": "208223", 
+        "manaCost": [
+            "Blue"
+        ], 
+        "typeLine": "Instant"
+    }, 
+    {
+        "convertedManaCost": "7", 
+        "cardTitle": "Vengeful Archon", 
+        "rules": [
+            "*FLYING*", 
+            "Variable Colorless: Prevent the next X damage that would be dealt to you this turn", 
+            " If damage is prevented this way, (THIS) deals that much damage to !TARGET! player"
+        ], 
+        "IMG_ID": "208288", 
+        "manaCost": [
+            "4", 
+            "White", 
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Archon 7 7"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Viscera Seer", 
+        "rules": [
+            "=SACRIFICE_ONE= (CREATURE): Scry 1"
+        ], 
+        "IMG_ID": "205232", 
+        "manaCost": [
+            "Black"
+        ], 
+        "typeLine": "Creature Vampire Wizard 1 1"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Volcanic Strength", 
+        "rules": [
+            "Enchant (CREATURE)", 
+            "Enchanted (CREATURE) =GETS= +2/+2 and has mountainwalk"
+        ], 
+        "IMG_ID": "208004", 
+        "manaCost": [
+            "1", 
+            "Red"
+        ], 
+        "typeLine": "Enchantment Aura"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Voltaic Key", 
+        "rules": [
+            "1, =TAP=: =UNTAP= !TARGET! (ARTIFACT)"
+        ], 
+        "IMG_ID": "206332", 
+        "manaCost": [
+            "1"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Vulshok Berserker", 
+        "rules": [
+            "*HASTE*"
+        ], 
+        "IMG_ID": "208011", 
+        "manaCost": [
+            "3", 
+            "Red"
+        ], 
+        "typeLine": "Creature Human Berserker 3 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Wall of Frost", 
+        "rules": [
+            "*DEFENDER*", 
+            "[REACTIVE] (THIS) blocks a (CREATURE), that (CREATURE) doesn't =UNTAP= during !PRIOR_T_C!'s next =UNTAP= step"
+        ], 
+        "IMG_ID": "205128", 
+        "manaCost": [
+            "1", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Wall 0 7"
+    }, 
+    {
+        "convertedManaCost": "1", 
+        "cardTitle": "Wall of Vines", 
+        "rules": [
+            "*DEFENDER*", 
+            "*REACH*"
+        ], 
+        "IMG_ID": "204983", 
+        "manaCost": [
+            "Green"
+        ], 
+        "typeLine": "Creature Plant Wall 0 3"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "War Priest of Thune", 
+        "rules": [
+            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ =DESTROY= !TARGET! (ENCHANTMENT)"
+        ], 
+        "IMG_ID": "208274", 
+        "manaCost": [
+            "1", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Cleric 2 2"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Warlord's Axe", 
+        "rules": [
+            "Equipped (CREATURE) =GETS= +3/+1", 
+            "Equip 4"
+        ], 
+        "IMG_ID": "205057", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact Equipment"
+    }, 
+    {
+        "convertedManaCost": "4", 
+        "cardTitle": "Water Servant", 
+        "rules": [
+            "$BLUE$: (THIS) =GETS= +1/-1 $UNTIL$ @C_END@", 
+            "$BLUE$: (THIS) =GETS= -1/+1 $UNTIL$ @C_END@"
+        ], 
+        "IMG_ID": "205006", 
+        "manaCost": [
+            "2", 
+            "Blue", 
+            "Blue"
+        ], 
+        "typeLine": "Creature Elemental 3 4"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Whispersilk Cloak", 
+        "rules": [
+            "Equipped (CREATURE) can't be blocked and has shroud", 
+            "Equip 2"
+        ], 
+        "IMG_ID": "206342", 
+        "manaCost": [
+            "3"
+        ], 
+        "typeLine": "Artifact Equipment"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "White Knight", 
+        "rules": [
+            "*FIRST_STRIKE*", 
+            "*PRO* $BLACK$"
+        ], 
+        "IMG_ID": "205239", 
+        "manaCost": [
+            "White", 
+            "White"
+        ], 
+        "typeLine": "Creature Human Knight 2 2"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Wild Evocation", 
+        "rules": [
+            "[TIME] each player's upkeep, that player reveals a card at random from his or her hand", 
+            " If !PRIOR_T!'s a (LAND) card, the player puts !PRIOR_T! onto the battlefield", 
+            " Otherwise, the player casts !PRIOR_T! $WITH$out paying !PRIOR_T!s mana cost if able"
+        ], 
+        "IMG_ID": "204972", 
+        "manaCost": [
+            "5", 
+            "Red"
+        ], 
+        "typeLine": "Enchantment"
+    }, 
+    {
+        "convertedManaCost": "3", 
+        "cardTitle": "Wild Griffin", 
+        "rules": [
+            "*FLYING*"
+        ], 
+        "IMG_ID": "208275", 
+        "manaCost": [
+            "2", 
+            "White"
+        ], 
+        "typeLine": "Creature Griffin 2 2"
+    }, 
+    {
+        "convertedManaCost": "2", 
+        "cardTitle": "Wurm's Tooth", 
+        "rules": [
+            "[REACTIVE] @ANYONE_CASTS@ $GREEN$ (SPELL), $P_OPTIONAL$ gain 1 life"
+        ], 
+        "IMG_ID": "206330", 
+        "manaCost": [
+            "2"
+        ], 
+        "typeLine": "Artifact"
+    }, 
+    {
+        "convertedManaCost": "6", 
+        "cardTitle": "Yavimaya Wurm", 
+        "rules": [
+            "*TRAMPLE*"
+        ], 
+        "IMG_ID": "205221", 
+        "manaCost": [
+            "4", 
+            "Green", 
+            "Green"
+        ], 
+        "typeLine": "Creature Wurm 6 4"
+    }
+]
