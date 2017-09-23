@@ -4,6 +4,7 @@ import javax.swing.ImageIcon;
 
 public class Card {
 
+	public int id;
 	public String title;
 	public String manaCost;
 	public String rulesText;
@@ -13,8 +14,13 @@ public class Card {
 	public int damage;
 	public ImageIcon image;
 	
-	public Card(){
-		
+	public Card(String title, String manaCost, String rulesText, String typeText, int power, int toughness, ImageIcon image){
+		this.title = title;
+		this.manaCost = manaCost;
+		this.rulesText = rulesText;
+		this.typeText = typeText;
+		this.power = power;
+		this.toughness = toughness;
 	}
 	
 	public static void main(String[] args) {

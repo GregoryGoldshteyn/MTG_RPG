@@ -11,13 +11,23 @@ public class CardListInternalFrame extends JInternalFrame{
 	
 	public JLayeredPane cardStack; 
 	
-	public CardListInternalFrame(String windowTitle){
+	public CardListInternalFrame(String windowTitle, int insetx, int insety, Card[] cards){
 		super(windowTitle, true, false, false, true);
-		setLocation(RES.DUEL_INSET, RES.DUEL_INSET);
+		this.cardArray = cards;
+		setLocation(insetx, insety);
 		setSize(255, 360);
-		
+		this.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		cardStack = new JLayeredPane();
 		cardStack.setPreferredSize(new Dimension(250, 400));
+	}
+	
+	public Card getCardByID(int id){
+		for(Card c : cardArray){
+			if(c.id == id){
+				return c;
+			}
+		}
+		return null;
 	}
 	
 }
