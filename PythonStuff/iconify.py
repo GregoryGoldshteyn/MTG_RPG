@@ -25,4 +25,4 @@ def iconify(in_string, out_string):
 	
 iconify("DoomBladReference.bmp", "DoomIcon.bmp")
 for i in range(204972, 213630):
-	iconify("../m2011pics/PIX_" + str(i) + ".jpg", "../m2011pics/ICON_" + str(i) + ".bmp")
+	iconify("../images/m2011pics/PIX_" + str(i) + ".jpg", "../images/icons/ICON_" + str(i) + ".png")

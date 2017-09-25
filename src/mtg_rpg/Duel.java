@@ -192,7 +192,7 @@ public class Duel extends JFrame{
 		addToGrid(p, playerExileValue, c, RES.HAND_DECK_GRAVE_EXILE_V_GRIDX, RES.P_EXILE_GRIDY, RES.HAND_DECK_GRAVE_EXILE_V_GRIDWIDTH, RES.HAND_DECK_GRAVE_EXILE_V_GRIDHEIGHT, 0.001, 0.001, 0, 0);
 		//Card Display
 		button = new JButton("Card Display");
-		addToGrid(p, button, c, RES.CARD_DISPLAY_GRIDX, RES.CARD_DISPLAY_GRIDY, RES.CARD_DISPLAY_GRIDWIDTH, RES.CARD_DISPLAY_GRIDHEIGHT, 0.001, 1.0, 0, 300);
+		addToGrid(p, new JLabel(new ImageIcon("images/m2011pics/PIX_205024.jpg")), c, RES.CARD_DISPLAY_GRIDX, RES.CARD_DISPLAY_GRIDY, RES.CARD_DISPLAY_GRIDWIDTH, RES.CARD_DISPLAY_GRIDHEIGHT, 0.001, 1.0, 0, 300);
 		//Battlefield
 		//playArea.setLayout(new BoxLayout(playArea, BoxLayout.Y_AXIS));
 		addToGrid(p, playArea, c, RES.BATTLE_GRIDX, RES.BATTLE_GRIDY, RES.BATTLE_GRIDWIDTH, RES.BATTLE_GRIDHEIGHT, 1.0, 1.0,0,0);
@@ -230,6 +230,7 @@ public class Duel extends JFrame{
 	
 	public Duel(Card[] playerDeck, Card[] enemyDeck){
 		super("DUEL!");
+		IMAGES i = new IMAGES();
 		setBounds(RES.DUEL_INSET, RES.DUEL_INSET, RES.SCREEN_SIZE.width/2 + 600, RES.SCREEN_SIZE.height/2 + 200);
 		
 		JPanel buttonPanel = new JPanel();
@@ -242,6 +243,12 @@ public class Duel extends JFrame{
 		startGrid(buttonPanel, grid_cons);
 		playArea.setDragMode(JDesktopPane.OUTLINE_DRAG_MODE);
 		setupHand(playerDeck, enemyDeck);
+		player_hand.addCard(new CardSmallLayered("0", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.BLUE_BORDER.getColor()));
+		player_hand.addCard(new CardSmallLayered("1", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.BLACK_BORDER.getColor()));
+		player_hand.addCard(new CardSmallLayered("2", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.RED_BORDER.getColor()));
+		player_hand.addCard(new CardSmallLayered("3", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.GREEN_BORDER.getColor()));
+		player_hand.addCard(new CardSmallLayered("4", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.WHITE_BORDER.getColor()));
+		
 	}
 	
 	private static void test(Card[] playerDeck, Card[] enemyDeck){

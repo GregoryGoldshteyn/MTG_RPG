@@ -1,5 +1,7 @@
 package mtg_rpg;
 
+import java.awt.Image;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
@@ -18,11 +20,16 @@ public class IMAGES {
 			return null;
 		}
 	}
+	private ImageIcon getScaledImage(ImageIcon icon, int scalex, int scaley){
+		Image image = icon.getImage();
+		Image retImage = image.getScaledInstance(icon.getIconWidth() * scalex, icon.getIconHeight() * scaley, Image.SCALE_FAST);
+		return new ImageIcon(retImage);
+	}
 	public IMAGES(){
-		imageMap = new HashMap();
+		imageMap = new HashMap<Integer, ImageIcon>();
 		for(int i = 204972; i <= 213629; i++){
 			//ImageIcon icon = createImageIcon("\\images\\icons\\ICON_" + Integer.toString(i) + ".bmp");
-			ImageIcon icon = new ImageIcon("ICON_204972");
+			ImageIcon icon = getScaledImage(new ImageIcon("images/icons/ICON_" + Integer.toString(i) + ".png"), 3, 3);
 			if(icon != null){
 				imageMap.put(i, icon);
 			}
