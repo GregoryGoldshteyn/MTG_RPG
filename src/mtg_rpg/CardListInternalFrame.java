@@ -10,15 +10,22 @@ public class CardListInternalFrame extends JInternalFrame{
 	public Card[] cardArray;
 	
 	public JLayeredPane cardStack; 
+	private JScrollPane scrollPane;
 	
 	public CardListInternalFrame(String windowTitle, int insetx, int insety, Card[] cards){
 		super(windowTitle, true, false, false, true);
+		
 		this.cardArray = cards;
 		setLocation(insetx, insety);
-		setSize(255, 360);
+		setSize(180, 360);
+		this.setResizable(false);
 		this.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
 		cardStack = new JLayeredPane();
-		cardStack.setPreferredSize(new Dimension(250, 400));
+		cardStack.setPreferredSize(new Dimension(180, 135));
+		scrollPane = new JScrollPane(cardStack);
+		scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+		scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
+		setContentPane(scrollPane);
 	}
 	
 	public Card getCardByID(int id){
@@ -28,6 +35,13 @@ public class CardListInternalFrame extends JInternalFrame{
 			}
 		}
 		return null;
+	}
+	
+	public void addCard(CardSmallLayered c){
+		c.setBounds(0, numberOfCards * 20, 170, 135);
+		cardStack.add(c, new Integer(numberOfCards));
+		cardStack.setPreferredSize(new Dimension(180, 135 + (numberOfCards * 20)));
+		numberOfCards += 1;
 	}
 	
 }

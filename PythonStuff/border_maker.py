@@ -4,7 +4,7 @@ import numpy as np
 BORDER_RED = [0, 0, 126]
 BORDER_GREEN = [0,63,0]
 BORDER_BLUE = [252,126,0]
-BORDER_BLACK = [63,63,63]
+BORDER_BLACK = [0,0,0]
 BORDER_WHITE = [126,252,252]
 BORDER_GREY = [126, 126, 126]
 
@@ -21,6 +21,8 @@ MAIN_DICT = {"Black": MAIN_BLACK,"Red": MAIN_RED,"Green": MAIN_GREEN,"Blue": MAI
 
 def border_maker(image_name, card_color):
 	img = cv2.imread(image_name)
+	if(img == None):
+		return 1
 	#Blacken the edges
 	#Left
 	for i in range(310):
@@ -92,3 +94,19 @@ def border_maker(image_name, card_color):
 	cv2.imwrite(image_name, img)
 
 border_maker("DoomBladReference.bmp", "Black")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

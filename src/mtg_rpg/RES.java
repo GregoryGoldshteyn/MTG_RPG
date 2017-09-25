@@ -1,5 +1,6 @@
 package mtg_rpg;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Toolkit;
 import java.util.Map;
@@ -119,6 +120,30 @@ public class RES {
 	BATTLE_GRIDY = 0,
 	
 	STATE_BUTTONS_GRIDX = 4;
+	
+	public static enum CARD_COLORS{
+		WHITE_MAIN (new Color(252,252,189)),
+		BLACK_MAIN (new Color(63,63,63)),
+		RED_MAIN (new Color(189,126,126)),
+		GREEN_MAIN (new Color(126,189,126)),
+		BLUE_MAIN (new Color(126,189,252)),
+		GREY_MAIN (new Color(189,189,189)),
+		
+		GREY_BORDER (new Color(126,126,126)),
+		WHITE_BORDER (new Color(252,252,126)),
+		BLACK_BORDER (new Color(0,0,0)),
+		RED_BORDER (new Color(126,0,0)),
+		GREEN_BORDER (new Color(0,63,0)),
+		BLUE_BORDER (new Color(0,126,252));
+		
+		private Color color;
+		CARD_COLORS(Color color){
+			this.color = color;
+		}
+		public Color getColor(){
+			return this.color;
+		}
+	}
 	
 	public static enum COLOR{
 		WHITE ("White", 0),
