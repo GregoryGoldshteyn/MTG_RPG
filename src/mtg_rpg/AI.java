@@ -5,8 +5,10 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import javax.json.*;
-import javax.json.stream.JsonParser;
+import java.io.*;
+import java.util.*;
+import org.xml.sax.*;
+import org.xml.sax.helpers.*;
 
 public class AI {
 
@@ -17,10 +19,7 @@ public class AI {
 		try{
 			
 			InputStream is = new FileInputStream("AI/duelAI/" + targetAI);
-			JsonReader jsonReader = Json.createReader(is);
-			JsonObject root = jsonReader.readObject();
 			
-			System.out.println(root);
 		} catch(Exception e){
 			e.printStackTrace();
 		}

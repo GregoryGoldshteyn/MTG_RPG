@@ -4,7 +4,7 @@
         "cardTitle": "Acidic Slime", 
         "rules": [
             "Deathtouch", 
-            "[REACTIVE] (THIS) @ETB@, =DESTROY= !TARGET! (ARTIFACT), (ENCHANTMENT), or (LAND)"
+            "When Acidic Slime enters the battlefield, destroy target artifact, enchantment, or land"
         ], 
         "IMG_ID": "207333", 
         "manaCost": [
@@ -18,9 +18,9 @@
         "convertedManaCost": "3", 
         "cardTitle": "Act of Treason", 
         "rules": [
-            "=GET_CONTROL= !TARGET! (CREATURE) $UNTIL$ @C_END@", 
-            " =UNTAP= that (CREATURE)", 
-            " !PRIOR_T! =GAINS= *HASTE* $UNTIL$ @C_END@"
+            "Gain control of target creature until end of turn", 
+            " Untap that creature", 
+            " It gains haste until end of turn"
         ], 
         "IMG_ID": "205072", 
         "manaCost": [
@@ -33,7 +33,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Aether Adept", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, =RETURN= !TARGET! (CREATURE) to !PRIOR_T_O_H!"
+            "When Aether Adept enters the battlefield, return target creature to its owner's hand"
         ], 
         "IMG_ID": "205020", 
         "manaCost": [
@@ -47,8 +47,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Air Servant", 
         "rules": [
-            "*FLYING*", 
-            "2$BLUE$: =TAP= !TARGET! (CREATURE) $WITH$ *FLYING*"
+            "Flying", 
+            "2Blue: Tap target creature with flying"
         ], 
         "IMG_ID": "205070", 
         "manaCost": [
@@ -80,7 +80,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Ajani's Mantra", 
         "rules": [
-            "[TIME] @P_UPKEEP@, $P_OPTIONAL$ gain 1 life"
+            "At the beginning of your upkeep, you may gain 1 life"
         ], 
         "IMG_ID": "204987", 
         "manaCost": [
@@ -93,7 +93,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Ajani's Pridemate", 
         "rules": [
-            "[REACTIVE] @P_GETS_LIFE@, $P_OPTIONAL$ =ADD_+1_+1= (THIS)"
+            "Whenever you gain life, you may put a +1/+1 counter on Ajani's Pridemate"
         ], 
         "IMG_ID": "205065", 
         "manaCost": [
@@ -106,7 +106,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Alluring Siren", 
         "rules": [
-            "=TAP=: !TARGET! (CREATURE) $OPP_CONTROLS$ =MUST_ATTACK="
+            "Tap: Target creature an opponent controls attacks you this turn if able"
         ], 
         "IMG_ID": "205073", 
         "manaCost": [
@@ -119,9 +119,9 @@
         "convertedManaCost": "7", 
         "cardTitle": "Ancient Hellkite", 
         "rules": [
-            "*FLYING*", 
-            "$RED$: (THIS) deals 1 damage to !TARGET! (CREATURE) defending player controls", 
-            " Activate this abil!PRIOR_T!y only if (THIS) is attacking"
+            "Flying", 
+            "Red: Ancient Hellkite deals 1 damage to target creature defending player controls", 
+            " Activate this ability only if Ancient Hellkite is attacking"
         ], 
         "IMG_ID": "204980", 
         "manaCost": [
@@ -136,9 +136,9 @@
         "convertedManaCost": "7", 
         "cardTitle": "Angelic Arbiter", 
         "rules": [
-            "*FLYING*", 
-            "Each opponent who cast a (SPELL) this turn can't attack $WITH$ (CREATURES)", 
-            "Each opponent who attacked $WITH$ a (CREATURE) this turn can't cast (SPELLS)"
+            "Flying", 
+            "Each opponent who cast a spell this turn can't attack with creatures", 
+            "Each opponent who attacked with a creature this turn can't cast spells"
         ], 
         "IMG_ID": "204975", 
         "manaCost": [
@@ -152,7 +152,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Angel's Feather", 
         "rules": [
-            "[REACTIVE] @ANYONE_CASTS@ $WHITE$ (SPELL), $P_OPTIONAL$ gain 1 life"
+            "Whenever a player casts a white spell, you may gain 1 life"
         ], 
         "IMG_ID": "206325", 
         "manaCost": [
@@ -164,8 +164,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Arc Runner", 
         "rules": [
-            "*HASTE*", 
-            "[TIME] the end step, =SACRIFICE= (THIS)"
+            "Haste", 
+            "At the beginning of the end step, sacrifice Arc Runner"
         ], 
         "IMG_ID": "204991", 
         "manaCost": [
@@ -178,8 +178,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Armored Ascension", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= +1/+1 for each Plains $YOU_CONTROL$ and has *FLYING*"
+            "Enchant creature", 
+            "Enchanted creature gets +1/+1 for each Plains you control and has flying"
         ], 
         "IMG_ID": "204997", 
         "manaCost": [
@@ -203,7 +203,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Assassinate", 
         "rules": [
-            "=DESTROY= !TARGET! $TAPPED$ (CREATURE)"
+            "Destroy target tapped creature"
         ], 
         "IMG_ID": "205217", 
         "manaCost": [
@@ -216,7 +216,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Assault Griffin", 
         "rules": [
-            "*FLYING*"
+            "Flying"
         ], 
         "IMG_ID": "208296", 
         "manaCost": [
@@ -229,8 +229,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Augury Owl", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) @ETB@, =SCRY_3="
+            "Flying", 
+            "When Augury Owl enters the battlefield, scry 3"
         ], 
         "IMG_ID": "208225", 
         "manaCost": [
@@ -243,7 +243,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Autumn's Veil", 
         "rules": [
-            "Spells $YOU_CONTROL$ can't be =COUNTER=ed by $BLUE$ or $BLACK$ (SPELLS) this turn, and (CREATURES) $YOU_CONTROL$ can't be the tar=GETS= of $BLUE$ or $BLACK$ (SPELLS) this turn"
+            "Spells you control can't be countered by blue or black spells this turn, and creatures you control can't be the targets of blue or black spells this turn"
         ], 
         "IMG_ID": "205051", 
         "manaCost": [
@@ -255,8 +255,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Awakener Druid", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, !TARGET! Forest becomes a 4/5 $GREEN$ Treefolk (CREATURE) for as long as (THIS) remains on the battlefield", 
-            " !PRIOR_T!'s still a (LAND)"
+            "When Awakener Druid enters the battlefield, target Forest becomes a 4/5 green Treefolk creature for as long as Awakener Druid remains on the battlefield", 
+            " It's still a land"
         ], 
         "IMG_ID": "205076", 
         "manaCost": [
@@ -269,7 +269,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Azure Drake", 
         "rules": [
-            "*FLYING*"
+            "Flying"
         ], 
         "IMG_ID": "204984", 
         "manaCost": [
@@ -282,7 +282,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Back to Nature", 
         "rules": [
-            "=DESTROY= !ALL! (ENCHANTMENTS)"
+            "Destroy all enchantments"
         ], 
         "IMG_ID": "208284", 
         "manaCost": [
@@ -295,7 +295,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Baneslayer Angel", 
         "rules": [
-            "*FLYING*, *FIRST_STRIKE*, *LIFELINK*, *PRO_DEMON_DRAGON*"
+            "Flying, first strike, lifelink, protection from Demons and from Dragons"
         ], 
         "IMG_ID": "205077", 
         "manaCost": [
@@ -320,7 +320,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Berserkers of Blood Ridge", 
         "rules": [
-            "(THIS) *MUST_ATTACK*"
+            "Berserkers of Blood Ridge attacks each turn if able"
         ], 
         "IMG_ID": "205053", 
         "manaCost": [
@@ -333,8 +333,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Birds of Paradise", 
         "rules": [
-            "*FLYING*", 
-            "=TAP=: =ADD_ONE_ANY_COLOR="
+            "Flying", 
+            "Tap: Add one mana of any color to your mana pool"
         ], 
         "IMG_ID": "207334", 
         "manaCost": [
@@ -346,8 +346,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Black Knight", 
         "rules": [
-            "*FIRST_STRIKE*", 
-            "*PRO* $WHITE$"
+            "First strike", 
+            "Protection from white"
         ], 
         "IMG_ID": "205218", 
         "manaCost": [
@@ -360,7 +360,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Blinding Mage", 
         "rules": [
-            "$WHITE$, =TAP=: =TAP= !TARGET! (CREATURE)"
+            "White, Tap: Tap target creature"
         ], 
         "IMG_ID": "205219", 
         "manaCost": [
@@ -387,7 +387,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Bloodcrazed Goblin", 
         "rules": [
-            "(THIS) can't attack unless an opponent has been dealt damage this turn"
+            "Bloodcrazed Goblin can't attack unless an opponent has been dealt damage this turn"
         ], 
         "IMG_ID": "205007", 
         "manaCost": [
@@ -399,7 +399,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Bloodthrone Vampire", 
         "rules": [
-            "=SACRIFICE_ONE= (CREATURE): (THIS) =GETS= +2/+2 $UNTIL$ @C_END@"
+            "Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn"
         ], 
         "IMG_ID": "205238", 
         "manaCost": [
@@ -425,7 +425,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Brindle Boar", 
         "rules": [
-            "Sacrifice (THIS): You gain 4 life"
+            "Sacrifice Brindle Boar: You gain 4 life"
         ], 
         "IMG_ID": "205039", 
         "manaCost": [
@@ -438,7 +438,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Brittle Effigy", 
         "rules": [
-            "4, =TAP=, =EXILE= (THIS): =EXILE= !TARGET! (CREATURE)"
+            "4, Tap, Exile Brittle Effigy: Exile target creature"
         ], 
         "IMG_ID": "205002", 
         "manaCost": [
@@ -450,7 +450,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Call to Mind", 
         "rules": [
-            "=RETURN= !TARGET! (INSTANT) or (SORCERY) card $FROM_GRAVE_TO_HAND$"
+            "Return target instant or sorcery card from your graveyard to your hand"
         ], 
         "IMG_ID": "208218", 
         "manaCost": [
@@ -463,7 +463,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Cancel", 
         "rules": [
-            "=COUNTER= !TARGET! (SPELL)"
+            "Counter target spell"
         ], 
         "IMG_ID": "208217", 
         "manaCost": [
@@ -488,9 +488,9 @@
         "convertedManaCost": "3", 
         "cardTitle": "Captivating Vampire", 
         "rules": [
-            "Other Vampire (CREATURES) $YOU_CONTROL$ get +1/+1", 
-            "=TAP_FIVE_VAMPS=: =GET_CONTROL= !TARGET! (CREATURE)", 
-            " !PRIOR_T! becomes a Vampire in add!PRIOR_T!ion to !PRIOR_T!s other types"
+            "Other Vampire creatures you control get +1/+1", 
+            "Tap five untapped Vampires you control: Gain control of target creature", 
+            " It becomes a Vampire in addition to its other types"
         ], 
         "IMG_ID": "205041", 
         "manaCost": [
@@ -504,7 +504,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Celestial Purge", 
         "rules": [
-            "=EXILE= !TARGET! $BLACK$ or $RED$ $PERMANENT$"
+            "Exile target black or red permanent"
         ], 
         "IMG_ID": "208290", 
         "manaCost": [
@@ -533,7 +533,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Chandra's Outrage", 
         "rules": [
-            "(THIS) deals 4 damage to !TARGET! (CREATURE) and 2 damage to that (CREATURE)'s controller"
+            "Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller"
         ], 
         "IMG_ID": "205071", 
         "manaCost": [
@@ -547,8 +547,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Chandra's Spitfire", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] an opponent is dealt noncombat damage, (THIS) =GETS= +3/+0 $UNTIL$ @C_END@"
+            "Flying", 
+            "Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn"
         ], 
         "IMG_ID": "205026", 
         "manaCost": [
@@ -574,7 +574,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Clone", 
         "rules": [
-            "You may have (THIS) enter the battlefield as a copy of any (CREATURE) on the battlefield"
+            "You may have Clone enter the battlefield as a copy of any creature on the battlefield"
         ], 
         "IMG_ID": "205220", 
         "manaCost": [
@@ -587,8 +587,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Cloud Crusader", 
         "rules": [
-            "*FLYING*", 
-            "*FIRST_STRIKE*"
+            "Flying", 
+            "First strike"
         ], 
         "IMG_ID": "208287", 
         "manaCost": [
@@ -602,8 +602,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Cloud Elemental", 
         "rules": [
-            "*FLYING*", 
-            "(THIS) can block only (CREATURES) $WITH$ *FLYING*"
+            "Flying", 
+            "Cloud Elemental can block only creatures with flying"
         ], 
         "IMG_ID": "208224", 
         "manaCost": [
@@ -616,8 +616,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Combust", 
         "rules": [
-            "(THIS) can't be =COUNTER=ed by (SPELLS) or abil!PRIOR_T!ies", 
-            "(THIS) deals 5 damage to !TARGET! $WHITE$ or $BLUE$ (CREATURE)", 
+            "Combust can't be countered by spells or abilities", 
+            "Combust deals 5 damage to target white or blue creature", 
             " The damage can't be prevented"
         ], 
         "IMG_ID": "205011", 
@@ -631,8 +631,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Condemn", 
         "rules": [
-            "Put !TARGET! attacking (CREATURE) on the bottom of !PRIOR_T!s owner's library", 
-            " !PRIOR_T!s controller =GAINS= life equal to !PRIOR_T!s toughness"
+            "Put target attacking creature on the bottom of its owner's library", 
+            " Its controller gains life equal to its toughness"
         ], 
         "IMG_ID": "205098", 
         "manaCost": [
@@ -644,11 +644,11 @@
         "convertedManaCost": "4", 
         "cardTitle": "Conundrum Sphinx", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) attacks, each player chooses a card name", 
+            "Flying", 
+            "Whenever Conundrum Sphinx attacks, each player chooses a card name", 
             " Then each player reveals the top card of his or her library", 
-            " If the card a player revealed has the name he or she chose, that player puts !PRIOR_T! into his or her hand", 
-            " If !PRIOR_T! doesn't, that player puts !PRIOR_T! on the bottom of his or her library"
+            " If the card a player revealed has the name he or she chose, that player puts it into his or her hand", 
+            " If it doesn't, that player puts it on the bottom of his or her library"
         ], 
         "IMG_ID": "204982", 
         "manaCost": [
@@ -662,7 +662,7 @@
         "convertedManaCost": "6", 
         "cardTitle": "Corrupt", 
         "rules": [
-            "(THIS) deals damage to !TARGET! (CREATURE) or player equal to the number of Swamps $YOU_CONTROL$", 
+            "Corrupt deals damage to target creature or player equal to the number of Swamps you control", 
             " You gain life equal to the damage dealt this way"
         ], 
         "IMG_ID": "207106", 
@@ -676,7 +676,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Crystal Ball", 
         "rules": [
-            "1, =TAP=: Scry 2"
+            "1, Tap: Scry 2"
         ], 
         "IMG_ID": "205049", 
         "manaCost": [
@@ -688,7 +688,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Cudgel Troll", 
         "rules": [
-            "$GREEN$: =REGENERATE= (THIS)"
+            "Green: Regenerate Cudgel Troll"
         ], 
         "IMG_ID": "205084", 
         "manaCost": [
@@ -702,7 +702,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Cultivate", 
         "rules": [
-            "Search your library for up to two (BASIC) cards, reveal those cards, and put one onto the battlefield $TAPPED$ and the other into your hand", 
+            "Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand", 
             " Then shuffle your library"
         ], 
         "IMG_ID": "204996", 
@@ -716,8 +716,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Cyclops Gladiator", 
         "rules": [
-            "[REACTIVE] (THIS) attacks, $P_OPTIONAL$ have !PRIOR_T! deal damage equal to !PRIOR_T!s power to !TARGET! (CREATURE) defending player controls", 
-            " If you do, that (CREATURE) deals damage equal to !PRIOR_T!s power to (THIS)"
+            "Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls", 
+            " If you do, that creature deals damage equal to its power to Cyclops Gladiator"
         ], 
         "IMG_ID": "205107", 
         "manaCost": [
@@ -732,8 +732,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Dark Tutelage", 
         "rules": [
-            "[TIME] @P_UPKEEP@, reveal the top card of your library and put that card into your hand", 
-            " You lose life equal to !PRIOR_T!s converted mana cost"
+            "At the beginning of your upkeep, reveal the top card of your library and put that card into your hand", 
+            " You lose life equal to its converted mana cost"
         ], 
         "IMG_ID": "204979", 
         "manaCost": [
@@ -746,7 +746,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Day of Judgment", 
         "rules": [
-            "=DESTROY= !ALL! (CREATURES)"
+            "Destroy all creatures"
         ], 
         "IMG_ID": "208297", 
         "manaCost": [
@@ -760,7 +760,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Deathmark", 
         "rules": [
-            "=DESTROY= !TARGET! $GREEN$ or $WHITE$ (CREATURE)"
+            "Destroy target green or white creature"
         ], 
         "IMG_ID": "207100", 
         "manaCost": [
@@ -772,7 +772,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Demolish", 
         "rules": [
-            "=DESTROY= !TARGET! (ARTIFACT) or (LAND)"
+            "Destroy target artifact or land"
         ], 
         "IMG_ID": "208005", 
         "manaCost": [
@@ -785,8 +785,8 @@
         "convertedManaCost": "9", 
         "cardTitle": "Demon of Death's Gate", 
         "rules": [
-            "You may pay 6 life and =SACRIFICE= three $BLACK$ (CREATURES) rather than pay (THIS)'s mana cost", 
-            "*FLYING*, *TRAMPLE*"
+            "You may pay 6 life and sacrifice three black creatures rather than pay Demon of Death's Gate's mana cost", 
+            "Flying, trample"
         ], 
         "IMG_ID": "205131", 
         "manaCost": [
@@ -801,7 +801,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Demon's Horn", 
         "rules": [
-            "[REACTIVE] @ANYONE_CASTS@ $BLACK$ (SPELL), $P_OPTIONAL$ gain 1 life"
+            "Whenever a player casts a black spell, you may gain 1 life"
         ], 
         "IMG_ID": "206326", 
         "manaCost": [
@@ -813,8 +813,8 @@
         "convertedManaCost": "7", 
         "cardTitle": "Destructive Force", 
         "rules": [
-            "Each player =SACRIFICE=s five (LANDS)", 
-            " (THIS) deals 5 damage to each (CREATURE)"
+            "Each player sacrifices five lands", 
+            " Destructive Force deals 5 damage to each creature"
         ], 
         "IMG_ID": "205046", 
         "manaCost": [
@@ -843,7 +843,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Diminish", 
         "rules": [
-            "!TARGET! (CREATURE) has base power and toughness 1/1 $UNTIL$ @C_END@"
+            "Target creature has base power and toughness 1/1 until end of turn"
         ], 
         "IMG_ID": "208226", 
         "manaCost": [
@@ -855,7 +855,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Disentomb", 
         "rules": [
-            "=RETURN= !TARGET! (CREATURE) card $FROM_GRAVE_TO_HAND$"
+            "Return target creature card from your graveyard to your hand"
         ], 
         "IMG_ID": "207101", 
         "manaCost": [
@@ -867,7 +867,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Doom Blade", 
         "rules": [
-            "=DESTROY= !TARGET! $NONBLACK$ (CREATURE)"
+            "Destroy target nonblack creature"
         ], 
         "IMG_ID": "205088", 
         "manaCost": [
@@ -880,7 +880,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Dragon's Claw", 
         "rules": [
-            "[REACTIVE] @ANYONE_CASTS@ $RED$ (SPELL), $P_OPTIONAL$ gain 1 life"
+            "Whenever a player casts a red spell, you may gain 1 life"
         ], 
         "IMG_ID": "206327", 
         "manaCost": [
@@ -892,8 +892,8 @@
         "convertedManaCost": "0", 
         "cardTitle": "Dragonskull Summit", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Swamp or a Mountain", 
-            "=TAP=: Add $BLACK$ or $RED$ to your mana pool"
+            "Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain", 
+            "Tap: Add Black or Red to your mana pool"
         ], 
         "IMG_ID": "205089", 
         "manaCost": [], 
@@ -903,8 +903,8 @@
         "convertedManaCost": "0", 
         "cardTitle": "Drowned Catacomb", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ an Is(LAND) or a Swamp", 
-            "=TAP=: Add $BLUE$ or $BLACK$ to your mana pool"
+            "Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp", 
+            "Tap: Add Blue or Black to your mana pool"
         ], 
         "IMG_ID": "205090", 
         "manaCost": [], 
@@ -914,8 +914,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Dryad's Favor", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) has forestwalk"
+            "Enchant creature", 
+            "Enchanted creature has forestwalk"
         ], 
         "IMG_ID": "205109", 
         "manaCost": [
@@ -927,8 +927,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Duress", 
         "rules": [
-            "!TARGET! opponent reveals his or her hand", 
-            " You choose a non(CREATURE), non(LAND) card from !PRIOR_T!", 
+            "Target opponent reveals his or her hand", 
+            " You choose a noncreature, nonland card from it", 
             " That player discards that card"
         ], 
         "IMG_ID": "205024", 
@@ -941,7 +941,7 @@
         "convertedManaCost": "7", 
         "cardTitle": "Duskdale Wurm", 
         "rules": [
-            "*TRAMPLE*"
+            "Trample"
         ], 
         "IMG_ID": "207335", 
         "manaCost": [
@@ -955,7 +955,7 @@
         "convertedManaCost": "6", 
         "cardTitle": "Earth Servant", 
         "rules": [
-            "(THIS) =GETS= +0/+1 for each Mountain $YOU_CONTROL$"
+            "Earth Servant gets +0/+1 for each Mountain you control"
         ], 
         "IMG_ID": "204986", 
         "manaCost": [
@@ -978,8 +978,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Elixir of Immortality", 
         "rules": [
-            "2, =TAP=: You gain 5 life", 
-            " Shuffle (THIS) and your graveyard into their owner's library"
+            "2, Tap: You gain 5 life", 
+            " Shuffle Elixir of Immortality and your graveyard into their owner's library"
         ], 
         "IMG_ID": "205061", 
         "manaCost": [
@@ -991,8 +991,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Elvish Archdruid", 
         "rules": [
-            "Other Elf (CREATURES) $YOU_CONTROL$ get +1/+1", 
-            "=TAP=: Add $GREEN$ to your mana pool for each Elf $YOU_CONTROL$"
+            "Other Elf creatures you control get +1/+1", 
+            "Tap: Add Green to your mana pool for each Elf you control"
         ], 
         "IMG_ID": "205091", 
         "manaCost": [
@@ -1006,7 +1006,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Ember Hauler", 
         "rules": [
-            "1, Sacrifice (THIS): (THIS) deals 2 damage to !TARGET! (CREATURE) or player"
+            "1, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to target creature or player"
         ], 
         "IMG_ID": "208008", 
         "manaCost": [
@@ -1019,7 +1019,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Excommunicate", 
         "rules": [
-            "Put !TARGET! (CREATURE) on top of !PRIOR_T!s owner's library"
+            "Put target creature on top of its owner's library"
         ], 
         "IMG_ID": "208273", 
         "manaCost": [
@@ -1032,7 +1032,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Fauna Shaman", 
         "rules": [
-            "$GREEN$, =TAP=, Discard a (CREATURE) card: Search your library for a (CREATURE) card, reveal !PRIOR_T!, and put !PRIOR_T! into your hand", 
+            "Green, Tap, Discard a creature card: Search your library for a creature card, reveal it, and put it into your hand", 
             " Then shuffle your library"
         ], 
         "IMG_ID": "205059", 
@@ -1046,7 +1046,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Fiery Hellhound", 
         "rules": [
-            "$RED$: (THIS) =GETS= +1/+0 $UNTIL$ @C_END@"
+            "Red: Fiery Hellhound gets +1/+0 until end of turn"
         ], 
         "IMG_ID": "205093", 
         "manaCost": [
@@ -1060,7 +1060,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Fire Servant", 
         "rules": [
-            "If a $RED$ (INSTANT) or (SORCERY) (SPELL) $YOU_CONTROL$ would deal damage, !PRIOR_T! deals double that damage instead"
+            "If a red instant or sorcery spell you control would deal damage, it deals double that damage instead"
         ], 
         "IMG_ID": "204992", 
         "manaCost": [
@@ -1074,8 +1074,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Fireball", 
         "rules": [
-            "(THIS) deals X damage divided evenly, rounded down, among any number of !TARGET! (CREATURES) and/or players", 
-            "(THIS) costs 1 more to cast for each !TARGET! beyond the first"
+            "Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players", 
+            "Fireball costs 1 more to cast for each target beyond the first"
         ], 
         "IMG_ID": "205223", 
         "manaCost": [
@@ -1088,7 +1088,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Flashfreeze", 
         "rules": [
-            "=COUNTER= !TARGET! $RED$ or $GREEN$ (SPELL)"
+            "Counter target red or green spell"
         ], 
         "IMG_ID": "208219", 
         "manaCost": [
@@ -1101,8 +1101,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Fling", 
         "rules": [
-            "As an add!PRIOR_T!ional cost to cast (THIS), =SACRIFICE= a (CREATURE)", 
-            "(THIS) deals damage equal to the =SACRIFICE=d (CREATURE)'s power to !TARGET! (CREATURE) or player"
+            "As an additional cost to cast Fling, sacrifice a creature", 
+            "Fling deals damage equal to the sacrificed creature's power to target creature or player"
         ], 
         "IMG_ID": "208001", 
         "manaCost": [
@@ -1115,7 +1115,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Fog", 
         "rules": [
-            "Prevent !ALL! combat damage that would be dealt this turn"
+            "Prevent all combat damage that would be dealt this turn"
         ], 
         "IMG_ID": "205064", 
         "manaCost": [
@@ -1150,9 +1150,9 @@
         "convertedManaCost": "6", 
         "cardTitle": "Frost Titan", 
         "rules": [
-            "[REACTIVE] (THIS) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y $OPP_CONTROLS$, =COUNTER= that (SPELL) or abil!PRIOR_T!y unless !PRIOR_T_C! pays 2", 
-            "[REACTIVE] (THIS) @ETB@ or attacks, =TAP= !TARGET! $PERMANENT$", 
-            " !PRIOR_T! doesn't =UNTAP= during !PRIOR_T_C!'s next =UNTAP= step"
+            "Whenever Frost Titan becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays 2", 
+            "Whenever Frost Titan enters the battlefield or attacks, tap target permanent", 
+            " It doesn't untap during its controller's next untap step"
         ], 
         "IMG_ID": "204999", 
         "manaCost": [
@@ -1166,9 +1166,9 @@
         "convertedManaCost": "7", 
         "cardTitle": "Gaea's Revenge", 
         "rules": [
-            "(THIS) can't be =COUNTER=ed", 
-            "*HASTE*", 
-            "(THIS) can't be the !TARGET! of $NONGREEN$ (SPELLS) or abil!PRIOR_T!ies from $NONGREEN$ sources"
+            "Gaea's Revenge can't be countered", 
+            "Haste", 
+            "Gaea's Revenge can't be the target of nongreen spells or abilities from nongreen sources"
         ], 
         "IMG_ID": "205033", 
         "manaCost": [
@@ -1182,8 +1182,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Gargoyle Sentinel", 
         "rules": [
-            "*DEFENDER*", 
-            "3: Until @C_END@, (THIS) loses *DEFENDER* and =GAINS= *FLYING*"
+            "Defender", 
+            "3: Until end of turn, Gargoyle Sentinel loses defender and gains flying"
         ], 
         "IMG_ID": "204985", 
         "manaCost": [
@@ -1211,7 +1211,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Garruk's Companion", 
         "rules": [
-            "*TRAMPLE*"
+            "Trample"
         ], 
         "IMG_ID": "205025", 
         "manaCost": [
@@ -1224,7 +1224,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Garruk's Packleader", 
         "rules": [
-            "[REACTIVE] another (CREATURE) $WITH$ power 3 or greater @ETB@ under your control, $P_OPTIONAL$ =DRAW_1="
+            "Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card"
         ], 
         "IMG_ID": "205060", 
         "manaCost": [
@@ -1237,7 +1237,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Giant Growth", 
         "rules": [
-            "!TARGET! (CREATURE) =GETS= +3/+3 $UNTIL$ @C_END@"
+            "Target creature gets +3/+3 until end of turn"
         ], 
         "IMG_ID": "205224", 
         "manaCost": [
@@ -1249,7 +1249,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Giant Spider", 
         "rules": [
-            "*REACH*"
+            "Reach"
         ], 
         "IMG_ID": "205225", 
         "manaCost": [
@@ -1262,8 +1262,8 @@
         "convertedManaCost": "0", 
         "cardTitle": "Glacial Fortress", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Plains or an Is(LAND)", 
-            "=TAP=: Add $WHITE$ or $BLUE$ to your mana pool"
+            "Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island", 
+            "Tap: Add White or Blue to your mana pool"
         ], 
         "IMG_ID": "205094", 
         "manaCost": [], 
@@ -1273,7 +1273,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Goblin Balloon Brigade", 
         "rules": [
-            "$RED$: (THIS) =GAINS= *FLYING* $UNTIL$ @C_END@"
+            "Red: Goblin Balloon Brigade gains flying until end of turn"
         ], 
         "IMG_ID": "208010", 
         "manaCost": [
@@ -1285,8 +1285,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Goblin Chieftain", 
         "rules": [
-            "*HASTE*", 
-            "Other Goblin (CREATURES) $YOU_CONTROL$ get +1/+1 and have *HASTE*"
+            "Haste", 
+            "Other Goblin creatures you control get +1/+1 and have haste"
         ], 
         "IMG_ID": "205096", 
         "manaCost": [
@@ -1311,7 +1311,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Goblin Tunneler", 
         "rules": [
-            "=TAP=: !TARGET! (CREATURE) $WITH$ power 2 or less can't be blocked this turn"
+            "Tap: Target creature with power 2 or less can't be blocked this turn"
         ], 
         "IMG_ID": "207999", 
         "manaCost": [
@@ -1324,8 +1324,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Goldenglow Moth", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) blocks, $P_OPTIONAL$ gain 4 life"
+            "Flying", 
+            "Whenever Goldenglow Moth blocks, you may gain 4 life"
         ], 
         "IMG_ID": "208295", 
         "manaCost": [
@@ -1338,7 +1338,7 @@
         "cardTitle": "Grave Titan", 
         "rules": [
             "Deathtouch", 
-            "[REACTIVE] (THIS) @ETB@ or attacks, create two 2/2 $BLACK$ Zombie (CREATURE) tokens"
+            "Whenever Grave Titan enters the battlefield or attacks, create two 2/2 black Zombie creature tokens"
         ], 
         "IMG_ID": "205012", 
         "manaCost": [
@@ -1352,7 +1352,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Gravedigger", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ =RETURN= !TARGET! (CREATURE) card $FROM_GRAVE_TO_HAND$"
+            "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand"
         ], 
         "IMG_ID": "207102", 
         "manaCost": [
@@ -1379,8 +1379,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Harbor Serpent", 
         "rules": [
-            "Is(LAND)walk", 
-            "(THIS) can't attack unless there are five or more Is(LANDS) on the battlefield"
+            "Islandwalk", 
+            "Harbor Serpent can't attack unless there are five or more Islands on the battlefield"
         ], 
         "IMG_ID": "204974", 
         "manaCost": [
@@ -1394,8 +1394,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Haunting Echoes", 
         "rules": [
-            "=EXILE= !ALL! cards from !TARGET! player's graveyard other than (BASIC) cards", 
-            " For each card =EXILE=d this way, search that player's library for !ALL! cards $WITH$ the same name as that card and =EXILE= them", 
+            "Exile all cards from target player's graveyard other than basic land cards", 
+            " For each card exiled this way, search that player's library for all cards with the same name as that card and exile them", 
             " Then that player shuffles his or her library"
         ], 
         "IMG_ID": "205005", 
@@ -1410,9 +1410,9 @@
         "convertedManaCost": "5", 
         "cardTitle": "Hoarding Dragon", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for an (ARTIFACT) card, =EXILE= !PRIOR_T!, then shuffle your library", 
-            "[REACTIVE] (THIS) dies, $P_OPTIONAL$ put the =EXILE=d card into !PRIOR_T_O_H!"
+            "Flying", 
+            "When Hoarding Dragon enters the battlefield, you may search your library for an artifact card, exile it, then shuffle your library", 
+            "When Hoarding Dragon dies, you may put the exiled card into its owner's hand"
         ], 
         "IMG_ID": "205235", 
         "manaCost": [
@@ -1426,8 +1426,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Holy Strength", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= +1/+2"
+            "Enchant creature", 
+            "Enchanted creature gets +1/+2"
         ], 
         "IMG_ID": "205226", 
         "manaCost": [
@@ -1439,7 +1439,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Honor of the Pure", 
         "rules": [
-            "$WHITE$ (CREATURES) $YOU_CONTROL$ get +1/+1"
+            "White creatures you control get +1/+1"
         ], 
         "IMG_ID": "205099", 
         "manaCost": [
@@ -1452,7 +1452,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Hornet Sting", 
         "rules": [
-            "(THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+            "Hornet Sting deals 1 damage to target creature or player"
         ], 
         "IMG_ID": "205050", 
         "manaCost": [
@@ -1464,8 +1464,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Howling Banshee", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) @ETB@, each player loses 3 life"
+            "Flying", 
+            "When Howling Banshee enters the battlefield, each player loses 3 life"
         ], 
         "IMG_ID": "205100", 
         "manaCost": [
@@ -1479,7 +1479,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Hunters' Feast", 
         "rules": [
-            "Any number of !TARGET! players each gain 6 life"
+            "Any number of target players each gain 6 life"
         ], 
         "IMG_ID": "205037", 
         "manaCost": [
@@ -1492,9 +1492,9 @@
         "convertedManaCost": "2", 
         "cardTitle": "Ice Cage", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) can't attack or block, and !PRIOR_T!s activated abil!PRIOR_T!ies can't be activated", 
-            "[REACTIVE] enchanted (CREATURE) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y, =DESTROY= (THIS)"
+            "Enchant creature", 
+            "Enchanted creature can't attack or block, and its activated abilities can't be activated", 
+            "When enchanted creature becomes the target of a spell or ability, destroy Ice Cage"
         ], 
         "IMG_ID": "205101", 
         "manaCost": [
@@ -1507,7 +1507,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Incite", 
         "rules": [
-            "!TARGET! (CREATURE) becomes $RED$ $UNTIL$ @C_END@ and attacks this turn if able"
+            "Target creature becomes red until end of turn and attacks this turn if able"
         ], 
         "IMG_ID": "205045", 
         "manaCost": [
@@ -1519,7 +1519,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Infantry Veteran", 
         "rules": [
-            "=TAP=: !TARGET! attacking (CREATURE) =GETS= +1/+1 $UNTIL$ @C_END@"
+            "Tap: Target attacking creature gets +1/+1 until end of turn"
         ], 
         "IMG_ID": "208278", 
         "manaCost": [
@@ -1531,8 +1531,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Inferno Titan", 
         "rules": [
-            "$RED$: (THIS) =GETS= +1/+0 $UNTIL$ @C_END@", 
-            "[REACTIVE] (THIS) @ETB@ or attacks, !PRIOR_T! deals 3 damage divided as you choose among one, two, or three !TARGET! (CREATURES) and/or players"
+            "Red: Inferno Titan gets +1/+0 until end of turn", 
+            "Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players"
         ], 
         "IMG_ID": "205042", 
         "manaCost": [
@@ -1546,7 +1546,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Inspired Charge", 
         "rules": [
-            "Creatures $YOU_CONTROL$ get +2/+1 $UNTIL$ @C_END@"
+            "Creatures you control get +2/+1 until end of turn"
         ], 
         "IMG_ID": "205074", 
         "manaCost": [
@@ -1586,7 +1586,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Jace's Erasure", 
         "rules": [
-            "[REACTIVE] you =DRAW_1=, $P_OPTIONAL$ have !TARGET! player put the top card of his or her library into his or her graveyard"
+            "Whenever you draw a card, you may have target player put the top card of his or her library into his or her graveyard"
         ], 
         "IMG_ID": "205043", 
         "manaCost": [
@@ -1613,8 +1613,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Jinxed Idol", 
         "rules": [
-            "[TIME] @P_UPKEEP@, (THIS) deals 2 damage to you", 
-            "=SACRIFICE_ONE= (CREATURE): !TARGET! opponent =GAINS= control of (THIS)"
+            "At the beginning of your upkeep, Jinxed Idol deals 2 damage to you", 
+            "Sacrifice a creature: Target opponent gains control of Jinxed Idol"
         ], 
         "IMG_ID": "208006", 
         "manaCost": [
@@ -1626,8 +1626,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Juggernaut", 
         "rules": [
-            "(THIS) *MUST_ATTACK*", 
-            "(THIS) can't be blocked by W!ALL!s"
+            "Juggernaut attacks each turn if able", 
+            "Juggernaut can't be blocked by Walls"
         ], 
         "IMG_ID": "205230", 
         "manaCost": [
@@ -1639,8 +1639,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Knight Exemplar", 
         "rules": [
-            "*FIRST_STRIKE*", 
-            "Other Knight (CREATURES) $YOU_CONTROL$ get +1/+1 and have indestructible"
+            "First strike", 
+            "Other Knight creatures you control get +1/+1 and have indestructible"
         ], 
         "IMG_ID": "204988", 
         "manaCost": [
@@ -1654,7 +1654,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Kraken's Eye", 
         "rules": [
-            "[REACTIVE] @ANYONE_CASTS@ $BLUE$ (SPELL), $P_OPTIONAL$ gain 1 life"
+            "Whenever a player casts a blue spell, you may gain 1 life"
         ], 
         "IMG_ID": "206328", 
         "manaCost": [
@@ -1666,7 +1666,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Lava Axe", 
         "rules": [
-            "(THIS) deals 5 damage to !TARGET! player"
+            "Lava Axe deals 5 damage to target player"
         ], 
         "IMG_ID": "205117", 
         "manaCost": [
@@ -1679,8 +1679,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Leyline of Anticipation", 
         "rules": [
-            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
-            "You may cast (SPELLS) as though they had flash"
+            "If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield", 
+            "You may cast spells as though they had flash"
         ], 
         "IMG_ID": "205008", 
         "manaCost": [
@@ -1694,7 +1694,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Leyline of Punishment", 
         "rules": [
-            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "If Leyline of Punishment is in your opening hand, you may begin the game with it on the battlefield", 
             "Players can't gain life", 
             "Damage can't be prevented"
         ], 
@@ -1710,7 +1710,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Leyline of Sanctity", 
         "rules": [
-            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
+            "If Leyline of Sanctity is in your opening hand, you may begin the game with it on the battlefield", 
             "You have hexproof"
         ], 
         "IMG_ID": "204993", 
@@ -1725,8 +1725,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Leyline of the Void", 
         "rules": [
-            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
-            "If a card would be put into an opponent's graveyard from anywhere, =EXILE= !PRIOR_T! instead"
+            "If Leyline of the Void is in your opening hand, you may begin the game with it on the battlefield", 
+            "If a card would be put into an opponent's graveyard from anywhere, exile it instead"
         ], 
         "IMG_ID": "205013", 
         "manaCost": [
@@ -1740,9 +1740,9 @@
         "convertedManaCost": "4", 
         "cardTitle": "Leyline of Vitality", 
         "rules": [
-            "If (THIS) is in your opening hand, $P_OPTIONAL$ begin the game $WITH$ !PRIOR_T! on the battlefield", 
-            "Creatures $YOU_CONTROL$ get +0/+1", 
-            "[REACTIVE] a (CREATURE) @ETB@ under your control, $P_OPTIONAL$ gain 1 life"
+            "If Leyline of Vitality is in your opening hand, you may begin the game with it on the battlefield", 
+            "Creatures you control get +0/+1", 
+            "Whenever a creature enters the battlefield under your control, you may gain 1 life"
         ], 
         "IMG_ID": "205031", 
         "manaCost": [
@@ -1756,7 +1756,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Lightning Bolt", 
         "rules": [
-            "(THIS) deals 3 damage to !TARGET! (CREATURE) or player"
+            "Lightning Bolt deals 3 damage to target creature or player"
         ], 
         "IMG_ID": "205227", 
         "manaCost": [
@@ -1784,7 +1784,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Liliana's Caress", 
         "rules": [
-            "[REACTIVE] an opponent discards a card, that player loses 2 life"
+            "Whenever an opponent discards a card, that player loses 2 life"
         ], 
         "IMG_ID": "205035", 
         "manaCost": [
@@ -1797,8 +1797,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Liliana's Specter", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) @ETB@, each opponent discards a card"
+            "Flying", 
+            "When Liliana's Specter enters the battlefield, each opponent discards a card"
         ], 
         "IMG_ID": "204998", 
         "manaCost": [
@@ -1812,7 +1812,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Llanowar Elves", 
         "rules": [
-            "=TAP=: Add $GREEN$ to your mana pool"
+            "Tap: Add Green to your mana pool"
         ], 
         "IMG_ID": "205228", 
         "manaCost": [
@@ -1824,10 +1824,10 @@
         "convertedManaCost": "5", 
         "cardTitle": "Magma Phoenix", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) dies, !PRIOR_T! deals 3 damage to each (CREATURE) and each player", 
-            "3$RED$", 
-            "$RED$: =RETURN= (THIS) $FROM_GRAVE_TO_HAND$"
+            "Flying", 
+            "When Magma Phoenix dies, it deals 3 damage to each creature and each player", 
+            "3Red", 
+            "Red: Return Magma Phoenix from your graveyard to your hand"
         ], 
         "IMG_ID": "208003", 
         "manaCost": [
@@ -1841,7 +1841,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Mana Leak", 
         "rules": [
-            "=COUNTER= !TARGET! (SPELL) unless !PRIOR_T_C! pays 3"
+            "Counter target spell unless its controller pays 3"
         ], 
         "IMG_ID": "204981", 
         "manaCost": [
@@ -1854,7 +1854,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Manic Vandal", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, =DESTROY= !TARGET! (ARTIFACT)"
+            "When Manic Vandal enters the battlefield, destroy target artifact"
         ], 
         "IMG_ID": "208007", 
         "manaCost": [
@@ -1878,8 +1878,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Mass Polymorph", 
         "rules": [
-            "=EXILE= !ALL! (CREATURES) $YOU_CONTROL$, then reveal cards from the top of your library $UNTIL$ you reveal that many (CREATURE) cards", 
-            " Put !ALL! (CREATURE) cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library"
+            "Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards", 
+            " Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library"
         ], 
         "IMG_ID": "204977", 
         "manaCost": [
@@ -1892,8 +1892,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Merfolk Sovereign", 
         "rules": [
-            "Other Merfolk (CREATURES) $YOU_CONTROL$ get +1/+1", 
-            "=TAP=: !TARGET! Merfolk (CREATURE) can't be blocked this turn"
+            "Other Merfolk creatures you control get +1/+1", 
+            "Tap: Target Merfolk creature can't be blocked this turn"
         ], 
         "IMG_ID": "205108", 
         "manaCost": [
@@ -1907,8 +1907,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Merfolk Spy", 
         "rules": [
-            "Is(LAND)walk", 
-            "[REACTIVE] (THIS) deals combat damage to a player, that player reveals a card at random from his or her hand"
+            "Islandwalk", 
+            "Whenever Merfolk Spy deals combat damage to a player, that player reveals a card at random from his or her hand"
         ], 
         "IMG_ID": "205009", 
         "manaCost": [
@@ -1920,7 +1920,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Mighty Leap", 
         "rules": [
-            "!TARGET! (CREATURE) =GETS= +2/+2 and =GAINS= *FLYING* $UNTIL$ @C_END@"
+            "Target creature gets +2/+2 and gains flying until end of turn"
         ], 
         "IMG_ID": "208280", 
         "manaCost": [
@@ -1933,8 +1933,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Mind Control", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "You control enchanted (CREATURE)"
+            "Enchant creature", 
+            "You control enchanted creature"
         ], 
         "IMG_ID": "208220", 
         "manaCost": [
@@ -1948,7 +1948,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Mind Rot", 
         "rules": [
-            "!TARGET! player discards two cards"
+            "Target player discards two cards"
         ], 
         "IMG_ID": "205010", 
         "manaCost": [
@@ -1961,8 +1961,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Mitotic Slime", 
         "rules": [
-            "[REACTIVE] (THIS) dies, create two 2/2 $GREEN$ Ooze (CREATURE) tokens", 
-            " They have \"[REACTIVE] this (CREATURE) dies, create two 1/1 $GREEN$ Ooze (CREATURE) tokens", 
+            "When Mitotic Slime dies, create two 2/2 green Ooze creature tokens", 
+            " They have \"When this creature dies, create two 1/1 green Ooze creature tokens", 
             "\""
         ], 
         "IMG_ID": "205032", 
@@ -1986,9 +1986,9 @@
         "convertedManaCost": "0", 
         "cardTitle": "Mystifying Maze", 
         "rules": [
-            "=TAP=: Add Colorless to your mana pool", 
-            "4, =TAP=: =EXILE= !TARGET! attacking (CREATURE) $OPP_CONTROLS$", 
-            " [TIME] the next end step, =RETURN= !PRIOR_T! to the battlefield $TAPPED$ under !PRIOR_T!s owner's control"
+            "Tap: Add Colorless to your mana pool", 
+            "4, Tap: Exile target attacking creature an opponent controls", 
+            " At the beginning of the next end step, return it to the battlefield tapped under its owner's control"
         ], 
         "IMG_ID": "204978", 
         "manaCost": [], 
@@ -1998,7 +1998,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Nantuko Shade", 
         "rules": [
-            "$BLACK$: (THIS) =GETS= +1/+1 $UNTIL$ @C_END@"
+            "Black: Nantuko Shade gets +1/+1 until end of turn"
         ], 
         "IMG_ID": "205229", 
         "manaCost": [
@@ -2011,7 +2011,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Naturalize", 
         "rules": [
-            "=DESTROY= !TARGET! (ARTIFACT) or (ENCHANTMENT)"
+            "Destroy target artifact or enchantment"
         ], 
         "IMG_ID": "207336", 
         "manaCost": [
@@ -2024,7 +2024,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Nature's Spiral", 
         "rules": [
-            "=RETURN= !TARGET! $PERMANENT$ card $FROM_GRAVE_TO_HAND$"
+            "Return target permanent card from your graveyard to your hand"
         ], 
         "IMG_ID": "207338", 
         "manaCost": [
@@ -2037,10 +2037,10 @@
         "convertedManaCost": "4", 
         "cardTitle": "Necrotic Plague", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) has \"[TIME] @P_UPKEEP@, =SACRIFICE= this (CREATURE)", 
-            "\"[REACTIVE] enchanted (CREATURE) dies, !PRIOR_T_C! chooses !TARGET! (CREATURE) one of his or her opponents controls", 
-            " =RETURN= (THIS) from !PRIOR_T!s owner's graveyard to the battlefield attached to that (CREATURE)"
+            "Enchant creature", 
+            "Enchanted creature has \"At the beginning of your upkeep, sacrifice this creature", 
+            "\"When enchanted creature dies, its controller chooses target creature one of his or her opponents controls", 
+            " Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature"
         ], 
         "IMG_ID": "207104", 
         "manaCost": [
@@ -2054,7 +2054,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Negate", 
         "rules": [
-            "=COUNTER= !TARGET! non(CREATURE) (SPELL)"
+            "Counter target noncreature spell"
         ], 
         "IMG_ID": "208222", 
         "manaCost": [
@@ -2078,8 +2078,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Nightwing Shade", 
         "rules": [
-            "*FLYING*", 
-            "1$BLACK$: (THIS) =GETS= +1/+1 $UNTIL$ @C_END@"
+            "Flying", 
+            "1Black: Nightwing Shade gets +1/+1 until end of turn"
         ], 
         "IMG_ID": "207103", 
         "manaCost": [
@@ -2092,8 +2092,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Obstinate Baloth", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, you gain 4 life", 
-            "If a (SPELL) or abil!PRIOR_T!y $OPP_CONTROLS$ causes you to discard (THIS), put !PRIOR_T! onto the battlefield instead of putting !PRIOR_T! into your graveyard"
+            "When Obstinate Baloth enters the battlefield, you gain 4 life", 
+            "If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard"
         ], 
         "IMG_ID": "205075", 
         "manaCost": [
@@ -2107,7 +2107,7 @@
         "convertedManaCost": "0", 
         "cardTitle": "Ornithopter", 
         "rules": [
-            "*FLYING*"
+            "Flying"
         ], 
         "IMG_ID": "206331", 
         "manaCost": [
@@ -2119,7 +2119,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Overwhelming Stampede", 
         "rules": [
-            "Until @C_END@, (CREATURES) $YOU_CONTROL$ gain *TRAMPLE* and get +X/+X, where X is the greatest power among (CREATURES) $YOU_CONTROL$"
+            "Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control"
         ], 
         "IMG_ID": "205003", 
         "manaCost": [
@@ -2133,8 +2133,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Pacifism", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) can't attack or block"
+            "Enchant creature", 
+            "Enchanted creature can't attack or block"
         ], 
         "IMG_ID": "208292", 
         "manaCost": [
@@ -2147,7 +2147,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Palace Guard", 
         "rules": [
-            "(THIS) can block any number of (CREATURES)"
+            "Palace Guard can block any number of creatures"
         ], 
         "IMG_ID": "205110", 
         "manaCost": [
@@ -2160,7 +2160,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Phantom Beast", 
         "rules": [
-            "[REACTIVE] (THIS) becomes the !TARGET! of a (SPELL) or abil!PRIOR_T!y, =SACRIFICE= !PRIOR_T!"
+            "When Phantom Beast becomes the target of a spell or ability, sacrifice it"
         ], 
         "IMG_ID": "205017", 
         "manaCost": [
@@ -2174,8 +2174,8 @@
         "cardTitle": "Phylactery Lich", 
         "rules": [
             "Indestructible", 
-            "As (THIS) @ETB@, put a phylactery =COUNTER= on an (ARTIFACT) $YOU_CONTROL$", 
-            "[REACTIVE] $YOU_CONTROL$ no $PERMANENT$s $WITH$ phylactery =COUNTER=s on them, =SACRIFICE= (THIS)"
+            "As Phylactery Lich enters the battlefield, put a phylactery counter on an artifact you control", 
+            "When you control no permanents with phylactery counters on them, sacrifice Phylactery Lich"
         ], 
         "IMG_ID": "205034", 
         "manaCost": [
@@ -2199,7 +2199,7 @@
         "convertedManaCost": "7", 
         "cardTitle": "Platinum Angel", 
         "rules": [
-            "*FLYING*", 
+            "Flying", 
             "You can't lose the game and your opponents can't win the game"
         ], 
         "IMG_ID": "206329", 
@@ -2212,7 +2212,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Plummet", 
         "rules": [
-            "=DESTROY= !TARGET! (CREATURE) $WITH$ *FLYING*"
+            "Destroy target creature with flying"
         ], 
         "IMG_ID": "205062", 
         "manaCost": [
@@ -2225,7 +2225,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Preordain", 
         "rules": [
-            "Scry 2, then =DRAW_1="
+            "Scry 2, then draw a card"
         ], 
         "IMG_ID": "205019", 
         "manaCost": [
@@ -2237,9 +2237,9 @@
         "convertedManaCost": "1", 
         "cardTitle": "Primal Cocoon", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "[TIME] @P_UPKEEP@, =ADD_+1_+1= on enchanted (CREATURE)", 
-            "[REACTIVE] enchanted (CREATURE) attacks or blocks, =SACRIFICE= (THIS)"
+            "Enchant creature", 
+            "At the beginning of your upkeep, put a +1/+1 counter on enchanted creature", 
+            "When enchanted creature attacks or blocks, sacrifice Primal Cocoon"
         ], 
         "IMG_ID": "204995", 
         "manaCost": [
@@ -2251,8 +2251,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Primeval Titan", 
         "rules": [
-            "*TRAMPLE*", 
-            "[REACTIVE] (THIS) @ETB@ or attacks, $P_OPTIONAL$ search your library for up to two (LAND) cards, put them onto the battlefield $TAPPED$, then shuffle your library"
+            "Trample", 
+            "Whenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library"
         ], 
         "IMG_ID": "205027", 
         "manaCost": [
@@ -2266,7 +2266,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Prized Unicorn", 
         "rules": [
-            "!ALL! (CREATURES) able to block (THIS) do so"
+            "All creatures able to block Prized Unicorn do so"
         ], 
         "IMG_ID": "205111", 
         "manaCost": [
@@ -2279,7 +2279,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Prodigal Pyromancer", 
         "rules": [
-            "=TAP=: (THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+            "Tap: Prodigal Pyromancer deals 1 damage to target creature or player"
         ], 
         "IMG_ID": "205231", 
         "manaCost": [
@@ -2292,9 +2292,9 @@
         "convertedManaCost": "1", 
         "cardTitle": "Protean Hydra", 
         "rules": [
-            "(THIS) [ETBW] X +1/+1 =COUNTER=s on !PRIOR_T!", 
-            "If damage would be dealt to (THIS), prevent that damage and remove that many +1/+1 =COUNTER=s from !PRIOR_T!", 
-            "[REACTIVE] a +1/+1 =COUNTER= is removed from (THIS), put two +1/+1 =COUNTER=s on !PRIOR_T! [TIME] the next end step"
+            "Protean Hydra enters the battlefield with X +1/+1 counters on it", 
+            "If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it", 
+            "Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step"
         ], 
         "IMG_ID": "205112", 
         "manaCost": [
@@ -2307,9 +2307,9 @@
         "convertedManaCost": "2", 
         "cardTitle": "Pyretic Ritual", 
         "rules": [
-            "Add $RED$", 
-            "$RED$", 
-            "$RED$ to your mana pool"
+            "Add Red", 
+            "Red", 
+            "Red to your mana pool"
         ], 
         "IMG_ID": "205067", 
         "manaCost": [
@@ -2322,7 +2322,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Pyroclasm", 
         "rules": [
-            "(THIS) deals 2 damage to each (CREATURE)"
+            "Pyroclasm deals 2 damage to each creature"
         ], 
         "IMG_ID": "208009", 
         "manaCost": [
@@ -2335,8 +2335,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Quag Sickness", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= -1/-1 for each Swamp $YOU_CONTROL$"
+            "Enchant creature", 
+            "Enchanted creature gets -1/-1 for each Swamp you control"
         ], 
         "IMG_ID": "205028", 
         "manaCost": [
@@ -2349,7 +2349,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Reassembling Skeleton", 
         "rules": [
-            "1$BLACK$: =RETURN= (THIS) from your graveyard to the battlefield $TAPPED$"
+            "1Black: Return Reassembling Skeleton from your graveyard to the battlefield tapped"
         ], 
         "IMG_ID": "205066", 
         "manaCost": [
@@ -2362,7 +2362,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Redirect", 
         "rules": [
-            "You may choose new tar=GETS= for !TARGET! (SPELL)"
+            "You may choose new targets for target spell"
         ], 
         "IMG_ID": "208227", 
         "manaCost": [
@@ -2375,8 +2375,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Relentless Rats", 
         "rules": [
-            "(THIS) =GETS= +1/+1 for each other (CREATURE) on the battlefield named (THIS)", 
-            "A deck can have any number of cards named (THIS)"
+            "Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats", 
+            "A deck can have any number of cards named Relentless Rats"
         ], 
         "IMG_ID": "205082", 
         "manaCost": [
@@ -2390,8 +2390,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Reverberate", 
         "rules": [
-            "Copy !TARGET! (INSTANT) or (SORCERY) (SPELL)", 
-            " You may choose new tar=GETS= for the copy"
+            "Copy target instant or sorcery spell", 
+            " You may choose new targets for the copy"
         ], 
         "IMG_ID": "205038", 
         "manaCost": [
@@ -2404,8 +2404,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Rise from the Grave", 
         "rules": [
-            "Put !TARGET! (CREATURE) card from a graveyard onto the battlefield under your control", 
-            " That (CREATURE) is a $BLACK$ Zombie in add!PRIOR_T!ion to !PRIOR_T!s other colors and types"
+            "Put target creature card from a graveyard onto the battlefield under your control", 
+            " That creature is a black Zombie in addition to its other colors and types"
         ], 
         "IMG_ID": "205113", 
         "manaCost": [
@@ -2418,8 +2418,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Roc Egg", 
         "rules": [
-            "*DEFENDER*", 
-            "[REACTIVE] (THIS) dies, create a 3/3 $WHITE$ Bird (CREATURE) token $WITH$ *FLYING*"
+            "Defender", 
+            "When Roc Egg dies, create a 3/3 white Bird creature token with flying"
         ], 
         "IMG_ID": "205055", 
         "manaCost": [
@@ -2432,8 +2432,8 @@
         "convertedManaCost": "0", 
         "cardTitle": "Rootbound Crag", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Mountain or a Forest", 
-            "=TAP=: Add $RED$ or $GREEN$ to your mana pool"
+            "Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest", 
+            "Tap: Add Red or Green to your mana pool"
         ], 
         "IMG_ID": "205114", 
         "manaCost": [], 
@@ -2443,7 +2443,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Rotting Legion", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$"
+            "Rotting Legion enters the battlefield tapped"
         ], 
         "IMG_ID": "205047", 
         "manaCost": [
@@ -2456,7 +2456,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Royal Assassin", 
         "rules": [
-            "=TAP=: =DESTROY= !TARGET! $TAPPED$ (CREATURE)"
+            "Tap: Destroy target tapped creature"
         ], 
         "IMG_ID": "205233", 
         "manaCost": [
@@ -2494,7 +2494,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Safe Passage", 
         "rules": [
-            "Prevent !ALL! damage that would be dealt to you and (CREATURES) $YOU_CONTROL$ this turn"
+            "Prevent all damage that would be dealt to you and creatures you control this turn"
         ], 
         "IMG_ID": "205115", 
         "manaCost": [
@@ -2507,7 +2507,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Scroll Thief", 
         "rules": [
-            "[REACTIVE] (THIS) deals combat damage to a player, =DRAW_1="
+            "Whenever Scroll Thief deals combat damage to a player, draw a card"
         ], 
         "IMG_ID": "205004", 
         "manaCost": [
@@ -2520,8 +2520,8 @@
         "convertedManaCost": "5", 
         "cardTitle": "Serra Angel", 
         "rules": [
-            "*FLYING*", 
-            "*VIGILANCE*"
+            "Flying", 
+            "Vigilance"
         ], 
         "IMG_ID": "205234", 
         "manaCost": [
@@ -2536,7 +2536,7 @@
         "cardTitle": "Serra Ascendant", 
         "rules": [
             "Lifelink", 
-            "As long as you have 30 or more life, (THIS) =GETS= +5/+5 and has *FLYING*"
+            "As long as you have 30 or more life, Serra Ascendant gets +5/+5 and has flying"
         ], 
         "IMG_ID": "204989", 
         "manaCost": [
@@ -2548,9 +2548,9 @@
         "convertedManaCost": "4", 
         "cardTitle": "Shiv's Embrace", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= +2/+2 and has *FLYING*", 
-            "$RED$: Enchanted (CREATURE) =GETS= +1/+0 $UNTIL$ @C_END@"
+            "Enchant creature", 
+            "Enchanted creature gets +2/+2 and has flying", 
+            "Red: Enchanted creature gets +1/+0 until end of turn"
         ], 
         "IMG_ID": "208002", 
         "manaCost": [
@@ -2575,7 +2575,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Sign in Blood", 
         "rules": [
-            "!TARGET! player draws two cards and loses 2 life"
+            "Target player draws two cards and loses 2 life"
         ], 
         "IMG_ID": "205118", 
         "manaCost": [
@@ -2588,7 +2588,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Silence", 
         "rules": [
-            "Your opponents can't cast (SPELLS) this turn"
+            "Your opponents can't cast spells this turn"
         ], 
         "IMG_ID": "205119", 
         "manaCost": [
@@ -2611,8 +2611,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Sleep", 
         "rules": [
-            "=TAP= !ALL! (CREATURES) !TARGET! player controls", 
-            " Those (CREATURES) don't =UNTAP= during that player's next =UNTAP= step"
+            "Tap all creatures target player controls", 
+            " Those creatures don't untap during that player's next untap step"
         ], 
         "IMG_ID": "205120", 
         "manaCost": [
@@ -2626,7 +2626,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Solemn Offering", 
         "rules": [
-            "=DESTROY= !TARGET! (ARTIFACT) or (ENCHANTMENT)", 
+            "Destroy target artifact or enchantment", 
             " You gain 4 life"
         ], 
         "IMG_ID": "205095", 
@@ -2640,8 +2640,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Sorcerer's Strongbox", 
         "rules": [
-            "2, =TAP=: Flip a coin", 
-            " If you win the flip, =SACRIFICE= (THIS) and draw three cards"
+            "2, Tap: Flip a coin", 
+            " If you win the flip, sacrifice Sorcerer's Strongbox and draw three cards"
         ], 
         "IMG_ID": "205069", 
         "manaCost": [
@@ -2664,8 +2664,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Squadron Hawk", 
         "rules": [
-            "*FLYING*", 
-            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for up to three cards named (THIS), reveal them, put them into your hand, then shuffle your library"
+            "Flying", 
+            "When Squadron Hawk enters the battlefield, you may search your library for up to three cards named Squadron Hawk, reveal them, put them into your hand, then shuffle your library"
         ], 
         "IMG_ID": "208279", 
         "manaCost": [
@@ -2678,8 +2678,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Stabbing Pain", 
         "rules": [
-            "!TARGET! (CREATURE) =GETS= -1/-1 $UNTIL$ @C_END@", 
-            " =TAP= that (CREATURE)"
+            "Target creature gets -1/-1 until end of turn", 
+            " Tap that creature"
         ], 
         "IMG_ID": "205048", 
         "manaCost": [
@@ -2691,7 +2691,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Steel Overseer", 
         "rules": [
-            "=TAP=: =ADD_+1_+1= on each (ARTIFACT) (CREATURE) $YOU_CONTROL$"
+            "Tap: Put a +1/+1 counter on each artifact creature you control"
         ], 
         "IMG_ID": "205036", 
         "manaCost": [
@@ -2713,7 +2713,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Stormfront Pegasus", 
         "rules": [
-            "*FLYING*"
+            "Flying"
         ], 
         "IMG_ID": "208294", 
         "manaCost": [
@@ -2726,9 +2726,9 @@
         "convertedManaCost": "8", 
         "cardTitle": "Stormtide Leviathan", 
         "rules": [
-            "Is(LAND)walk", 
-            "!ALL! (LANDS) are Is(LANDS) in add!PRIOR_T!ion to their other types", 
-            "Creatures $WITH$out *FLYING* or is(LAND)walk can't attack"
+            "Islandwalk", 
+            "All lands are Islands in addition to their other types", 
+            "Creatures without flying or islandwalk can't attack"
         ], 
         "IMG_ID": "205029", 
         "manaCost": [
@@ -2743,8 +2743,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Sun Titan", 
         "rules": [
-            "*VIGILANCE*", 
-            "[REACTIVE] (THIS) @ETB@ or attacks, $P_OPTIONAL$ =RETURN= !TARGET! $PERMANENT$ card $WITH$ converted mana cost 3 or less from your graveyard to the battlefield"
+            "Vigilance", 
+            "Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield"
         ], 
         "IMG_ID": "205030", 
         "manaCost": [
@@ -2758,8 +2758,8 @@
         "convertedManaCost": "0", 
         "cardTitle": "Sunpetal Grove", 
         "rules": [
-            "(THIS) @ETB@ $TAPPED$ unless $YOU_CONTROL$ a Forest or a Plains", 
-            "=TAP=: Add $GREEN$ or $WHITE$ to your mana pool"
+            "Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains", 
+            "Tap: Add Green or White to your mana pool"
         ], 
         "IMG_ID": "205124", 
         "manaCost": [], 
@@ -2779,7 +2779,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Sword of Vengeance", 
         "rules": [
-            "Equipped (CREATURE) =GETS= +2/+0 and has *FIRST_STRIKE*, *VIGILANCE*, *TRAMPLE*, and *HASTE*", 
+            "Equipped creature gets +2/+0 and has first strike, vigilance, trample, and haste", 
             "Equip 3"
         ], 
         "IMG_ID": "205044", 
@@ -2792,7 +2792,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Sylvan Ranger", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ search your library for a (BASIC) card, reveal !PRIOR_T!, put !PRIOR_T! into your hand, then shuffle your library"
+            "When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library"
         ], 
         "IMG_ID": "204976", 
         "manaCost": [
@@ -2805,7 +2805,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Temple Bell", 
         "rules": [
-            "=TAP=: Each player draws a card"
+            "Tap: Each player draws a card"
         ], 
         "IMG_ID": "205058", 
         "manaCost": [
@@ -2817,7 +2817,7 @@
         "convertedManaCost": "0", 
         "cardTitle": "Terramorphic Expanse", 
         "rules": [
-            "=TAP=, Sacrifice (THIS): Search your library for a (BASIC) card and put !PRIOR_T! onto the battlefield $TAPPED$", 
+            "Tap, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped", 
             " Then shuffle your library"
         ], 
         "IMG_ID": "205236", 
@@ -2828,7 +2828,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Thunder Strike", 
         "rules": [
-            "!TARGET! (CREATURE) =GETS= +2/+0 and =GAINS= *FIRST_STRIKE* $UNTIL$ @C_END@"
+            "Target creature gets +2/+0 and gains first strike until end of turn"
         ], 
         "IMG_ID": "204973", 
         "manaCost": [
@@ -2842,7 +2842,7 @@
         "cardTitle": "Time Reversal", 
         "rules": [
             "Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards", 
-            " =EXILE= (THIS)"
+            " Exile Time Reversal"
         ], 
         "IMG_ID": "205022", 
         "manaCost": [
@@ -2856,7 +2856,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Tireless Missionaries", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, you gain 3 life"
+            "When Tireless Missionaries enters the battlefield, you gain 3 life"
         ], 
         "IMG_ID": "205014", 
         "manaCost": [
@@ -2869,7 +2869,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Tome Scour", 
         "rules": [
-            "!TARGET! player puts the top five cards of his or her library into his or her graveyard"
+            "Target player puts the top five cards of his or her library into his or her graveyard"
         ], 
         "IMG_ID": "205000", 
         "manaCost": [
@@ -2881,7 +2881,7 @@
         "convertedManaCost": "5", 
         "cardTitle": "Traumatize", 
         "rules": [
-            "!TARGET! player puts the top half of his or her library, rounded down, into his or her graveyard"
+            "Target player puts the top half of his or her library, rounded down, into his or her graveyard"
         ], 
         "IMG_ID": "208221", 
         "manaCost": [
@@ -2895,8 +2895,8 @@
         "convertedManaCost": "6", 
         "cardTitle": "Triskelion", 
         "rules": [
-            "(THIS) [ETBW] three +1/+1 =COUNTER=s on !PRIOR_T!", 
-            "Remove a +1/+1 =COUNTER= from (THIS): (THIS) deals 1 damage to !TARGET! (CREATURE) or player"
+            "Triskelion enters the battlefield with three +1/+1 counters on it", 
+            "Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player"
         ], 
         "IMG_ID": "206719", 
         "manaCost": [
@@ -2908,8 +2908,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Unholy Strength", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= +2/+1"
+            "Enchant creature", 
+            "Enchanted creature gets +2/+1"
         ], 
         "IMG_ID": "205237", 
         "manaCost": [
@@ -2921,7 +2921,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Unsummon", 
         "rules": [
-            "=RETURN= !TARGET! (CREATURE) to !PRIOR_T_O_H!"
+            "Return target creature to its owner's hand"
         ], 
         "IMG_ID": "208223", 
         "manaCost": [
@@ -2933,9 +2933,9 @@
         "convertedManaCost": "7", 
         "cardTitle": "Vengeful Archon", 
         "rules": [
-            "*FLYING*", 
+            "Flying", 
             "Variable Colorless: Prevent the next X damage that would be dealt to you this turn", 
-            " If damage is prevented this way, (THIS) deals that much damage to !TARGET! player"
+            " If damage is prevented this way, Vengeful Archon deals that much damage to target player"
         ], 
         "IMG_ID": "208288", 
         "manaCost": [
@@ -2950,7 +2950,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Viscera Seer", 
         "rules": [
-            "=SACRIFICE_ONE= (CREATURE): Scry 1"
+            "Sacrifice a creature: Scry 1"
         ], 
         "IMG_ID": "205232", 
         "manaCost": [
@@ -2962,8 +2962,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "Volcanic Strength", 
         "rules": [
-            "Enchant (CREATURE)", 
-            "Enchanted (CREATURE) =GETS= +2/+2 and has mountainwalk"
+            "Enchant creature", 
+            "Enchanted creature gets +2/+2 and has mountainwalk"
         ], 
         "IMG_ID": "208004", 
         "manaCost": [
@@ -2976,7 +2976,7 @@
         "convertedManaCost": "1", 
         "cardTitle": "Voltaic Key", 
         "rules": [
-            "1, =TAP=: =UNTAP= !TARGET! (ARTIFACT)"
+            "1, Tap: Untap target artifact"
         ], 
         "IMG_ID": "206332", 
         "manaCost": [
@@ -2988,7 +2988,7 @@
         "convertedManaCost": "4", 
         "cardTitle": "Vulshok Berserker", 
         "rules": [
-            "*HASTE*"
+            "Haste"
         ], 
         "IMG_ID": "208011", 
         "manaCost": [
@@ -3001,8 +3001,8 @@
         "convertedManaCost": "3", 
         "cardTitle": "Wall of Frost", 
         "rules": [
-            "*DEFENDER*", 
-            "[REACTIVE] (THIS) blocks a (CREATURE), that (CREATURE) doesn't =UNTAP= during !PRIOR_T_C!'s next =UNTAP= step"
+            "Defender", 
+            "Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step"
         ], 
         "IMG_ID": "205128", 
         "manaCost": [
@@ -3016,8 +3016,8 @@
         "convertedManaCost": "1", 
         "cardTitle": "Wall of Vines", 
         "rules": [
-            "*DEFENDER*", 
-            "*REACH*"
+            "Defender", 
+            "Reach"
         ], 
         "IMG_ID": "204983", 
         "manaCost": [
@@ -3029,7 +3029,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "War Priest of Thune", 
         "rules": [
-            "[REACTIVE] (THIS) @ETB@, $P_OPTIONAL$ =DESTROY= !TARGET! (ENCHANTMENT)"
+            "When War Priest of Thune enters the battlefield, you may destroy target enchantment"
         ], 
         "IMG_ID": "208274", 
         "manaCost": [
@@ -3042,7 +3042,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Warlord's Axe", 
         "rules": [
-            "Equipped (CREATURE) =GETS= +3/+1", 
+            "Equipped creature gets +3/+1", 
             "Equip 4"
         ], 
         "IMG_ID": "205057", 
@@ -3055,8 +3055,8 @@
         "convertedManaCost": "4", 
         "cardTitle": "Water Servant", 
         "rules": [
-            "$BLUE$: (THIS) =GETS= +1/-1 $UNTIL$ @C_END@", 
-            "$BLUE$: (THIS) =GETS= -1/+1 $UNTIL$ @C_END@"
+            "Blue: Water Servant gets +1/-1 until end of turn", 
+            "Blue: Water Servant gets -1/+1 until end of turn"
         ], 
         "IMG_ID": "205006", 
         "manaCost": [
@@ -3070,7 +3070,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Whispersilk Cloak", 
         "rules": [
-            "Equipped (CREATURE) can't be blocked and has shroud", 
+            "Equipped creature can't be blocked and has shroud", 
             "Equip 2"
         ], 
         "IMG_ID": "206342", 
@@ -3083,8 +3083,8 @@
         "convertedManaCost": "2", 
         "cardTitle": "White Knight", 
         "rules": [
-            "*FIRST_STRIKE*", 
-            "*PRO* $BLACK$"
+            "First strike", 
+            "Protection from black"
         ], 
         "IMG_ID": "205239", 
         "manaCost": [
@@ -3097,9 +3097,9 @@
         "convertedManaCost": "6", 
         "cardTitle": "Wild Evocation", 
         "rules": [
-            "[TIME] each player's upkeep, that player reveals a card at random from his or her hand", 
-            " If !PRIOR_T!'s a (LAND) card, the player puts !PRIOR_T! onto the battlefield", 
-            " Otherwise, the player casts !PRIOR_T! $WITH$out paying !PRIOR_T!s mana cost if able"
+            "At the beginning of each player's upkeep, that player reveals a card at random from his or her hand", 
+            " If it's a land card, the player puts it onto the battlefield", 
+            " Otherwise, the player casts it without paying its mana cost if able"
         ], 
         "IMG_ID": "204972", 
         "manaCost": [
@@ -3112,7 +3112,7 @@
         "convertedManaCost": "3", 
         "cardTitle": "Wild Griffin", 
         "rules": [
-            "*FLYING*"
+            "Flying"
         ], 
         "IMG_ID": "208275", 
         "manaCost": [
@@ -3125,7 +3125,7 @@
         "convertedManaCost": "2", 
         "cardTitle": "Wurm's Tooth", 
         "rules": [
-            "[REACTIVE] @ANYONE_CASTS@ $GREEN$ (SPELL), $P_OPTIONAL$ gain 1 life"
+            "Whenever a player casts a green spell, you may gain 1 life"
         ], 
         "IMG_ID": "206330", 
         "manaCost": [
@@ -3137,7 +3137,7 @@
         "convertedManaCost": "6", 
         "cardTitle": "Yavimaya Wurm", 
         "rules": [
-            "*TRAMPLE*"
+            "Trample"
         ], 
         "IMG_ID": "205221", 
         "manaCost": [

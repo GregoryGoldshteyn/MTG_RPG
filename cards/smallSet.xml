@@ -1,0 +1,104 @@
+<CardList set="smallSet">
+<Card id="205025">
+<cardTitle value="Garruk's Companion" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Trample" />
+</rules>
+<IMG_ID value="205025" />
+<typeLine value="Creature Beast 3 2" />
+<manaCost>
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205225">
+<cardTitle value="Giant Spider" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Reach" />
+</rules>
+<IMG_ID value="205225" />
+<typeLine value="Creature Spider 2 4" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205016">
+<cardTitle value="Greater Basilisk" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Deathtouch" />
+</rules>
+<IMG_ID value="205016" />
+<typeLine value="Creature Basilisk 3 5" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205228">
+<cardTitle value="Llanowar Elves" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Tap">
+	<addToPool>
+		<Sub value="Green" />
+	</addToPool>
+</Sub>
+</rules>
+<IMG_ID value="205228" />
+<typeLine value="Creature Elf Druid 1 1" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="207337">
+<cardTitle value="Runeclaw Bear" />
+<convertedManaCost value="2" />
+<rules />
+<IMG_ID value="207337" />
+<typeLine value="Creature Bear 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205123">
+<cardTitle value="Spined Wurm" />
+<convertedManaCost value="5" />
+<rules />
+<IMG_ID value="205123" />
+<typeLine value="Creature Wurm 5 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205221">
+<cardTitle value="Yavimaya Wurm" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Trample" />
+</rules>
+<IMG_ID value="205221" />
+<typeLine value="Creature Wurm 6 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="213629">
+<cardTitle value="Forest" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="G" />
+</rules>
+<IMG_ID value="213629" />
+<typeLine value="Basic Land Forest" />
+<manaCost />
+</Card>
+</CardList>

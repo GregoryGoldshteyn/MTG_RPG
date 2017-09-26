@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AI name="TIMMY">
+	<COST name="TAP_MANA" value="1" />
+	<COST name="TAKE_DAMAGE" value="2" />
+	<COST name="CAST_CREATURE" value="1" />
+	<COST name="CAST_SORCERY" value="2" />
+	<COST name="CAST_INSTANT_MAIN" value="5" />
+	<COST name="CAST_INSTANT_NONMAIN" value="2" />
+	<COST name="CAST_INSTANT_COMBAT" value="1" />
+	<COST name="CAST_ARTIFACT" value="3" />
+	<COST name="CAST_ENCHANTMENT" value="3" />
+	<COST name="CAST_AURA" value="2" />
+	<COST name="LOSE_GAME" value="2000000" />
+	<COST name="LOSE_CREATURE" value="3" />
+	<COST name="LOSE_ENCHANT" value="3" />
+	<COST name="LOSE_ARTIFACT" value="3" />
+	<COST name="LOSE_LAND" value="3" />
+	<COST name="LOSE_AURA" value="3" />
+	
+	<REWARD name="MORE_CREATURES" value="10" />
+	<REWARD name="MORE_ARTIFACTS" value="5" />
+	<REWARD name="MORE_ENCHANTMENTS" value="5" />
+	<REWARD name="MORE_AURAS" value="5" />
+	<REWARD name="MORE_MANA_SOURCES" value="15" />
+	<REWARD name="DESTROY_CREATURE" value="5" />
+	<REWARD name="DESTROY_ARTIFACT" value="5" />
+	<REWARD name="DESTROY_ENCHANTMENT" value="5" />
+	<REWARD name="DESTROY_AURA" value="5" />
+	<REWARD name="DESTROY_LAND" value="5" />
+	<REWARD name="ENEMY_DISCARDS" value="10" />
+	<REWARD name="DEAL_DAMAGE" value="2" />
+	<REWARD name="DRAW_CARD" value="5" /> 
+	<REWARD name="MILL_ENEMY_GRAVE" value="1" />
+	<REWARD name="MILL_ENEMY_EXILE" value="2" />
+	<REWARD name="WIN_GAME" value="2000000" />
+</AI>

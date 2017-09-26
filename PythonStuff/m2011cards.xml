@@ -1,0 +1,3196 @@
+<CardList set="m2011">
+<Card id="207333">
+<cardTitle value="Acidic Slime" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Deathtouch" />
+<Sub value="ETB">
+	<destroyTarget>
+		<or>
+			<artifact/>
+			<echantment/>
+			<land/>
+		</or>
+	</destroyTarget>
+</Sub>
+</rules>
+<IMG_ID value="207333" />
+<typeLine value="Creature Ooze 2 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205072">
+<cardTitle value="Act of Treason" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="onResolve" >
+	<gainControl duration="eot">
+		<creature />
+	</gainControl>
+	<untap>
+		<prev/>
+	</untap>
+	<giveHaste>
+		<prev/>
+	</giveHaste>
+</Sub>
+</rules>
+<IMG_ID value="205072" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205020">
+<cardTitle value="Aether Adept" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="ETB">
+	<return>
+		<creature />
+	</return>
+</Sub>
+</rules>
+<IMG_ID value="205020" />
+<typeLine value="Creature Human Wizard 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205070">
+<cardTitle value="Air Servant" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Activate"> 
+	<manaCost>
+		<Sub value="2" />
+		<Sub value="Blue" />
+	</manaCost>
+	<tap>
+		<creature with="flying">
+	</tap>
+</Sub>
+</rules>
+<IMG_ID value="205070" />
+<typeLine value="Creature Elemental 4 3" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204987">
+<cardTitle value="Ajani's Mantra" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="playerUpkeep" >
+	<optional>
+		<gainLife value="1">
+	</optional>
+</Sub>
+</rules>
+<IMG_ID value="204987" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205065">
+<cardTitle value="Ajani's Pridemate" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="uponLifeGain">
+	<optional>
+		<putBuffCounter>
+			<this />
+		</putBuffCounter>
+	</optional>
+</Sub>
+
+</rules>
+<IMG_ID value="205065" />
+<typeLine value="Creature Cat Soldier 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+
+
+<Card id="205073">
+<cardTitle value="Alluring Siren" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Tap" >
+	<taunt />
+</Sub>
+</rules>
+<IMG_ID value="205073" />
+<typeLine value="Creature Siren 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204980">
+<cardTitle value="Ancient Hellkite" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Flying" />
+<Sub value="ActivateWhenAttacking">
+	<manaCost>
+		<Sub value="Red" />
+	</manaCost>
+	<dealDamage value=1>
+		<creature controller="opponent"/>
+	</dealDamage>
+</Sub>
+</rules>
+<IMG_ID value="204980" />
+<typeLine value="Creature Dragon 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Red" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204975">
+<cardTitle value="Angelic Arbiter" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Each opponent who cast a spell this turn can't attack with creatures" />
+<Sub value="Each opponent who attacked with a creature this turn can't cast spells" />
+<Sub value="static">
+	<arbiterEffect />
+</Sub>
+</rules>
+<IMG_ID value="204975" />
+<typeLine value="Creature Angel 5 6" />
+<manaCost>
+<Sub value="5" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="206325">
+<cardTitle value="Angel's Feather" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever a player casts a white spell, you may gain 1 life" />
+<Sub value="uponSpellCast" type="any" color="White">
+	<optional>
+		<gainLife value="1" />
+	</optional>
+</Sub>
+</rules>
+<IMG_ID value="206325" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="204991">
+<cardTitle value="Arc Runner" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Haste" />
+<Sub value="uponEndStep">
+	<sacrifice>
+		<this />
+	</sacrifice>
+</Sub>
+</rules>
+<IMG_ID value="204991" />
+<typeLine value="Creature Elemental Ox 5 1" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204997">
+<cardTitle value="Armored Ascension" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets +1/+1 for each Plains you control and has flying" />
+</rules>
+<IMG_ID value="204997" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="3" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205083">
+<cardTitle value="Armored Cancrix" />
+<convertedManaCost value="5" />
+<rules />
+<IMG_ID value="205083" />
+<typeLine value="Creature Crab 2 5" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205217">
+<cardTitle value="Assassinate" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Destroy target tapped creature" />
+</rules>
+<IMG_ID value="205217" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208296">
+<cardTitle value="Assault Griffin" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Flying" />
+</rules>
+<IMG_ID value="208296" />
+<typeLine value="Creature Griffin 3 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="208225">
+<cardTitle value="Augury Owl" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Augury Owl enters the battlefield, scry 3" />
+</rules>
+<IMG_ID value="208225" />
+<typeLine value="Creature Bird 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205051">
+<cardTitle value="Autumn's Veil" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Spells you control can't be countered by blue or black spells this turn, and creatures you control can't be the targets of blue or black spells this turn" />
+</rules>
+<IMG_ID value="205051" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205076">
+<cardTitle value="Awakener Druid" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="When Awakener Druid enters the battlefield, target Forest becomes a 4/5 green Treefolk creature for as long as Awakener Druid remains on the battlefield" />
+<Sub value=" It's still a land" />
+</rules>
+<IMG_ID value="205076" />
+<typeLine value="Creature Human Druid 1 1" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="204984">
+<cardTitle value="Azure Drake" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Flying" />
+</rules>
+<IMG_ID value="204984" />
+<typeLine value="Creature Drake 2 4" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208284">
+<cardTitle value="Back to Nature" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Destroy all enchantments" />
+</rules>
+<IMG_ID value="208284" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205077">
+<cardTitle value="Baneslayer Angel" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying, first strike, lifelink, protection from Demons and from Dragons" />
+</rules>
+<IMG_ID value="205077" />
+<typeLine value="Creature Angel 5 5" />
+<manaCost>
+<Sub value="3" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205001">
+<cardTitle value="Barony Vampire" />
+<convertedManaCost value="3" />
+<rules />
+<IMG_ID value="205001" />
+<typeLine value="Creature Vampire 3 2" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205053">
+<cardTitle value="Berserkers of Blood Ridge" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Berserkers of Blood Ridge attacks each turn if able" />
+</rules>
+<IMG_ID value="205053" />
+<typeLine value="Creature Human Berserker 4 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="207334">
+<cardTitle value="Birds of Paradise" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Tap: Add one mana of any color to your mana pool" />
+</rules>
+<IMG_ID value="207334" />
+<typeLine value="Creature Bird 0 1" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205218">
+<cardTitle value="Black Knight" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="First strike" />
+<Sub value="Protection from white" />
+</rules>
+<IMG_ID value="205218" />
+<typeLine value="Creature Human Knight 2 2" />
+<manaCost>
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205219">
+<cardTitle value="Blinding Mage" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="White, Tap: Tap target creature" />
+</rules>
+<IMG_ID value="205219" />
+<typeLine value="Creature Human Wizard 1 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205054">
+<cardTitle value="Blood Tithe" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Each opponent loses 3 life" />
+<Sub value=" You gain life equal to the life lost this way" />
+</rules>
+<IMG_ID value="205054" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205007">
+<cardTitle value="Bloodcrazed Goblin" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Bloodcrazed Goblin can't attack unless an opponent has been dealt damage this turn" />
+</rules>
+<IMG_ID value="205007" />
+<typeLine value="Creature Goblin Berserker 2 2" />
+<manaCost>
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205238">
+<cardTitle value="Bloodthrone Vampire" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Sacrifice a creature: Bloodthrone Vampire gets +2/+2 until end of turn" />
+</rules>
+<IMG_ID value="205238" />
+<typeLine value="Creature Vampire 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207105">
+<cardTitle value="Bog Raiders" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Swampwalk" />
+</rules>
+<IMG_ID value="207105" />
+<typeLine value="Creature Zombie 2 2" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205039">
+<cardTitle value="Brindle Boar" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Sacrifice Brindle Boar: You gain 4 life" />
+</rules>
+<IMG_ID value="205039" />
+<typeLine value="Creature Boar 2 2" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205002">
+<cardTitle value="Brittle Effigy" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="4, Tap, Exile Brittle Effigy: Exile target creature" />
+</rules>
+<IMG_ID value="205002" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="1" />
+</manaCost>
+</Card>
+<Card id="208218">
+<cardTitle value="Call to Mind" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Return target instant or sorcery card from your graveyard to your hand" />
+</rules>
+<IMG_ID value="208218" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208217">
+<cardTitle value="Cancel" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Counter target spell" />
+</rules>
+<IMG_ID value="208217" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208000">
+<cardTitle value="Canyon Minotaur" />
+<convertedManaCost value="4" />
+<rules />
+<IMG_ID value="208000" />
+<typeLine value="Creature Minotaur Warrior 3 3" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205041">
+<cardTitle value="Captivating Vampire" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Other Vampire creatures you control get +1/+1" />
+<Sub value="Tap five untapped Vampires you control: Gain control of target creature" />
+<Sub value=" It becomes a Vampire in addition to its other types" />
+</rules>
+<IMG_ID value="205041" />
+<typeLine value="Creature Vampire 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208290">
+<cardTitle value="Celestial Purge" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Exile target black or red permanent" />
+</rules>
+<IMG_ID value="208290" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205958">
+<cardTitle value="Chandra Nalaar" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="+1: Chandra Nalaar deals 1 damage to target player" />
+<Sub value="&#8722;X: Chandra Nalaar deals X damage to target creature" />
+<Sub value="&#8722;8: Chandra Nalaar deals 10 damage to target player and each creature he or she controls" />
+</rules>
+<IMG_ID value="205958" />
+<typeLine value="Planeswalker Chandra 6" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205071">
+<cardTitle value="Chandra's Outrage" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Chandra's Outrage deals 4 damage to target creature and 2 damage to that creature's controller" />
+</rules>
+<IMG_ID value="205071" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205026">
+<cardTitle value="Chandra's Spitfire" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Whenever an opponent is dealt noncombat damage, Chandra's Spitfire gets +3/+0 until end of turn" />
+</rules>
+<IMG_ID value="205026" />
+<typeLine value="Creature Elemental 1 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205122">
+<cardTitle value="Child of Night" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Lifelink" />
+</rules>
+<IMG_ID value="205122" />
+<typeLine value="Creature Vampire 2 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205220">
+<cardTitle value="Clone" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="You may have Clone enter the battlefield as a copy of any creature on the battlefield" />
+</rules>
+<IMG_ID value="205220" />
+<typeLine value="Creature Shapeshifter 0 0" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208287">
+<cardTitle value="Cloud Crusader" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Flying" />
+<Sub value="First strike" />
+</rules>
+<IMG_ID value="208287" />
+<typeLine value="Creature Human Knight 2 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="208224">
+<cardTitle value="Cloud Elemental" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Cloud Elemental can block only creatures with flying" />
+</rules>
+<IMG_ID value="208224" />
+<typeLine value="Creature Elemental 2 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205011">
+<cardTitle value="Combust" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Combust can't be countered by spells or abilities" />
+<Sub value="Combust deals 5 damage to target white or blue creature" />
+<Sub value=" The damage can't be prevented" />
+</rules>
+<IMG_ID value="205011" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205098">
+<cardTitle value="Condemn" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Put target attacking creature on the bottom of its owner's library" />
+<Sub value=" Its controller gains life equal to its toughness" />
+</rules>
+<IMG_ID value="205098" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="204982">
+<cardTitle value="Conundrum Sphinx" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Whenever Conundrum Sphinx attacks, each player chooses a card name" />
+<Sub value=" Then each player reveals the top card of his or her library" />
+<Sub value=" If the card a player revealed has the name he or she chose, that player puts it into his or her hand" />
+<Sub value=" If it doesn't, that player puts it on the bottom of his or her library" />
+</rules>
+<IMG_ID value="204982" />
+<typeLine value="Creature Sphinx 4 4" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="207106">
+<cardTitle value="Corrupt" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Corrupt deals damage to target creature or player equal to the number of Swamps you control" />
+<Sub value=" You gain life equal to the damage dealt this way" />
+</rules>
+<IMG_ID value="207106" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205049">
+<cardTitle value="Crystal Ball" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="1, Tap: Scry 2" />
+</rules>
+<IMG_ID value="205049" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="205084">
+<cardTitle value="Cudgel Troll" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Green: Regenerate Cudgel Troll" />
+</rules>
+<IMG_ID value="205084" />
+<typeLine value="Creature Troll 4 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="204996">
+<cardTitle value="Cultivate" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Search your library for up to two basic land cards, reveal those cards, and put one onto the battlefield tapped and the other into your hand" />
+<Sub value=" Then shuffle your library" />
+</rules>
+<IMG_ID value="204996" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205107">
+<cardTitle value="Cyclops Gladiator" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Whenever Cyclops Gladiator attacks, you may have it deal damage equal to its power to target creature defending player controls" />
+<Sub value=" If you do, that creature deals damage equal to its power to Cyclops Gladiator" />
+</rules>
+<IMG_ID value="205107" />
+<typeLine value="Creature Cyclops Warrior 4 4" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204979">
+<cardTitle value="Dark Tutelage" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="At the beginning of your upkeep, reveal the top card of your library and put that card into your hand" />
+<Sub value=" You lose life equal to its converted mana cost" />
+</rules>
+<IMG_ID value="204979" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208297">
+<cardTitle value="Day of Judgment" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Destroy all creatures" />
+</rules>
+<IMG_ID value="208297" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="207100">
+<cardTitle value="Deathmark" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Destroy target green or white creature" />
+</rules>
+<IMG_ID value="207100" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208005">
+<cardTitle value="Demolish" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Destroy target artifact or land" />
+</rules>
+<IMG_ID value="208005" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205131">
+<cardTitle value="Demon of Death's Gate" />
+<convertedManaCost value="9" />
+<rules>
+<Sub value="You may pay 6 life and sacrifice three black creatures rather than pay Demon of Death's Gate's mana cost" />
+<Sub value="Flying, trample" />
+</rules>
+<IMG_ID value="205131" />
+<typeLine value="Creature Demon 9 9" />
+<manaCost>
+<Sub value="6" />
+<Sub value="Black" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="206326">
+<cardTitle value="Demon's Horn" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever a player casts a black spell, you may gain 1 life" />
+</rules>
+<IMG_ID value="206326" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205046">
+<cardTitle value="Destructive Force" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Each player sacrifices five lands" />
+<Sub value=" Destructive Force deals 5 damage to each creature" />
+</rules>
+<IMG_ID value="205046" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205222">
+<cardTitle value="Diabolic Tutor" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Search your library for a card and put that card into your hand" />
+<Sub value=" Then shuffle your library" />
+</rules>
+<IMG_ID value="205222" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208226">
+<cardTitle value="Diminish" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target creature has base power and toughness 1/1 until end of turn" />
+</rules>
+<IMG_ID value="208226" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="207101">
+<cardTitle value="Disentomb" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Return target creature card from your graveyard to your hand" />
+</rules>
+<IMG_ID value="207101" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205088">
+<cardTitle value="Doom Blade" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Destroy target nonblack creature" />
+</rules>
+<IMG_ID value="205088" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="206327">
+<cardTitle value="Dragon's Claw" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever a player casts a red spell, you may gain 1 life" />
+</rules>
+<IMG_ID value="206327" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205089">
+<cardTitle value="Dragonskull Summit" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Dragonskull Summit enters the battlefield tapped unless you control a Swamp or a Mountain" />
+<Sub value="Tap: Add Black or Red to your mana pool" />
+</rules>
+<IMG_ID value="205089" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="205090">
+<cardTitle value="Drowned Catacomb" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Drowned Catacomb enters the battlefield tapped unless you control an Island or a Swamp" />
+<Sub value="Tap: Add Blue or Black to your mana pool" />
+</rules>
+<IMG_ID value="205090" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="205109">
+<cardTitle value="Dryad's Favor" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature has forestwalk" />
+</rules>
+<IMG_ID value="205109" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205024">
+<cardTitle value="Duress" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target opponent reveals his or her hand" />
+<Sub value=" You choose a noncreature, nonland card from it" />
+<Sub value=" That player discards that card" />
+</rules>
+<IMG_ID value="205024" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207335">
+<cardTitle value="Duskdale Wurm" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Trample" />
+</rules>
+<IMG_ID value="207335" />
+<typeLine value="Creature Wurm 7 7" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="204986">
+<cardTitle value="Earth Servant" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Earth Servant gets +0/+1 for each Mountain you control" />
+</rules>
+<IMG_ID value="204986" />
+<typeLine value="Creature Elemental 4 4" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208291">
+<cardTitle value="Elite Vanguard" />
+<convertedManaCost value="1" />
+<rules />
+<IMG_ID value="208291" />
+<typeLine value="Creature Human Soldier 2 1" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205061">
+<cardTitle value="Elixir of Immortality" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="2, Tap: You gain 5 life" />
+<Sub value=" Shuffle Elixir of Immortality and your graveyard into their owner's library" />
+</rules>
+<IMG_ID value="205061" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="1" />
+</manaCost>
+</Card>
+<Card id="205091">
+<cardTitle value="Elvish Archdruid" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Other Elf creatures you control get +1/+1" />
+<Sub value="Tap: Add Green to your mana pool for each Elf you control" />
+</rules>
+<IMG_ID value="205091" />
+<typeLine value="Creature Elf Druid 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="208008">
+<cardTitle value="Ember Hauler" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="1, Sacrifice Ember Hauler: Ember Hauler deals 2 damage to target creature or player" />
+</rules>
+<IMG_ID value="208008" />
+<typeLine value="Creature Goblin 2 2" />
+<manaCost>
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208273">
+<cardTitle value="Excommunicate" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Put target creature on top of its owner's library" />
+</rules>
+<IMG_ID value="208273" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205059">
+<cardTitle value="Fauna Shaman" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Green, Tap, Discard a creature card: Search your library for a creature card, reveal it, and put it into your hand" />
+<Sub value=" Then shuffle your library" />
+</rules>
+<IMG_ID value="205059" />
+<typeLine value="Creature Elf Shaman 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205093">
+<cardTitle value="Fiery Hellhound" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Red: Fiery Hellhound gets +1/+0 until end of turn" />
+</rules>
+<IMG_ID value="205093" />
+<typeLine value="Creature Elemental Hound 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204992">
+<cardTitle value="Fire Servant" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="If a red instant or sorcery spell you control would deal damage, it deals double that damage instead" />
+</rules>
+<IMG_ID value="204992" />
+<typeLine value="Creature Elemental 4 3" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205223">
+<cardTitle value="Fireball" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Fireball deals X damage divided evenly, rounded down, among any number of target creatures and/or players" />
+<Sub value="Fireball costs 1 more to cast for each target beyond the first" />
+</rules>
+<IMG_ID value="205223" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Variable Colorless" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208219">
+<cardTitle value="Flashfreeze" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Counter target red or green spell" />
+</rules>
+<IMG_ID value="208219" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208001">
+<cardTitle value="Fling" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="As an additional cost to cast Fling, sacrifice a creature" />
+<Sub value="Fling deals damage equal to the sacrificed creature's power to target creature or player" />
+</rules>
+<IMG_ID value="208001" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205064">
+<cardTitle value="Fog" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Prevent all combat damage that would be dealt this turn" />
+</rules>
+<IMG_ID value="205064" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205068">
+<cardTitle value="Foresee" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Scry 4, then draw two cards" />
+</rules>
+<IMG_ID value="205068" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="213629">
+<cardTitle value="Forest" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="G" />
+</rules>
+<IMG_ID value="213629" />
+<typeLine value="Basic Land Forest" />
+<manaCost />
+</Card>
+<Card id="204999">
+<cardTitle value="Frost Titan" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Whenever Frost Titan becomes the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays 2" />
+<Sub value="Whenever Frost Titan enters the battlefield or attacks, tap target permanent" />
+<Sub value=" It doesn't untap during its controller's next untap step" />
+</rules>
+<IMG_ID value="204999" />
+<typeLine value="Creature Giant 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205033">
+<cardTitle value="Gaea's Revenge" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Gaea's Revenge can't be countered" />
+<Sub value="Haste" />
+<Sub value="Gaea's Revenge can't be the target of nongreen spells or abilities from nongreen sources" />
+</rules>
+<IMG_ID value="205033" />
+<typeLine value="Creature Elemental 8 5" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="204985">
+<cardTitle value="Gargoyle Sentinel" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Defender" />
+<Sub value="3: Until end of turn, Gargoyle Sentinel loses defender and gains flying" />
+</rules>
+<IMG_ID value="204985" />
+<typeLine value="Artifact Creature Gargoyle 3 3" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="205959">
+<cardTitle value="Garruk Wildspeaker" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="+1: Untap two target lands" />
+<Sub value="&#8722;1: Create a 3/3 green Beast creature token" />
+<Sub value="&#8722;4: Creatures you control get +3/+3 and gain trample until end of turn" />
+</rules>
+<IMG_ID value="205959" />
+<typeLine value="Planeswalker Garruk 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205025">
+<cardTitle value="Garruk's Companion" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Trample" />
+</rules>
+<IMG_ID value="205025" />
+<typeLine value="Creature Beast 3 2" />
+<manaCost>
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205060">
+<cardTitle value="Garruk's Packleader" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Whenever another creature with power 3 or greater enters the battlefield under your control, you may draw a card" />
+</rules>
+<IMG_ID value="205060" />
+<typeLine value="Creature Beast 4 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205224">
+<cardTitle value="Giant Growth" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target creature gets +3/+3 until end of turn" />
+</rules>
+<IMG_ID value="205224" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205225">
+<cardTitle value="Giant Spider" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Reach" />
+</rules>
+<IMG_ID value="205225" />
+<typeLine value="Creature Spider 2 4" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205094">
+<cardTitle value="Glacial Fortress" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Glacial Fortress enters the battlefield tapped unless you control a Plains or an Island" />
+<Sub value="Tap: Add White or Blue to your mana pool" />
+</rules>
+<IMG_ID value="205094" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="208010">
+<cardTitle value="Goblin Balloon Brigade" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Red: Goblin Balloon Brigade gains flying until end of turn" />
+</rules>
+<IMG_ID value="208010" />
+<typeLine value="Creature Goblin Warrior 1 1" />
+<manaCost>
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205096">
+<cardTitle value="Goblin Chieftain" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Haste" />
+<Sub value="Other Goblin creatures you control get +1/+1 and have haste" />
+</rules>
+<IMG_ID value="205096" />
+<typeLine value="Creature Goblin 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205052">
+<cardTitle value="Goblin Piker" />
+<convertedManaCost value="2" />
+<rules />
+<IMG_ID value="205052" />
+<typeLine value="Creature Goblin Warrior 2 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="207999">
+<cardTitle value="Goblin Tunneler" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Tap: Target creature with power 2 or less can't be blocked this turn" />
+</rules>
+<IMG_ID value="207999" />
+<typeLine value="Creature Goblin Rogue 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208295">
+<cardTitle value="Goldenglow Moth" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Whenever Goldenglow Moth blocks, you may gain 4 life" />
+</rules>
+<IMG_ID value="208295" />
+<typeLine value="Creature Insect 0 1" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205012">
+<cardTitle value="Grave Titan" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Deathtouch" />
+<Sub value="Whenever Grave Titan enters the battlefield or attacks, create two 2/2 black Zombie creature tokens" />
+</rules>
+<IMG_ID value="205012" />
+<typeLine value="Creature Giant 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207102">
+<cardTitle value="Gravedigger" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand" />
+</rules>
+<IMG_ID value="207102" />
+<typeLine value="Creature Zombie 2 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205016">
+<cardTitle value="Greater Basilisk" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Deathtouch" />
+</rules>
+<IMG_ID value="205016" />
+<typeLine value="Creature Basilisk 3 5" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="204974">
+<cardTitle value="Harbor Serpent" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Islandwalk" />
+<Sub value="Harbor Serpent can't attack unless there are five or more Islands on the battlefield" />
+</rules>
+<IMG_ID value="204974" />
+<typeLine value="Creature Serpent 5 5" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205005">
+<cardTitle value="Haunting Echoes" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Exile all cards from target player's graveyard other than basic land cards" />
+<Sub value=" For each card exiled this way, search that player's library for all cards with the same name as that card and exile them" />
+<Sub value=" Then that player shuffles his or her library" />
+</rules>
+<IMG_ID value="205005" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205235">
+<cardTitle value="Hoarding Dragon" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Hoarding Dragon enters the battlefield, you may search your library for an artifact card, exile it, then shuffle your library" />
+<Sub value="When Hoarding Dragon dies, you may put the exiled card into its owner's hand" />
+</rules>
+<IMG_ID value="205235" />
+<typeLine value="Creature Dragon 4 4" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205226">
+<cardTitle value="Holy Strength" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets +1/+2" />
+</rules>
+<IMG_ID value="205226" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205099">
+<cardTitle value="Honor of the Pure" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="White creatures you control get +1/+1" />
+</rules>
+<IMG_ID value="205099" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205050">
+<cardTitle value="Hornet Sting" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Hornet Sting deals 1 damage to target creature or player" />
+</rules>
+<IMG_ID value="205050" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205100">
+<cardTitle value="Howling Banshee" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Howling Banshee enters the battlefield, each player loses 3 life" />
+</rules>
+<IMG_ID value="205100" />
+<typeLine value="Creature Spirit 3 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205037">
+<cardTitle value="Hunters' Feast" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Any number of target players each gain 6 life" />
+</rules>
+<IMG_ID value="205037" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205101">
+<cardTitle value="Ice Cage" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature can't attack or block, and its activated abilities can't be activated" />
+<Sub value="When enchanted creature becomes the target of a spell or ability, destroy Ice Cage" />
+</rules>
+<IMG_ID value="205101" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205045">
+<cardTitle value="Incite" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target creature becomes red until end of turn and attacks this turn if able" />
+</rules>
+<IMG_ID value="205045" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208278">
+<cardTitle value="Infantry Veteran" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Tap: Target attacking creature gets +1/+1 until end of turn" />
+</rules>
+<IMG_ID value="208278" />
+<typeLine value="Creature Human Soldier 1 1" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205042">
+<cardTitle value="Inferno Titan" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Red: Inferno Titan gets +1/+0 until end of turn" />
+<Sub value="Whenever Inferno Titan enters the battlefield or attacks, it deals 3 damage divided as you choose among one, two, or three target creatures and/or players" />
+</rules>
+<IMG_ID value="205042" />
+<typeLine value="Creature Giant 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205074">
+<cardTitle value="Inspired Charge" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Creatures you control get +2/+1 until end of turn" />
+</rules>
+<IMG_ID value="205074" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="213617">
+<cardTitle value="Island" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="U" />
+</rules>
+<IMG_ID value="213617" />
+<typeLine value="Basic Land Island" />
+<manaCost />
+</Card>
+<Card id="205960">
+<cardTitle value="Jace Beleren" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="+2: Each player draws a card" />
+<Sub value="&#8722;1: Target player draws a card" />
+<Sub value="&#8722;10: Target player puts the top twenty cards of his or her library into his or her graveyard" />
+</rules>
+<IMG_ID value="205960" />
+<typeLine value="Planeswalker Jace 3" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205043">
+<cardTitle value="Jace's Erasure" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever you draw a card, you may have target player put the top card of his or her library into his or her graveyard" />
+</rules>
+<IMG_ID value="205043" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205015">
+<cardTitle value="Jace's Ingenuity" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Draw three cards" />
+</rules>
+<IMG_ID value="205015" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208006">
+<cardTitle value="Jinxed Idol" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="At the beginning of your upkeep, Jinxed Idol deals 2 damage to you" />
+<Sub value="Sacrifice a creature: Target opponent gains control of Jinxed Idol" />
+</rules>
+<IMG_ID value="208006" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205230">
+<cardTitle value="Juggernaut" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Juggernaut attacks each turn if able" />
+<Sub value="Juggernaut can't be blocked by Walls" />
+</rules>
+<IMG_ID value="205230" />
+<typeLine value="Artifact Creature Juggernaut 5 3" />
+<manaCost>
+<Sub value="4" />
+</manaCost>
+</Card>
+<Card id="204988">
+<cardTitle value="Knight Exemplar" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="First strike" />
+<Sub value="Other Knight creatures you control get +1/+1 and have indestructible" />
+</rules>
+<IMG_ID value="204988" />
+<typeLine value="Creature Human Knight 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="206328">
+<cardTitle value="Kraken's Eye" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever a player casts a blue spell, you may gain 1 life" />
+</rules>
+<IMG_ID value="206328" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205117">
+<cardTitle value="Lava Axe" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Lava Axe deals 5 damage to target player" />
+</rules>
+<IMG_ID value="205117" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205008">
+<cardTitle value="Leyline of Anticipation" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="If Leyline of Anticipation is in your opening hand, you may begin the game with it on the battlefield" />
+<Sub value="You may cast spells as though they had flash" />
+</rules>
+<IMG_ID value="205008" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205018">
+<cardTitle value="Leyline of Punishment" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="If Leyline of Punishment is in your opening hand, you may begin the game with it on the battlefield" />
+<Sub value="Players can't gain life" />
+<Sub value="Damage can't be prevented" />
+</rules>
+<IMG_ID value="205018" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204993">
+<cardTitle value="Leyline of Sanctity" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="If Leyline of Sanctity is in your opening hand, you may begin the game with it on the battlefield" />
+<Sub value="You have hexproof" />
+</rules>
+<IMG_ID value="204993" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205013">
+<cardTitle value="Leyline of the Void" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="If Leyline of the Void is in your opening hand, you may begin the game with it on the battlefield" />
+<Sub value="If a card would be put into an opponent's graveyard from anywhere, exile it instead" />
+</rules>
+<IMG_ID value="205013" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205031">
+<cardTitle value="Leyline of Vitality" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="If Leyline of Vitality is in your opening hand, you may begin the game with it on the battlefield" />
+<Sub value="Creatures you control get +0/+1" />
+<Sub value="Whenever a creature enters the battlefield under your control, you may gain 1 life" />
+</rules>
+<IMG_ID value="205031" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205227">
+<cardTitle value="Lightning Bolt" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Lightning Bolt deals 3 damage to target creature or player" />
+</rules>
+<IMG_ID value="205227" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205961">
+<cardTitle value="Liliana Vess" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="+1: Target player discards a card" />
+<Sub value="&#8722;2: Search your library for a card, then shuffle your library and put that card on top of it" />
+<Sub value="&#8722;8: Put all creature cards from all graveyards onto the battlefield under your control" />
+</rules>
+<IMG_ID value="205961" />
+<typeLine value="Planeswalker Liliana 5" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205035">
+<cardTitle value="Liliana's Caress" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever an opponent discards a card, that player loses 2 life" />
+</rules>
+<IMG_ID value="205035" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="204998">
+<cardTitle value="Liliana's Specter" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Liliana's Specter enters the battlefield, each opponent discards a card" />
+</rules>
+<IMG_ID value="204998" />
+<typeLine value="Creature Specter 2 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205228">
+<cardTitle value="Llanowar Elves" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Tap">
+	<addToPool>
+		<Sub value="Green">
+	</addToPool>
+</Sub>
+</rules>
+<IMG_ID value="205228" />
+<typeLine value="Creature Elf Druid 1 1" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="208003">
+<cardTitle value="Magma Phoenix" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Magma Phoenix dies, it deals 3 damage to each creature and each player" />
+<Sub value="3Red" />
+<Sub value="Red: Return Magma Phoenix from your graveyard to your hand" />
+</rules>
+<IMG_ID value="208003" />
+<typeLine value="Creature Phoenix 3 3" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="204981">
+<cardTitle value="Mana Leak" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Counter target spell unless its controller pays 3" />
+</rules>
+<IMG_ID value="204981" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208007">
+<cardTitle value="Manic Vandal" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="When Manic Vandal enters the battlefield, destroy target artifact" />
+</rules>
+<IMG_ID value="208007" />
+<typeLine value="Creature Human Warrior 2 2" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205040">
+<cardTitle value="Maritime Guard" />
+<convertedManaCost value="2" />
+<rules />
+<IMG_ID value="205040" />
+<typeLine value="Creature Merfolk Soldier 1 3" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204977">
+<cardTitle value="Mass Polymorph" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards" />
+<Sub value=" Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library" />
+</rules>
+<IMG_ID value="204977" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205108">
+<cardTitle value="Merfolk Sovereign" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Other Merfolk creatures you control get +1/+1" />
+<Sub value="Tap: Target Merfolk creature can't be blocked this turn" />
+</rules>
+<IMG_ID value="205108" />
+<typeLine value="Creature Merfolk 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205009">
+<cardTitle value="Merfolk Spy" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Islandwalk" />
+<Sub value="Whenever Merfolk Spy deals combat damage to a player, that player reveals a card at random from his or her hand" />
+</rules>
+<IMG_ID value="205009" />
+<typeLine value="Creature Merfolk Rogue 1 1" />
+<manaCost>
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208280">
+<cardTitle value="Mighty Leap" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Target creature gets +2/+2 and gains flying until end of turn" />
+</rules>
+<IMG_ID value="208280" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="208220">
+<cardTitle value="Mind Control" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="You control enchanted creature" />
+</rules>
+<IMG_ID value="208220" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205010">
+<cardTitle value="Mind Rot" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Target player discards two cards" />
+</rules>
+<IMG_ID value="205010" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205032">
+<cardTitle value="Mitotic Slime" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="When Mitotic Slime dies, create two 2/2 green Ooze creature tokens" />
+<Sub value=" They have &quot;When this creature dies, create two 1/1 green Ooze creature tokens" />
+<Sub value="&quot;" />
+</rules>
+<IMG_ID value="205032" />
+<typeLine value="Creature Ooze 4 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="213625">
+<cardTitle value="Mountain" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="R" />
+</rules>
+<IMG_ID value="213625" />
+<typeLine value="Basic Land Mountain" />
+<manaCost />
+</Card>
+<Card id="204978">
+<cardTitle value="Mystifying Maze" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Tap: Add Colorless to your mana pool" />
+<Sub value="4, Tap: Exile target attacking creature an opponent controls" />
+<Sub value=" At the beginning of the next end step, return it to the battlefield tapped under its owner's control" />
+</rules>
+<IMG_ID value="204978" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="205229">
+<cardTitle value="Nantuko Shade" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Black: Nantuko Shade gets +1/+1 until end of turn" />
+</rules>
+<IMG_ID value="205229" />
+<typeLine value="Creature Insect Shade 2 1" />
+<manaCost>
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207336">
+<cardTitle value="Naturalize" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Destroy target artifact or enchantment" />
+</rules>
+<IMG_ID value="207336" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="207338">
+<cardTitle value="Nature's Spiral" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Return target permanent card from your graveyard to your hand" />
+</rules>
+<IMG_ID value="207338" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="207104">
+<cardTitle value="Necrotic Plague" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature has &quot;At the beginning of your upkeep, sacrifice this creature" />
+<Sub value="&quot;When enchanted creature dies, its controller chooses target creature one of his or her opponents controls" />
+<Sub value=" Return Necrotic Plague from its owner's graveyard to the battlefield attached to that creature" />
+</rules>
+<IMG_ID value="207104" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208222">
+<cardTitle value="Negate" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Counter target noncreature spell" />
+</rules>
+<IMG_ID value="208222" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204994">
+<cardTitle value="Nether Horror" />
+<convertedManaCost value="4" />
+<rules />
+<IMG_ID value="204994" />
+<typeLine value="Creature Horror 4 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207103">
+<cardTitle value="Nightwing Shade" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying" />
+<Sub value="1Black: Nightwing Shade gets +1/+1 until end of turn" />
+</rules>
+<IMG_ID value="207103" />
+<typeLine value="Creature Shade 2 2" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205075">
+<cardTitle value="Obstinate Baloth" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="When Obstinate Baloth enters the battlefield, you gain 4 life" />
+<Sub value="If a spell or ability an opponent controls causes you to discard Obstinate Baloth, put it onto the battlefield instead of putting it into your graveyard" />
+</rules>
+<IMG_ID value="205075" />
+<typeLine value="Creature Beast 4 4" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="206331">
+<cardTitle value="Ornithopter" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Flying" />
+</rules>
+<IMG_ID value="206331" />
+<typeLine value="Artifact Creature Thopter 0 2" />
+<manaCost>
+<Sub value="0" />
+</manaCost>
+</Card>
+<Card id="205003">
+<cardTitle value="Overwhelming Stampede" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Until end of turn, creatures you control gain trample and get +X/+X, where X is the greatest power among creatures you control" />
+</rules>
+<IMG_ID value="205003" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="208292">
+<cardTitle value="Pacifism" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature can't attack or block" />
+</rules>
+<IMG_ID value="208292" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205110">
+<cardTitle value="Palace Guard" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Palace Guard can block any number of creatures" />
+</rules>
+<IMG_ID value="205110" />
+<typeLine value="Creature Human Soldier 1 4" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205017">
+<cardTitle value="Phantom Beast" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="When Phantom Beast becomes the target of a spell or ability, sacrifice it" />
+</rules>
+<IMG_ID value="205017" />
+<typeLine value="Creature Illusion Beast 4 5" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205034">
+<cardTitle value="Phylactery Lich" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Indestructible" />
+<Sub value="As Phylactery Lich enters the battlefield, put a phylactery counter on an artifact you control" />
+<Sub value="When you control no permanents with phylactery counters on them, sacrifice Phylactery Lich" />
+</rules>
+<IMG_ID value="205034" />
+<typeLine value="Creature Zombie 5 5" />
+<manaCost>
+<Sub value="Black" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="213612">
+<cardTitle value="Plains" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="W" />
+</rules>
+<IMG_ID value="213612" />
+<typeLine value="Basic Land Plains" />
+<manaCost />
+</Card>
+<Card id="206329">
+<cardTitle value="Platinum Angel" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Flying" />
+<Sub value="You can't lose the game and your opponents can't win the game" />
+</rules>
+<IMG_ID value="206329" />
+<typeLine value="Artifact Creature Angel 4 4" />
+<manaCost>
+<Sub value="7" />
+</manaCost>
+</Card>
+<Card id="205062">
+<cardTitle value="Plummet" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Destroy target creature with flying" />
+</rules>
+<IMG_ID value="205062" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205019">
+<cardTitle value="Preordain" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Scry 2, then draw a card" />
+</rules>
+<IMG_ID value="205019" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204995">
+<cardTitle value="Primal Cocoon" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="At the beginning of your upkeep, put a +1/+1 counter on enchanted creature" />
+<Sub value="When enchanted creature attacks or blocks, sacrifice Primal Cocoon" />
+</rules>
+<IMG_ID value="204995" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205027">
+<cardTitle value="Primeval Titan" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Trample" />
+<Sub value="Whenever Primeval Titan enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library" />
+</rules>
+<IMG_ID value="205027" />
+<typeLine value="Creature Giant 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205111">
+<cardTitle value="Prized Unicorn" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="All creatures able to block Prized Unicorn do so" />
+</rules>
+<IMG_ID value="205111" />
+<typeLine value="Creature Unicorn 2 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205231">
+<cardTitle value="Prodigal Pyromancer" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Tap: Prodigal Pyromancer deals 1 damage to target creature or player" />
+</rules>
+<IMG_ID value="205231" />
+<typeLine value="Creature Human Wizard 1 1" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205112">
+<cardTitle value="Protean Hydra" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Protean Hydra enters the battlefield with X +1/+1 counters on it" />
+<Sub value="If damage would be dealt to Protean Hydra, prevent that damage and remove that many +1/+1 counters from it" />
+<Sub value="Whenever a +1/+1 counter is removed from Protean Hydra, put two +1/+1 counters on it at the beginning of the next end step" />
+</rules>
+<IMG_ID value="205112" />
+<typeLine value="Creature Hydra 0 0" />
+<manaCost>
+<Sub value="Variable Colorless" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205067">
+<cardTitle value="Pyretic Ritual" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Add Red" />
+<Sub value="Red" />
+<Sub value="Red to your mana pool" />
+</rules>
+<IMG_ID value="205067" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208009">
+<cardTitle value="Pyroclasm" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Pyroclasm deals 2 damage to each creature" />
+</rules>
+<IMG_ID value="208009" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205028">
+<cardTitle value="Quag Sickness" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets -1/-1 for each Swamp you control" />
+</rules>
+<IMG_ID value="205028" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205066">
+<cardTitle value="Reassembling Skeleton" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="1Black: Return Reassembling Skeleton from your graveyard to the battlefield tapped" />
+</rules>
+<IMG_ID value="205066" />
+<typeLine value="Creature Skeleton Warrior 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208227">
+<cardTitle value="Redirect" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="You may choose new targets for target spell" />
+</rules>
+<IMG_ID value="208227" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205082">
+<cardTitle value="Relentless Rats" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats" />
+<Sub value="A deck can have any number of cards named Relentless Rats" />
+</rules>
+<IMG_ID value="205082" />
+<typeLine value="Creature Rat 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205038">
+<cardTitle value="Reverberate" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Copy target instant or sorcery spell" />
+<Sub value=" You may choose new targets for the copy" />
+</rules>
+<IMG_ID value="205038" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205113">
+<cardTitle value="Rise from the Grave" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Put target creature card from a graveyard onto the battlefield under your control" />
+<Sub value=" That creature is a black Zombie in addition to its other colors and types" />
+</rules>
+<IMG_ID value="205113" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205055">
+<cardTitle value="Roc Egg" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Defender" />
+<Sub value="When Roc Egg dies, create a 3/3 white Bird creature token with flying" />
+</rules>
+<IMG_ID value="205055" />
+<typeLine value="Creature Bird 0 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205114">
+<cardTitle value="Rootbound Crag" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Rootbound Crag enters the battlefield tapped unless you control a Mountain or a Forest" />
+<Sub value="Tap: Add Red or Green to your mana pool" />
+</rules>
+<IMG_ID value="205114" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="205047">
+<cardTitle value="Rotting Legion" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Rotting Legion enters the battlefield tapped" />
+</rules>
+<IMG_ID value="205047" />
+<typeLine value="Creature Zombie 4 5" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205233">
+<cardTitle value="Royal Assassin" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Tap: Destroy target tapped creature" />
+</rules>
+<IMG_ID value="205233" />
+<typeLine value="Creature Human Assassin 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="207337">
+<cardTitle value="Runeclaw Bear" />
+<convertedManaCost value="2" />
+<rules />
+<IMG_ID value="207337" />
+<typeLine value="Creature Bear 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205023">
+<cardTitle value="Sacred Wolf" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Hexproof" />
+</rules>
+<IMG_ID value="205023" />
+<typeLine value="Creature Wolf 3 1" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205115">
+<cardTitle value="Safe Passage" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Prevent all damage that would be dealt to you and creatures you control this turn" />
+</rules>
+<IMG_ID value="205115" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205004">
+<cardTitle value="Scroll Thief" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Whenever Scroll Thief deals combat damage to a player, draw a card" />
+</rules>
+<IMG_ID value="205004" />
+<typeLine value="Creature Merfolk Rogue 1 3" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205234">
+<cardTitle value="Serra Angel" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Vigilance" />
+</rules>
+<IMG_ID value="205234" />
+<typeLine value="Creature Angel 4 4" />
+<manaCost>
+<Sub value="3" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="204989">
+<cardTitle value="Serra Ascendant" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Lifelink" />
+<Sub value="As long as you have 30 or more life, Serra Ascendant gets +5/+5 and has flying" />
+</rules>
+<IMG_ID value="204989" />
+<typeLine value="Creature Human Monk 1 1" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="208002">
+<cardTitle value="Shiv's Embrace" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets +2/+2 and has flying" />
+<Sub value="Red: Enchanted creature gets +1/+0 until end of turn" />
+</rules>
+<IMG_ID value="208002" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Red" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208293">
+<cardTitle value="Siege Mastodon" />
+<convertedManaCost value="5" />
+<rules />
+<IMG_ID value="208293" />
+<typeLine value="Creature Elephant 3 5" />
+<manaCost>
+<Sub value="4" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205118">
+<cardTitle value="Sign in Blood" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Target player draws two cards and loses 2 life" />
+</rules>
+<IMG_ID value="205118" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Black" />
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205119">
+<cardTitle value="Silence" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Your opponents can't cast spells this turn" />
+</rules>
+<IMG_ID value="205119" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="208283">
+<cardTitle value="Silvercoat Lion" />
+<convertedManaCost value="2" />
+<rules />
+<IMG_ID value="208283" />
+<typeLine value="Creature Cat 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205120">
+<cardTitle value="Sleep" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Tap all creatures target player controls" />
+<Sub value=" Those creatures don't untap during that player's next untap step" />
+</rules>
+<IMG_ID value="205120" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205095">
+<cardTitle value="Solemn Offering" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Destroy target artifact or enchantment" />
+<Sub value=" You gain 4 life" />
+</rules>
+<IMG_ID value="205095" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205069">
+<cardTitle value="Sorcerer's Strongbox" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="2, Tap: Flip a coin" />
+<Sub value=" If you win the flip, sacrifice Sorcerer's Strongbox and draw three cards" />
+</rules>
+<IMG_ID value="205069" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="4" />
+</manaCost>
+</Card>
+<Card id="205123">
+<cardTitle value="Spined Wurm" />
+<convertedManaCost value="5" />
+<rules />
+<IMG_ID value="205123" />
+<typeLine value="Creature Wurm 5 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="208279">
+<cardTitle value="Squadron Hawk" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Flying" />
+<Sub value="When Squadron Hawk enters the battlefield, you may search your library for up to three cards named Squadron Hawk, reveal them, put them into your hand, then shuffle your library" />
+</rules>
+<IMG_ID value="208279" />
+<typeLine value="Creature Bird 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205048">
+<cardTitle value="Stabbing Pain" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target creature gets -1/-1 until end of turn" />
+<Sub value=" Tap that creature" />
+</rules>
+<IMG_ID value="205048" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="205036">
+<cardTitle value="Steel Overseer" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Tap: Put a +1/+1 counter on each artifact creature you control" />
+</rules>
+<IMG_ID value="205036" />
+<typeLine value="Artifact Creature Construct 1 1" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205056">
+<cardTitle value="Stone Golem" />
+<convertedManaCost value="5" />
+<rules />
+<IMG_ID value="205056" />
+<typeLine value="Artifact Creature Golem 4 4" />
+<manaCost>
+<Sub value="5" />
+</manaCost>
+</Card>
+<Card id="208294">
+<cardTitle value="Stormfront Pegasus" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Flying" />
+</rules>
+<IMG_ID value="208294" />
+<typeLine value="Creature Pegasus 2 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205029">
+<cardTitle value="Stormtide Leviathan" />
+<convertedManaCost value="8" />
+<rules>
+<Sub value="Islandwalk" />
+<Sub value="All lands are Islands in addition to their other types" />
+<Sub value="Creatures without flying or islandwalk can't attack" />
+</rules>
+<IMG_ID value="205029" />
+<typeLine value="Creature Leviathan 8 8" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205030">
+<cardTitle value="Sun Titan" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Vigilance" />
+<Sub value="Whenever Sun Titan enters the battlefield or attacks, you may return target permanent card with converted mana cost 3 or less from your graveyard to the battlefield" />
+</rules>
+<IMG_ID value="205030" />
+<typeLine value="Creature Giant 6 6" />
+<manaCost>
+<Sub value="4" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205124">
+<cardTitle value="Sunpetal Grove" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Sunpetal Grove enters the battlefield tapped unless you control a Forest or a Plains" />
+<Sub value="Tap: Add Green or White to your mana pool" />
+</rules>
+<IMG_ID value="205124" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="213620">
+<cardTitle value="Swamp" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="B" />
+</rules>
+<IMG_ID value="213620" />
+<typeLine value="Basic Land Swamp" />
+<manaCost />
+</Card>
+<Card id="205044">
+<cardTitle value="Sword of Vengeance" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Equipped creature gets +2/+0 and has first strike, vigilance, trample, and haste" />
+<Sub value="Equip 3" />
+</rules>
+<IMG_ID value="205044" />
+<typeLine value="Artifact Equipment" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="204976">
+<cardTitle value="Sylvan Ranger" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="When Sylvan Ranger enters the battlefield, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle your library" />
+</rules>
+<IMG_ID value="204976" />
+<typeLine value="Creature Elf Scout 1 1" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="205058">
+<cardTitle value="Temple Bell" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Tap: Each player draws a card" />
+</rules>
+<IMG_ID value="205058" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="205236">
+<cardTitle value="Terramorphic Expanse" />
+<convertedManaCost value="0" />
+<rules>
+<Sub value="Tap, Sacrifice Terramorphic Expanse: Search your library for a basic land card and put it onto the battlefield tapped" />
+<Sub value=" Then shuffle your library" />
+</rules>
+<IMG_ID value="205236" />
+<typeLine value="Land" />
+<manaCost />
+</Card>
+<Card id="204973">
+<cardTitle value="Thunder Strike" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Target creature gets +2/+0 and gains first strike until end of turn" />
+</rules>
+<IMG_ID value="204973" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205022">
+<cardTitle value="Time Reversal" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Each player shuffles his or her hand and graveyard into his or her library, then draws seven cards" />
+<Sub value=" Exile Time Reversal" />
+</rules>
+<IMG_ID value="205022" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="205014">
+<cardTitle value="Tireless Missionaries" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="When Tireless Missionaries enters the battlefield, you gain 3 life" />
+</rules>
+<IMG_ID value="205014" />
+<typeLine value="Creature Human Cleric 2 3" />
+<manaCost>
+<Sub value="4" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205000">
+<cardTitle value="Tome Scour" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Target player puts the top five cards of his or her library into his or her graveyard" />
+</rules>
+<IMG_ID value="205000" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208221">
+<cardTitle value="Traumatize" />
+<convertedManaCost value="5" />
+<rules>
+<Sub value="Target player puts the top half of his or her library, rounded down, into his or her graveyard" />
+</rules>
+<IMG_ID value="208221" />
+<typeLine value="Sorcery" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="206719">
+<cardTitle value="Triskelion" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Triskelion enters the battlefield with three +1/+1 counters on it" />
+<Sub value="Remove a +1/+1 counter from Triskelion: Triskelion deals 1 damage to target creature or player" />
+</rules>
+<IMG_ID value="206719" />
+<typeLine value="Artifact Creature Construct 1 1" />
+<manaCost>
+<Sub value="6" />
+</manaCost>
+</Card>
+<Card id="205237">
+<cardTitle value="Unholy Strength" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets +2/+1" />
+</rules>
+<IMG_ID value="205237" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208223">
+<cardTitle value="Unsummon" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Return target creature to its owner's hand" />
+</rules>
+<IMG_ID value="208223" />
+<typeLine value="Instant" />
+<manaCost>
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="208288">
+<cardTitle value="Vengeful Archon" />
+<convertedManaCost value="7" />
+<rules>
+<Sub value="Flying" />
+<Sub value="Variable Colorless: Prevent the next X damage that would be dealt to you this turn" />
+<Sub value=" If damage is prevented this way, Vengeful Archon deals that much damage to target player" />
+</rules>
+<IMG_ID value="208288" />
+<typeLine value="Creature Archon 7 7" />
+<manaCost>
+<Sub value="4" />
+<Sub value="White" />
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205232">
+<cardTitle value="Viscera Seer" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Sacrifice a creature: Scry 1" />
+</rules>
+<IMG_ID value="205232" />
+<typeLine value="Creature Vampire Wizard 1 1" />
+<manaCost>
+<Sub value="Black" />
+</manaCost>
+</Card>
+<Card id="208004">
+<cardTitle value="Volcanic Strength" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Enchant creature" />
+<Sub value="Enchanted creature gets +2/+2 and has mountainwalk" />
+</rules>
+<IMG_ID value="208004" />
+<typeLine value="Enchantment Aura" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="206332">
+<cardTitle value="Voltaic Key" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="1, Tap: Untap target artifact" />
+</rules>
+<IMG_ID value="206332" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="1" />
+</manaCost>
+</Card>
+<Card id="208011">
+<cardTitle value="Vulshok Berserker" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Haste" />
+</rules>
+<IMG_ID value="208011" />
+<typeLine value="Creature Human Berserker 3 2" />
+<manaCost>
+<Sub value="3" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="205128">
+<cardTitle value="Wall of Frost" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Defender" />
+<Sub value="Whenever Wall of Frost blocks a creature, that creature doesn't untap during its controller's next untap step" />
+</rules>
+<IMG_ID value="205128" />
+<typeLine value="Creature Wall 0 7" />
+<manaCost>
+<Sub value="1" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="204983">
+<cardTitle value="Wall of Vines" />
+<convertedManaCost value="1" />
+<rules>
+<Sub value="Defender" />
+<Sub value="Reach" />
+</rules>
+<IMG_ID value="204983" />
+<typeLine value="Creature Plant Wall 0 3" />
+<manaCost>
+<Sub value="Green" />
+</manaCost>
+</Card>
+<Card id="208274">
+<cardTitle value="War Priest of Thune" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="When War Priest of Thune enters the battlefield, you may destroy target enchantment" />
+</rules>
+<IMG_ID value="208274" />
+<typeLine value="Creature Human Cleric 2 2" />
+<manaCost>
+<Sub value="1" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="205057">
+<cardTitle value="Warlord's Axe" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Equipped creature gets +3/+1" />
+<Sub value="Equip 4" />
+</rules>
+<IMG_ID value="205057" />
+<typeLine value="Artifact Equipment" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="205006">
+<cardTitle value="Water Servant" />
+<convertedManaCost value="4" />
+<rules>
+<Sub value="Blue: Water Servant gets +1/-1 until end of turn" />
+<Sub value="Blue: Water Servant gets -1/+1 until end of turn" />
+</rules>
+<IMG_ID value="205006" />
+<typeLine value="Creature Elemental 3 4" />
+<manaCost>
+<Sub value="2" />
+<Sub value="Blue" />
+<Sub value="Blue" />
+</manaCost>
+</Card>
+<Card id="206342">
+<cardTitle value="Whispersilk Cloak" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Equipped creature can't be blocked and has shroud" />
+<Sub value="Equip 2" />
+</rules>
+<IMG_ID value="206342" />
+<typeLine value="Artifact Equipment" />
+<manaCost>
+<Sub value="3" />
+</manaCost>
+</Card>
+<Card id="205239">
+<cardTitle value="White Knight" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="First strike" />
+<Sub value="Protection from black" />
+</rules>
+<IMG_ID value="205239" />
+<typeLine value="Creature Human Knight 2 2" />
+<manaCost>
+<Sub value="White" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="204972">
+<cardTitle value="Wild Evocation" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="At the beginning of each player's upkeep, that player reveals a card at random from his or her hand" />
+<Sub value=" If it's a land card, the player puts it onto the battlefield" />
+<Sub value=" Otherwise, the player casts it without paying its mana cost if able" />
+</rules>
+<IMG_ID value="204972" />
+<typeLine value="Enchantment" />
+<manaCost>
+<Sub value="5" />
+<Sub value="Red" />
+</manaCost>
+</Card>
+<Card id="208275">
+<cardTitle value="Wild Griffin" />
+<convertedManaCost value="3" />
+<rules>
+<Sub value="Flying" />
+</rules>
+<IMG_ID value="208275" />
+<typeLine value="Creature Griffin 2 2" />
+<manaCost>
+<Sub value="2" />
+<Sub value="White" />
+</manaCost>
+</Card>
+<Card id="206330">
+<cardTitle value="Wurm's Tooth" />
+<convertedManaCost value="2" />
+<rules>
+<Sub value="Whenever a player casts a green spell, you may gain 1 life" />
+</rules>
+<IMG_ID value="206330" />
+<typeLine value="Artifact" />
+<manaCost>
+<Sub value="2" />
+</manaCost>
+</Card>
+<Card id="205221">
+<cardTitle value="Yavimaya Wurm" />
+<convertedManaCost value="6" />
+<rules>
+<Sub value="Trample" />
+</rules>
+<IMG_ID value="205221" />
+<typeLine value="Creature Wurm 6 4" />
+<manaCost>
+<Sub value="4" />
+<Sub value="Green" />
+<Sub value="Green" />
+</manaCost>
+</Card>
+</CardList>

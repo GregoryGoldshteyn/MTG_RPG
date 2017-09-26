@@ -243,11 +243,11 @@ public class Duel extends JFrame{
 		startGrid(buttonPanel, grid_cons);
 		playArea.setDragMode(JDesktopPane.OUTLINE_DRAG_MODE);
 		setupHand(playerDeck, enemyDeck);
-		player_hand.addCard(new CardSmallLayered("0", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.BLUE_BORDER.getColor()));
-		player_hand.addCard(new CardSmallLayered("1", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.BLACK_BORDER.getColor()));
-		player_hand.addCard(new CardSmallLayered("2", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.RED_BORDER.getColor()));
-		player_hand.addCard(new CardSmallLayered("3", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.GREEN_BORDER.getColor()));
-		player_hand.addCard(new CardSmallLayered("4", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.WHITE_BORDER.getColor()));
+		//player_hand.addCard(new CardSmallLayered("0", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.BLUE_BORDER.getColor()));
+		//player_hand.addCard(new CardSmallLayered("1", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.BLACK_BORDER.getColor()));
+		//player_hand.addCard(new CardSmallLayered("2", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.RED_BORDER.getColor()));
+		//player_hand.addCard(new CardSmallLayered("3", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.GREEN_BORDER.getColor()));
+		//player_hand.addCard(new CardSmallLayered("4", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.WHITE_BORDER.getColor()));
 		
 	}
 	

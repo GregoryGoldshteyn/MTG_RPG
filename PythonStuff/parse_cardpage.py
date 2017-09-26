@@ -127,6 +127,7 @@ for i in parser.cardList:
 #	print parser.cardList[i]['rules']
 #	print ''
 #Tokenify the rules
+'''
 for i in parser.cardList:
 	if 'Planeswalker' in i['typeLine']:
 		print
@@ -293,7 +294,7 @@ for i in parser.cardList:
 			i['rules'][j] = i['rules'][j].replace("That creature", "!PRIOR_T!")
 			i['rules'][j] = i['rules'][j].replace("that creature", "!PRIOR_T!")
 			
-			
+'''
 			
 export_all_json(parser.cardList)
 
