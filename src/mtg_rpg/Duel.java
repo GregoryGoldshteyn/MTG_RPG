@@ -1,5 +1,6 @@
 package mtg_rpg;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Container;
@@ -59,9 +60,21 @@ public class Duel extends JFrame{
 	
 	public static JPanel statePanel;
 	
+	public static JPanel middleBar;
+	public static JButton middleButton1;
+	public static JButton middleButton2;
+	public static JButton middleButton3;
+	public static JLabel middleLabel;
+	
+	public static MiddleButtonListener middleButtonListener;
+	public static GameController gameController;
+	
+	public Card[] playerDeck;
+	public Card[] enemyDeck;
+	
 	public void setupHand(Card[] playerDeck, Card[] enemyDeck){
 		
-		player_hand = new CardListInternalFrame("Your hand", RES.P_HAND_INSET, RES.P_HAND_INSET, null);
+		player_hand = new CardListInternalFrame("Your hand", RES.P_HAND_INSET * 5, RES.P_HAND_INSET, null);
 		player_graveyard = new CardListInternalFrame("Your graveyard", RES.P_GRAVE_INSET, RES.P_GRAVE_INSET, null);
 		player_exile = new CardListInternalFrame("Your exiled cards", RES.P_EXILE_INSET, RES.P_EXILE_INSET, null);
 		player_deck = new CardListInternalFrame("Your deck", RES.P_DECK_INSET, RES.P_DECK_INSET, playerDeck);
@@ -218,20 +231,48 @@ public class Duel extends JFrame{
 		addToGrid(p, statePanel, c, 4, 0, 1, 13, 0.01, 0.01, 0, 0);
 	}
 	
-	public boolean init(){
-		playerLife.setText("20");
-		enemyLife.setText("20");
-		return true;
+	public void setUpMiddleBar(){
+		middleButtonListener = new MiddleButtonListener(gameController);
+		
+		middleBar = new JPanel();
+		middleButton1 = new JButton("Heads");
+		middleButton2 = new JButton("Tails");
+		middleButton3 = new JButton("Cancel");
+		middleLabel = new JLabel("Heads or tails?");
+		
+		middleBar.setLocation(10,  335);
+		middleBar.setSize(1000,35);
+		middleBar.setLayout(new BoxLayout(middleBar, BoxLayout.LINE_AXIS));
+		middleBar.setVisible(true);
+		
+		middleButton1.setVisible(true);
+		middleButton2.setVisible(true);
+		middleButton3.setVisible(false);
+		middleLabel.setVisible(true);
+		
+		middleButton1.addActionListener(middleButtonListener);
+		middleButton2.addActionListener(middleButtonListener);
+		middleButton3.addActionListener(middleButtonListener);
+		
+		middleBar.add(Box.createRigidArea(new Dimension(10, 0)));
+		middleBar.add(middleButton1);
+		middleBar.add(Box.createRigidArea(new Dimension(10, 0)));
+		middleBar.add(middleButton2);
+		middleBar.add(Box.createRigidArea(new Dimension(10, 0)));
+		middleBar.add(middleButton3);
+		middleBar.add(Box.createRigidArea(new Dimension(10, 0)));
+		middleBar.add(middleLabel);
+		
+		playArea.add(middleBar);
 	}
 	
-	public boolean gameLoop(){
-		return true;
-	}
-	
-	public Duel(Card[] playerDeck, Card[] enemyDeck){
-		super("DUEL!");
+	public boolean init(Card[] playerDeck, Card[] enemyDeck){
+		this.playerDeck = playerDeck;
+		this.enemyDeck = enemyDeck;
+		
+		gameController = new GameController(this);
 		IMAGES i = new IMAGES();
-		setBounds(RES.DUEL_INSET, RES.DUEL_INSET, RES.SCREEN_SIZE.width/2 + 600, RES.SCREEN_SIZE.height/2 + 200);
+		this.setBounds(RES.DUEL_INSET, RES.DUEL_INSET, RES.SCREEN_SIZE.width/2 + 600, RES.SCREEN_SIZE.height/2 + 200);
 		
 		JPanel buttonPanel = new JPanel();
 		playArea = new JDesktopPane();
@@ -243,6 +284,16 @@ public class Duel extends JFrame{
 		startGrid(buttonPanel, grid_cons);
 		playArea.setDragMode(JDesktopPane.OUTLINE_DRAG_MODE);
 		setupHand(playerDeck, enemyDeck);
+		setUpMiddleBar();
+		playerLife.setText("20");
+		enemyLife.setText("20");
+		
+		return true;
+	}
+	
+	public Duel(Card[] playerDeck, Card[] enemyDeck){
+		super("DUEL!");
+		init(playerDeck, enemyDeck);
 		//player_hand.addCard(new CardSmallLayered("0", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.BLUE_BORDER.getColor()));
 		//player_hand.addCard(new CardSmallLayered("1", "Duress", i.imageMap.get(205024), RES.CARD_COLORS.BLACK_BORDER.getColor()));
 		//player_hand.addCard(new CardSmallLayered("2", "Mana Leak", i.imageMap.get(204981), RES.CARD_COLORS.RED_BORDER.getColor()));
